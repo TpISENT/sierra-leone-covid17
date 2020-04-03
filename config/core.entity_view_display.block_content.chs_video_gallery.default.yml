@@ -1,0 +1,23 @@
+uuid: 97c1b291-6304-45aa-a931-55f69c7e6586
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_video_gallery
+    - field.field.block_content.chs_video_gallery.body
+  module:
+    - text
+id: block_content.chs_video_gallery.default
+targetEntityType: block_content
+bundle: chs_video_gallery
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

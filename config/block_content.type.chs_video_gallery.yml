@@ -1,0 +1,8 @@
+uuid: d957b82e-7d63-4219-b708-232fc8e7e649
+langcode: en
+status: true
+dependencies: {  }
+id: chs_video_gallery
+label: 'Video Gallery'
+revision: 1
+description: ''

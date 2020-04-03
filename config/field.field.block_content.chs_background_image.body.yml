@@ -1,0 +1,23 @@
+uuid: 19a2ecab-05e0-4625-88f5-7d9cc3b147e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.chs_background_image.body
+field_name: body
+entity_type: block_content
+bundle: chs_background_image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

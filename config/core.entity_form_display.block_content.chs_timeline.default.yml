@@ -1,0 +1,33 @@
+uuid: f11e05e4-d9af-4e48-a8d5-45b4c7db091a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_timeline
+    - field.field.block_content.chs_timeline.body
+  module:
+    - text
+id: block_content.chs_timeline.default
+targetEntityType: block_content
+bundle: chs_timeline
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

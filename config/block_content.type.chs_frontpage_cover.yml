@@ -1,0 +1,8 @@
+uuid: 5ab1598c-c778-44fd-b5c8-e7d476afb2de
+langcode: en
+status: true
+dependencies: {  }
+id: chs_frontpage_cover
+label: 'Front page cover'
+revision: 1
+description: ''

@@ -1,0 +1,33 @@
+uuid: 23fad958-7c02-497e-a23f-183a0d3d71da
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_google_maps
+    - field.field.block_content.chs_google_maps.body
+  module:
+    - text
+id: block_content.chs_google_maps.default
+targetEntityType: block_content
+bundle: chs_google_maps
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

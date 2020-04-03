@@ -1,0 +1,23 @@
+uuid: b2fe9d4d-65cc-41c5-9b77-32051ae272b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_logo_links
+    - field.field.block_content.chs_logo_links.body
+  module:
+    - text
+id: block_content.chs_logo_links.default
+targetEntityType: block_content
+bundle: chs_logo_links
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

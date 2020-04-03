@@ -1,0 +1,33 @@
+uuid: 5d4f9f38-bec0-47a5-927a-ff345c7d49c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_video
+    - field.field.block_content.chs_background_video.body
+  module:
+    - text
+id: block_content.chs_background_video.default
+targetEntityType: block_content
+bundle: chs_background_video
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

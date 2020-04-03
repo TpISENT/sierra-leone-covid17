@@ -1,0 +1,23 @@
+uuid: 7edee305-105d-43df-b1a9-a360803dc896
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_frontpage_cover
+    - field.field.block_content.chs_frontpage_cover.body
+  module:
+    - text
+id: block_content.chs_frontpage_cover.default
+targetEntityType: block_content
+bundle: chs_frontpage_cover
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

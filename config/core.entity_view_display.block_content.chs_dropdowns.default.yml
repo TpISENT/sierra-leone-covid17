@@ -1,0 +1,23 @@
+uuid: d2086959-8bd6-43bf-99fa-fd09c59a6909
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_dropdowns
+    - field.field.block_content.chs_dropdowns.body
+  module:
+    - text
+id: block_content.chs_dropdowns.default
+targetEntityType: block_content
+bundle: chs_dropdowns
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

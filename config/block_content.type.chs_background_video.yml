@@ -1,0 +1,8 @@
+uuid: cc0f7a1f-cb05-4a31-95db-feafc3c8bd09
+langcode: en
+status: true
+dependencies: {  }
+id: chs_background_video
+label: 'Background Video'
+revision: 1
+description: ''

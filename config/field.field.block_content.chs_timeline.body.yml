@@ -1,0 +1,23 @@
+uuid: 2faea91e-84e2-4332-ab6a-d4d59db34776
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_timeline
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.chs_timeline.body
+field_name: body
+entity_type: block_content
+bundle: chs_timeline
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

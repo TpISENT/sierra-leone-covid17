@@ -1,0 +1,8 @@
+uuid: 882f6ffb-498a-4f12-adee-a865c2b34bd4
+langcode: en
+status: true
+dependencies: {  }
+id: chs_background_image
+label: 'Background Image'
+revision: 1
+description: ''

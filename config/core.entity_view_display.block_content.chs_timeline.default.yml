@@ -1,0 +1,23 @@
+uuid: a7e62612-3fab-45b5-bf62-4280bec31a21
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_timeline
+    - field.field.block_content.chs_timeline.body
+  module:
+    - text
+id: block_content.chs_timeline.default
+targetEntityType: block_content
+bundle: chs_timeline
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

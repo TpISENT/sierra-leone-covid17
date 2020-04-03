@@ -1,0 +1,23 @@
+uuid: 81a88df4-e03a-4132-9685-52447e971c51
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.field.block_content.chs_background_image.body
+  module:
+    - text
+id: block_content.chs_background_image.default
+targetEntityType: block_content
+bundle: chs_background_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,8 @@
+uuid: 69add995-405e-4921-8baa-84a2a46e4c55
+langcode: en
+status: true
+dependencies: {  }
+id: chs_google_maps
+label: 'Google Map'
+revision: 1
+description: ''
