@@ -7,7 +7,6 @@ module:
   adminimal_admin_toolbar: 0
   auto_entitylabel: 0
   auto_username: 0
-  autologout: 0
   autosave_form: 0
   better_exposed_filters: 0
   big_pipe: 0
