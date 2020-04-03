@@ -71,6 +71,7 @@
         "drupal/openapi_ui": "^1.0@RC",
         "drupal/openapi_ui_redoc": "^1.0@RC",
         "drupal/openapi_ui_swagger": "^1.0@RC",
+        "drupal/paragraphs": "^1.11",
         "drupal/password_policy": "^3.0@alpha",
         "drupal/pathauto": "^1.6",
         "drupal/phpmailer_smtp": "^1.2",
