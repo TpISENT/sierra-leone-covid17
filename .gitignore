@@ -115,3 +115,5 @@ Thumbs.db
 ##########
 .sass-cache
 /files-private/.htaccess
+/web/sites/sites.php
+/web/sites/covid19.sl.dev.dd
