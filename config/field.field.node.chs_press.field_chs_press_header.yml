@@ -1,0 +1,21 @@
+uuid: fe129696-aa0c-45ad-ace8-56f12909f6cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_press_header
+    - node.type.chs_press
+  module:
+    - text
+id: node.chs_press.field_chs_press_header
+field_name: field_chs_press_header
+entity_type: node
+bundle: chs_press
+label: 'Press Header'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

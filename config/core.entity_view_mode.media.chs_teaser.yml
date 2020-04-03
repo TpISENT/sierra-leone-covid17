@@ -1,0 +1,10 @@
+uuid: cf740a6e-7cb8-48ef-a240-735a21880061
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.chs_teaser
+label: Teaser
+targetEntityType: media
+cache: true

@@ -1,0 +1,83 @@
+uuid: 66a45df2-3791-48d3-b7e6-871d8664c3ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chs_press.body
+    - field.field.node.chs_press.field_chs_other_press_source
+    - field.field.node.chs_press.field_chs_press_featured_image
+    - field.field.node.chs_press.field_chs_press_footer
+    - field.field.node.chs_press.field_chs_press_header
+    - field.field.node.chs_press.field_chs_press_media
+    - field.field.node.chs_press.field_chs_press_source
+    - node.type.chs_press
+  module:
+    - options
+    - text
+    - user
+id: node.chs_press.default
+targetEntityType: node
+bundle: chs_press
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_chs_other_press_source:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_chs_press_featured_image:
+    type: entity_reference_entity_view
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_chs_press_footer:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_chs_press_header:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_chs_press_media:
+    type: entity_reference_entity_view
+    weight: 104
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_chs_press_source:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

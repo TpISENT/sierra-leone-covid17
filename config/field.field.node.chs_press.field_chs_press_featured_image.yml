@@ -1,0 +1,28 @@
+uuid: 157c46a4-5da0-41ac-ba5c-57cd14f79061
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_press_featured_image
+    - media.type.image
+    - node.type.chs_press
+id: node.chs_press.field_chs_press_featured_image
+field_name: field_chs_press_featured_image
+entity_type: node
+bundle: chs_press
+label: 'Press Featured Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: bb6584b2-2f15-4ed5-803c-974e22d39700
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_cnv_body
+    - node.type.chs_canvas_page
+  module:
+    - text
+id: node.chs_canvas_page.field_chs_cnv_body
+field_name: field_chs_cnv_body
+entity_type: node
+bundle: chs_canvas_page
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

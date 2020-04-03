@@ -1,0 +1,31 @@
+uuid: 85bb865c-a93c-4445-82c7-a765760accba
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chs_canvas_page.field_chs_cnv_body
+    - node.type.chs_canvas_page
+  module:
+    - text
+    - user
+id: node.chs_canvas_page.teaser
+targetEntityType: node
+bundle: chs_canvas_page
+mode: teaser
+content:
+  field_chs_cnv_body:
+    type: text_summary_or_trimmed
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

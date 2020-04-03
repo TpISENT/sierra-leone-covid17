@@ -1,0 +1,21 @@
+uuid: fa941b50-8411-49d7-a16e-42de4196efab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_press_source
+    - node.type.chs_press
+  module:
+    - options
+id: node.chs_press.field_chs_press_source
+field_name: field_chs_press_source
+entity_type: node
+bundle: chs_press
+label: 'Press Source'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

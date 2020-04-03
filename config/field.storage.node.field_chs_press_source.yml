@@ -1,0 +1,57 @@
+uuid: 43a64902-fe8b-4a89-b5eb-bcf3e06d2023
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_chs_press_source
+field_name: field_chs_press_source
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Ministry of Information and Communications (MIC - http://mic.gov.sl)'
+      label: 'Ministry of Information and Communications (MIC - http://mic.gov.sl)'
+    -
+      value: 'Ministry of Health and Sanitation (MOHS - http://mohs.gov.sl)'
+      label: 'Ministry of Health and Sanitation (MOHS - http://mohs.gov.sl)'
+    -
+      value: 'State House (http://statehouse.gov.sl)'
+      label: 'State House (http://statehouse.gov.sl)'
+    -
+      value: 'Directorate of Science, Technology and Innovation (DSTI - http://dsti.gov.sl)'
+      label: 'Directorate of Science, Technology and Innovation (DSTI - http://dsti.gov.sl)'
+    -
+      value: 'Ministry of Basic and Senior Secondary Education (MBSSE - http://education.gov.sl)'
+      label: 'Ministry of Basic and Senior Secondary Education (MBSSE - http://education.gov.sl)'
+    -
+      value: 'Ministry of Defence (MOD - http://mod.gov.sl)'
+      label: 'Ministry of Defence (MOD - http://mod.gov.sl)'
+    -
+      value: 'The Sierra Leone Corona Virus Task Force'
+      label: 'The Sierra Leone Corona Virus Task Force'
+    -
+      value: 'Open Data Sierra Leone (https://opendatasl.gov.sl/)'
+      label: 'Open Data Sierra Leone (https://opendatasl.gov.sl/)'
+    -
+      value: 'World Health Organization (WHO - http://who.int)'
+      label: 'World Health Organization (WHO - http://who.int)'
+    -
+      value: 'The United States Corona Virus Task Force (https://www.coronavirus.gov/)'
+      label: 'The United States Corona Virus Task Force (https://www.coronavirus.gov/)'
+    -
+      value: 'John Hopkins Center for Systems Science and Engineering (https://systems.jhu.edu/)'
+      label: 'John Hopkins Center for Systems Science and Engineering (https://systems.jhu.edu/)'
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

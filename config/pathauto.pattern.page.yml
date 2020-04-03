@@ -9,14 +9,15 @@ label: Page
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  e75694d1-cdc1-4221-934f-2ca5178d3a83:
+  18718c5e-16fd-411f-8082-0b6c39370540:
     id: node_type
     bundles:
+      chs_canvas_page: chs_canvas_page
       page: page
     negate: false
     context_mapping:
       node: node
-    uuid: e75694d1-cdc1-4221-934f-2ca5178d3a83
+    uuid: 18718c5e-16fd-411f-8082-0b6c39370540
 selection_logic: and
 weight: -9
 relationships: {  }

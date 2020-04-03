@@ -1,7 +1,7 @@
 uuid: ec558830-52ee-42a7-8168-e47808ada0e1
-name: 'COVID-19 CHS Platform'
-mail: info@accenture.com
-slogan: 'For vendors, manufactures and healthcare facilities'
+name: 'Open Corona Virus Data'
+mail: info@covid19.sl
+slogan: 'Information and Resources on Corona Virus in Sierra Leone'
 page:
   403: /node/3
   404: /node/2

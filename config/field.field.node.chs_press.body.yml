@@ -1,0 +1,23 @@
+uuid: 146e97c6-f57f-45d0-a824-3a21ac8e6071
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chs_press
+  module:
+    - text
+id: node.chs_press.body
+field_name: body
+entity_type: node
+bundle: chs_press
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

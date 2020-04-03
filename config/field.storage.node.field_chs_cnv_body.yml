@@ -1,0 +1,19 @@
+uuid: 6b6220a8-051d-49f5-b16a-434f8389e01c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_chs_cnv_body
+field_name: field_chs_cnv_body
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

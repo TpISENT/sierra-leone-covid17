@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.main
     - taxonomy.vocabulary.chs_manufacturer
     - taxonomy.vocabulary.chs_vendor
     - user.role.administrator
@@ -408,11 +407,14 @@ display:
         metatag_display_extender: {  }
       path: vendors-and-manufacturers
       menu:
-        type: normal
+        type: none
         title: 'Vendors and Manufacturers'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: -46
+        context: '0'
         menu_name: main
-        weight: -50
-        parent: 'menu_link_content:b27f8bb6-a5f0-4050-b94e-d34ba3426422'
     cache_metadata:
       max-age: -1
       contexts:

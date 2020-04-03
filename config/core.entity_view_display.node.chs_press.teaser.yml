@@ -1,0 +1,43 @@
+uuid: 647b1184-1b8e-4f50-9977-a851e8bcd74c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chs_press.body
+    - field.field.node.chs_press.field_chs_other_press_source
+    - field.field.node.chs_press.field_chs_press_featured_image
+    - field.field.node.chs_press.field_chs_press_footer
+    - field.field.node.chs_press.field_chs_press_header
+    - field.field.node.chs_press.field_chs_press_media
+    - field.field.node.chs_press.field_chs_press_source
+    - node.type.chs_press
+  module:
+    - text
+    - user
+id: node.chs_press.teaser
+targetEntityType: node
+bundle: chs_press
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_chs_other_press_source: true
+  field_chs_press_featured_image: true
+  field_chs_press_footer: true
+  field_chs_press_header: true
+  field_chs_press_media: true
+  field_chs_press_source: true
+  search_api_excerpt: true
