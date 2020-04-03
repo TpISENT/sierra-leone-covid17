@@ -1,0 +1,23 @@
+uuid: 7028e13e-cbb7-4db2-9bc7-d1984b0e17f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_website
+    - taxonomy.vocabulary.chs_manufacturer
+  module:
+    - link
+id: taxonomy_term.chs_manufacturer.field_chs_website
+field_name: field_chs_website
+entity_type: taxonomy_term
+bundle: chs_manufacturer
+label: 'Chs website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

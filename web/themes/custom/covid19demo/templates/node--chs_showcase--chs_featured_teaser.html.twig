@@ -1,0 +1,67 @@
+{#
+/**
+ * @file
+ * COVID-19-CHS's theme implementation to display a Showcase node in teaser tile view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('covid19demo/node-view-mode-featured-teaser') }}
+<article{{ attributes.addClass(classes) }}>
+  <div class="row">
+    <div class="col-lg-8">
+      {% if content.field_chs_shw_image|render or display_submitted %}
+        <div class="image-and-date-container">
+          {% if content.field_chs_shw_image|render %}
+            {{ content.field_chs_shw_image }}
+          {% endif %}
+          {% if display_submitted %}
+            {{ metadata }}
+            <div class="node__submitted-date chs-style-custom-tl region--default-background">
+              <div class="day">{{ node.createdtime|format_date('custom', 'd') }}</div>
+              <div class="month-year">
+                {{ node.createdtime|format_date('custom', 'M, ') }}
+                {{ node.createdtime|format_date('custom', 'Y') }}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="col-lg-4">
+
+      {% trans %}
+        <div class="promoted-label chs-style-custom-all">Promoted</div>
+      {% endtrans %}
+
+      {% if content.field_chs_shw_tags|render %}
+        {{ content.field_chs_shw_tags }}
+      {% endif %}
+
+      {{ title_prefix }}
+      {% if not page %}
+        <h2{{ title_attributes.addClass("chs-0 node__title") }}>
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+      {% endif %}
+      {{ title_suffix }}
+
+      <div{{ content_attributes.addClass('node__content') }}>
+        {{ content|without('field_chs_shw_image', 'field_chs_shw_tags') }}
+      </div>
+
+      {% trans %}
+        <a class="chs-link-stylable" href="{{ url }}">Read more</a>
+      {% endtrans %}
+
+    </div>
+  </div>
+</article>

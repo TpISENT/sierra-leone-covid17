@@ -1,0 +1,39 @@
+uuid: ae391f27-79c6-4cd3-af2d-c76fa7c0ed2e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:75b94e92-9575-476d-9ec7-f5767ac376a2'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - covid19demo
+id: homeloginandregisteroptions_3
+theme: covid19demo
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:75b94e92-9575-476d-9ec7-f5767ac376a2'
+settings:
+  id: 'block_content:75b94e92-9575-476d-9ec7-f5767ac376a2'
+  label: 'Home Login and Register Options'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

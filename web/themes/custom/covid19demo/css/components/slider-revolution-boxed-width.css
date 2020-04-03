@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's slider revolution boxed width.
+ */
+@media (min-width:992px) and (max-width: 1199px) {
+  .view-chs-slideshow-boxed-width .tp-caption__title {
+    font-size: 50px;
+    padding-top: 0;
+  }
+  .view-chs-slideshow-boxed-width .tp-caption__text {
+    padding-top: 0;
+  }
+  .view-chs-slideshow-boxed-width .tp-caption__buttons-container {
+    margin-top: 0;
+  }  
+}
+@media (max-width: 575px) {
+  .view-chs-slideshow-boxed-width {
+    margin: 0 -15px;
+  }
+}

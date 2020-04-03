@@ -1,0 +1,19 @@
+uuid: d75b1290-ed01-4450-a34a-5433339a826d
+langcode: en
+status: true
+dependencies:
+  module:
+    - telephone
+    - user
+id: user.field_chs_phone_number
+field_name: field_chs_phone_number
+entity_type: user
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

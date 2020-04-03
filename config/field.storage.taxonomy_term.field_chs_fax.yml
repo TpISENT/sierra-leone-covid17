@@ -1,0 +1,19 @@
+uuid: f4152f85-d287-47c9-bbab-6261b8effe53
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - telephone
+id: taxonomy_term.field_chs_fax
+field_name: field_chs_fax
+entity_type: taxonomy_term
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

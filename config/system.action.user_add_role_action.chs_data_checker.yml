@@ -1,0 +1,14 @@
+uuid: 7b022c6f-dea6-464a-96e6-01516ca61912
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_data_checker
+  module:
+    - user
+id: user_add_role_action.chs_data_checker
+label: 'Add the CHS Data Checker role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chs_data_checker

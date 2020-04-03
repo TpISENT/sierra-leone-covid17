@@ -1,0 +1,14 @@
+uuid: c5de9657-7e36-4667-ab4e-b89ec1c0d529
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_vendor
+  module:
+    - user
+id: user_add_role_action.chs_vendor
+label: 'Add the CHS Vendor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chs_vendor

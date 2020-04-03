@@ -1,0 +1,11 @@
+uuid: bed5a505-5193-4d52-8443-fac52788fa8c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+id: administrator
+label: Administrator
+weight: -3
+is_admin: true
+permissions: {  }

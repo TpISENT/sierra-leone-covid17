@@ -1,0 +1,22 @@
+uuid: 68a8d991-f65c-4090-b7c7-af10a1c200bb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - covid19demo
+_core:
+  default_config_hash: iIgK6x44_3yxc2djgUeatvsHdMKOfYdhyP2oQbSg9lY
+id: covid19demo_local_tasks
+theme: covid19demo
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

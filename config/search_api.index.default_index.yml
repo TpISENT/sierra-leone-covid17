@@ -1,0 +1,420 @@
+uuid: 92d9ba2a-ef00-4c83-b77d-6dabe5c04c02
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+    - search_api
+  config:
+    - field.storage.node.body
+    - field.storage.node.field_chs_availability_status
+    - field.storage.node.field_chs_in_stock
+    - field.storage.node.field_chs_manufacturer
+    - field.storage.node.field_chs_manufacturer_number
+    - field.storage.node.field_chs_price
+    - field.storage.node.field_chs_product_category
+    - field.storage.node.field_chs_product_size
+    - field.storage.node.field_chs_product_type
+    - field.storage.node.field_chs_sku_number
+    - field.storage.node.field_chs_uom
+    - field.storage.node.field_chs_vendor
+    - field.storage.node.field_chs_vendor_address_details
+    - field.storage.node.field_chs_vendor_fulfillment_cen
+    - search_api.server.default_server
+    - core.entity_view_mode.node.search_index
+_core:
+  default_config_hash: GLmLegZGHtMF6annRqgjizJAoiAip-IT-XOsDMCZfog
+id: default_index
+name: 'Default content index'
+description: 'Default content index created by the Database Search Defaults module'
+read_only: false
+field_settings:
+  author:
+    label: 'Author name'
+    datasource_id: 'entity:node'
+    property_path: 'uid:entity:name'
+    type: string
+    dependencies:
+      module:
+        - node
+        - user
+        - user
+  body:
+    label: 'Product Description'
+    datasource_id: 'entity:node'
+    property_path: body
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.body
+  changed:
+    label: Changed
+    datasource_id: 'entity:node'
+    property_path: changed
+    type: date
+    dependencies:
+      module:
+        - node
+  created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - node
+  field_chs_availability_status:
+    label: 'Availability Status'
+    datasource_id: 'entity:node'
+    property_path: field_chs_availability_status
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_availability_status
+  field_chs_in_stock:
+    label: 'Amount In Stock'
+    datasource_id: 'entity:node'
+    property_path: field_chs_in_stock
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_chs_in_stock
+  field_chs_manufacturer:
+    label: 'Manufacturer Name'
+    datasource_id: 'entity:node'
+    property_path: field_chs_manufacturer
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_chs_manufacturer
+  field_chs_manufacturer_number:
+    label: 'Manufacturer #/ Category #'
+    datasource_id: 'entity:node'
+    property_path: field_chs_manufacturer_number
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_manufacturer_number
+  field_chs_price:
+    label: 'Product Price (USD)'
+    datasource_id: 'entity:node'
+    property_path: field_chs_price
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_price
+  field_chs_product_category:
+    label: 'Product Category'
+    datasource_id: 'entity:node'
+    property_path: field_chs_product_category
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_chs_product_category
+  field_chs_product_size:
+    label: 'Product Size'
+    datasource_id: 'entity:node'
+    property_path: field_chs_product_size
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_product_size
+  field_chs_product_type:
+    label: 'Product Type'
+    datasource_id: 'entity:node'
+    property_path: field_chs_product_type
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_chs_product_type
+  field_chs_sku_number:
+    label: 'SKU Number'
+    datasource_id: 'entity:node'
+    property_path: field_chs_sku_number
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_sku_number
+  field_chs_uom:
+    label: 'UOM (Unit of Measure)'
+    datasource_id: 'entity:node'
+    property_path: field_chs_uom
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_uom
+  field_chs_vendor:
+    label: 'Vendor Name'
+    datasource_id: 'entity:node'
+    property_path: field_chs_vendor
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_chs_vendor
+  field_chs_vendor_address_details:
+    label: 'Vendor Address (Region, Country)'
+    datasource_id: 'entity:node'
+    property_path: field_chs_vendor_address_details
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_vendor_address_details
+  field_chs_vendor_fulfillment_cen:
+    label: 'Vendor Fulfillment Center'
+    datasource_id: 'entity:node'
+    property_path: field_chs_vendor_fulfillment_cen
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_chs_vendor_fulfillment_cen
+  node_grants:
+    label: 'Node access information'
+    property_path: search_api_node_grants
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  rendered_item:
+    label: 'Rendered item'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:node':
+          article: search_index
+          page: search_index
+  status:
+    label: 'Publishing status'
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  sticky:
+    label: 'Sticky at top of lists'
+    datasource_id: 'entity:node'
+    property_path: sticky
+    type: boolean
+    dependencies:
+      module:
+        - node
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: !!float 8
+    dependencies:
+      module:
+        - node
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+    dependencies:
+      module:
+        - node
+  uid:
+    label: 'Author ID'
+    datasource_id: 'entity:node'
+    property_path: uid
+    type: integer
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - chs_products
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url:
+    weights:
+      preprocess_index: -30
+  aggregated_field:
+    weights:
+      add_properties: 20
+  content_access:
+    weights:
+      preprocess_index: -6
+      preprocess_query: -4
+  entity_status:
+    weights:
+      preprocess_index: -10
+  highlight:
+    highlight: always
+    highlight_partial: true
+    excerpt: true
+    excerpt_length: 256
+    exclude_fields: {  }
+    prefix: '<strong>'
+    suffix: '</strong>'
+    weights:
+      postprocess_query: 0
+  html_filter:
+    all_fields: true
+    fields:
+      - author
+      - body
+      - field_chs_availability_status
+      - field_chs_manufacturer
+      - field_chs_manufacturer_number
+      - field_chs_price
+      - field_chs_product_category
+      - field_chs_product_size
+      - field_chs_product_type
+      - field_chs_sku_number
+      - field_chs_uom
+      - field_chs_vendor
+      - field_chs_vendor_address_details
+      - field_chs_vendor_fulfillment_cen
+      - rendered_item
+      - title
+      - type
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      string: 2
+    weights:
+      preprocess_index: -3
+      preprocess_query: -6
+  ignorecase:
+    all_fields: true
+    fields:
+      - author
+      - body
+      - field_chs_availability_status
+      - field_chs_manufacturer
+      - field_chs_manufacturer_number
+      - field_chs_price
+      - field_chs_product_category
+      - field_chs_product_size
+      - field_chs_product_type
+      - field_chs_sku_number
+      - field_chs_uom
+      - field_chs_vendor
+      - field_chs_vendor_address_details
+      - field_chs_vendor_fulfillment_cen
+      - rendered_item
+      - title
+      - type
+    weights:
+      preprocess_index: -5
+      preprocess_query: -8
+  language_with_fallback: {  }
+  rendered_item:
+    weights:
+      add_properties: 0
+      pre_index_save: -10
+  stopwords:
+    all_fields: true
+    fields:
+      - body
+      - field_chs_manufacturer
+      - field_chs_product_category
+      - field_chs_product_type
+      - field_chs_vendor
+      - rendered_item
+      - title
+    stopwords:
+      - a
+      - an
+      - and
+      - are
+      - as
+      - at
+      - be
+      - but
+      - by
+      - for
+      - if
+      - in
+      - into
+      - is
+      - it
+      - 'no'
+      - not
+      - of
+      - 'on'
+      - or
+      - s
+      - such
+      - t
+      - that
+      - the
+      - their
+      - then
+      - there
+      - these
+      - they
+      - this
+      - to
+      - was
+      - will
+      - with
+    weights:
+      preprocess_index: -5
+      preprocess_query: -10
+  tokenizer:
+    all_fields: true
+    fields:
+      - body
+      - field_chs_manufacturer
+      - field_chs_product_category
+      - field_chs_product_type
+      - field_chs_vendor
+      - rendered_item
+      - title
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
+    weights:
+      preprocess_index: -2
+      preprocess_query: -5
+  transliteration:
+    all_fields: true
+    fields:
+      - author
+      - body
+      - field_chs_availability_status
+      - field_chs_manufacturer
+      - field_chs_manufacturer_number
+      - field_chs_price
+      - field_chs_product_category
+      - field_chs_product_size
+      - field_chs_product_type
+      - field_chs_sku_number
+      - field_chs_uom
+      - field_chs_vendor
+      - field_chs_vendor_address_details
+      - field_chs_vendor_fulfillment_cen
+      - rendered_item
+      - title
+      - type
+    weights:
+      preprocess_index: -4
+      preprocess_query: -7
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: default_server

@@ -1,0 +1,19 @@
+uuid: c69bbb19-a9b8-4e25-9659-8ac81073dd96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_sku_number
+    - node.type.chs_products
+id: node.chs_products.field_chs_sku_number
+field_name: field_chs_sku_number
+entity_type: node
+bundle: chs_products
+label: 'SKU Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

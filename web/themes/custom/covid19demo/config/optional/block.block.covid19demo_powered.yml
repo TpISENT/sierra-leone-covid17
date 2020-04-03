@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - covid19demo
+_core:
+  default_config_hash: shHj93kD7EBUuhnn4Et7RgvdxbDYk8XvcL_thjjGdOc
+id: covid19demo_powered
+theme: covid19demo
+region: sub_footer_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

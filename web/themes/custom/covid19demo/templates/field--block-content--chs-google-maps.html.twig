@@ -1,0 +1,34 @@
+{#
+/**
+ * @file
+ * COVID-19-CHS's theme override for the block entity refernece field for the dropdown custom block.
+ *
+ * @see covid19demo_preprocess_field__block_content__field_chs_dropdown_block__chs_dropdown_block()
+ */
+#}
+{%
+  set classes = [
+    'field',
+    'field--name-' ~ field_name|clean_class,
+    'field--type-' ~ field_type|clean_class,
+    'field--label-' ~ label_display,
+    'field--entity-reference-target-type-' ~ entity_reference_target_type|clean_class,
+    'clearfix',
+  ]
+%}
+{%
+  set title_classes = [
+    'field__label',
+    label_display == 'inline' ? 'inline',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% if not label_hidden %}
+    <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
+  {% endif %}
+
+  <div class="google-map-canvas chs-style-custom-all"
+    data-attribute-chs-locations="{{ map_locations }}"
+    data-attribute-chs-map-zoom="{{field_chs_map_zoom_value}}">
+  </div>
+</div>

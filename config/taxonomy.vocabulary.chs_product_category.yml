@@ -1,0 +1,8 @@
+uuid: 9cac9dc1-1b62-4ec2-92c2-4934f25ea284
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Category'
+vid: chs_product_category
+description: 'Product Category'
+weight: 0

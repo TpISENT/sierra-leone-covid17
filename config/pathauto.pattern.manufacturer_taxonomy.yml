@@ -1,0 +1,23 @@
+uuid: a8df035a-1b2a-47bd-a56c-d34742288c8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: manufacturer_taxonomy
+label: 'Manufacturer Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'manufacturer/[term:name]'
+selection_criteria:
+  404627c8-d995-4b8a-92ad-4c7d4d637c54:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      chs_manufacturer: chs_manufacturer
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 404627c8-d995-4b8a-92ad-4c7d4d637c54
+selection_logic: and
+weight: -3
+relationships: {  }

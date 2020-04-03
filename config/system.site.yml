@@ -1,0 +1,15 @@
+uuid: ec558830-52ee-42a7-8168-e47808ada0e1
+name: 'COVID-19 CHS Platform'
+mail: info@accenture.com
+slogan: 'For vendors, manufactures and healthcare facilities'
+page:
+  403: /node/3
+  404: /node/2
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: tamba.s.lamin@accenture.com

@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's media tabs.
+ */
+.field--chs-media-tabs .nav-pills {
+  margin-bottom: 45px;
+}
+.chs-media-title {
+  margin-bottom: 25px;
+}
+.chs-media-title h3 {
+  font-size: 50px;
+}
+.chs-media-body {
+  margin-bottom: 15px;
+}

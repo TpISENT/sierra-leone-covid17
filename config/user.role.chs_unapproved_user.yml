@@ -1,0 +1,9 @@
+uuid: 92f09eb4-354c-4dd2-939f-4896f21cd6d5
+langcode: en
+status: true
+dependencies: {  }
+id: chs_unapproved_user
+label: 'Unapproved User (Buyer/Seller)'
+weight: -9
+is_admin: null
+permissions: {  }

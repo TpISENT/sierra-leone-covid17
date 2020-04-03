@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Purple color styling for COVID-19-CHS for Drupal 8.
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 85%;
+  --chs-dark-color-lightness: 75%;
+  --chs-base-color: 268, 25%, var(--chs-base-color-lightness);
+  --chs-dark-color: 268, 25%, var(--chs-dark-color-lightness);
+  --chs-link-color: 328, 80%, 40%;
+  --chs-link-color-hover: 328, 80%, 30%;
+}

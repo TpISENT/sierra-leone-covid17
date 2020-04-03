@@ -1,0 +1,75 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's node in media object view.
+ */
+.node--view-mode-chs-media-object .field--name-field-chs-prd-image {
+  margin-right: 20px;
+}
+.node--view-mode-chs-media-object .node__title {
+  margin-bottom: 15px;
+}
+.node--view-mode-chs-media-object .field--name-field-chs-prd-body {
+  margin-bottom: 10px;
+}
+
+/*post nodes*/
+.node--type-chs-post.node--view-mode-chs-media-object {
+  margin-bottom: 30px;
+}
+.hero__section .node--type-chs-post.node--view-mode-chs-media-object {
+  margin-top: 10px;
+}
+.node--view-mode-chs-media-object .field--name-field-chs-pst-image {
+  margin-left: 20px;
+}
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0 0 5px;
+  padding: 0;
+  display: inline-block;
+}
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term.field__item a {
+  font-size: 12px;
+}
+.region--dark-typography .node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-chs-media-object .field--entity-reference-target-type-taxonomy-term.field__item a {
+  color: #707070;
+}
+.node--type-chs-post.node--view-mode-chs-media-object .field--name-field-chs-pst-body {
+  margin-bottom: 20px;
+}
+.node--view-mode-chs-media-object .field--name-field-chs-pst-body > p:last-child {
+  padding-bottom: 0;
+}
+.node--view-mode-chs-media-object .profile {
+  display: inline-block;
+}
+.node--view-mode-chs-media-object .profile .field--name-user-picture {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.node--view-mode-chs-media-object .field--name-user-picture img {
+  border-radius: 100%;
+  max-width: 40px;
+  margin-right: 10px;
+}
+.node--view-mode-chs-media-object .node__submitted {
+  font-weight: 700;
+  font-size: 16px;
+}
+.node--view-mode-chs-media-object .node__submitted a {
+  font-weight: 700; 
+}
+.node--view-mode-chs-media-object .node__comments-count {
+  font-size: 12px;
+  color: #575757;
+}
+.region--light-typography .node--view-mode-chs-media-object .node__comments-count {
+  color: #ffffff;
+}

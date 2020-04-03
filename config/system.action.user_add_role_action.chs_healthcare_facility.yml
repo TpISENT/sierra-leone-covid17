@@ -1,0 +1,14 @@
+uuid: 5a424024-c3c3-4d30-a786-891fd5fd6902
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_healthcare_facility
+  module:
+    - user
+id: user_add_role_action.chs_healthcare_facility
+label: 'Add the CHS Healthcare Facility role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chs_healthcare_facility

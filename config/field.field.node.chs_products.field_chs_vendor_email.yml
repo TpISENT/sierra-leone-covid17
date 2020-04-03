@@ -1,0 +1,19 @@
+uuid: 3cd23ec0-ba83-4da4-bd1b-3e6d2f72f1ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_vendor_email
+    - node.type.chs_products
+id: node.chs_products.field_chs_vendor_email
+field_name: field_chs_vendor_email
+entity_type: node
+bundle: chs_products
+label: 'Vendor Email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

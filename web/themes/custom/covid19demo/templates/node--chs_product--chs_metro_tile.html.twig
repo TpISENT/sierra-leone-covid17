@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * COVID-19-CHS's theme implementation to display a Service node in teaser tile view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('covid19demo/node-view-mode-metro-tile') }}
+
+{% set caption_text_first = content.field_chs_prd_price %}
+{% set caption_text_second = content.field_chs_prd_categories %}
+{% set image = content.field_chs_prd_teaser_image %}
+{% set rendered_content = content|without('field_chs_prd_teaser_image', 'field_chs_prd_categories', 'field_chs_prd_price') %}
+
+{% set caption_items = "one-item" %}
+{% if caption_text_first and caption_text_second %}
+  {% set caption_items = "three-items" %}
+{% elseif ( caption_text_first and not caption_text_second ) or ( not caption_text_first and caption_text_second ) %}
+  {% set caption_items = "two-items" %}
+{% endif %}
+
+{% if image|render %}
+  {% set view_row_index = elements['#chs_view_index'] %}
+  {% set view_page_index = elements['#chs_view_page_index'] %}
+  {% if view_page_index == 0 and (view_row_index == 2 or view_row_index == 3) %}
+
+    {% set styled_image = image.0 %}
+    {% set styled_image = styled_image|merge({'#image_style': 'chs_metro_tile_wide'}) %}
+  {% else %}
+    {% set styled_image = image %}
+  {% endif %}
+{% endif %}
+{% include '@covid19demo/partials/_chs-metro-tile.html.twig' %}

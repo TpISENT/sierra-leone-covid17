@@ -1,0 +1,34 @@
+uuid: 0ce42562-9718-4657-8c33-0add4a0fc100
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_chs_organization
+    - taxonomy.vocabulary.chs_healthcare_facility
+    - taxonomy.vocabulary.chs_manufacturer
+    - taxonomy.vocabulary.chs_vendor
+  module:
+    - user
+id: user.user.field_chs_organization
+field_name: field_chs_organization
+entity_type: user
+bundle: user
+label: Organization
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_healthcare_facility: chs_healthcare_facility
+      chs_manufacturer: chs_manufacturer
+      chs_vendor: chs_vendor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: chs_healthcare_facility
+field_type: entity_reference

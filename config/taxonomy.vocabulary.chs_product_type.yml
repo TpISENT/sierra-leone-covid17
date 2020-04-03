@@ -1,0 +1,8 @@
+uuid: c3fbd436-65d3-4e6b-901f-b4a542129a80
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Type'
+vid: chs_product_type
+description: 'Product Type'
+weight: 0

@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's collections carousel.
+ */
+.chs-carousel-collections .owl-item {
+  text-align: center;
+}
+.chs-carousel-collections .chs-carousel-item {
+  margin: 0 15px;
+}

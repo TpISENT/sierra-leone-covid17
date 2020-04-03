@@ -1,0 +1,19 @@
+uuid: 65cb6ddd-140f-4ad9-a432-b835335d87b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_chs_comments
+field_name: field_chs_comments
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

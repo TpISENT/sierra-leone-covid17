@@ -1,0 +1,23 @@
+uuid: 78cb983c-5bd8-4ca0-970e-d92f1fc01590
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_vendor_website
+    - node.type.chs_products
+  module:
+    - link
+id: node.chs_products.field_chs_vendor_website
+field_name: field_chs_vendor_website
+entity_type: node
+bundle: chs_products
+label: 'Vendor Website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

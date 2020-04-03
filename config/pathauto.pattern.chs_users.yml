@@ -1,0 +1,14 @@
+uuid: e77d9f70-1a2c-4599-b0db-bed2543d31d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: chs_users
+label: 'CHS Users'
+type: 'canonical_entities:user'
+pattern: 'account/[user:uuid]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

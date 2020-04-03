@@ -1,0 +1,61 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's modal block.
+ */
+.modal-open .slideout-panel {
+  position: static;
+}
+.block-type--chs-modal .modal-content {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+.modal-backdrop {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.modal-backdrop.show {
+  opacity: 1;
+}
+.block-type--chs-modal .modal-icon-button {
+  -webkit-appearance: none;
+  border-width: 0;
+  display: block;
+  margin-left: auto;
+  margin-top: 3px;
+  font-size: 18px;
+}
+.block-type--chs-modal .modal-icon-button:not(.chs-button) {
+  background-color: transparent;
+}
+.block-type--chs-modal .modal-icon-button.chs-button {
+  border-width: 1px;
+}
+.block-type--chs-modal button.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 36px;
+  opacity: 1;
+}
+
+/* header modal */
+header.header .modal-icon-button {
+  padding: 32px 36px 31px;
+  margin: 0;
+  color: #202124;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 1440px) {
+  header.header .modal-icon-button {
+    padding: 32px 30px 31px;
+  }
+}
+header.header .block-type--chs-modal .modal-icon-button:hover,
+header.header .block-type--chs-modal .modal-icon-button:focus {
+  color: #ffffff;
+  background-color: #202124;
+}

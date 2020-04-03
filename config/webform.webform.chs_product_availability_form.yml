@@ -1,0 +1,231 @@
+uuid: ba72dd46-07ba-4166-99b1-de3306f15679
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: chs_product_availability_form
+title: 'Vendor Product Availability Form'
+description: ''
+category: CHS
+elements: "markup:\n  '#type': webform_markup\n  '#markup': 'Use this form to submit data about critical supply products you have in stock for sale'\nchs_product_name:\n  '#type': webform_term_select\n  '#title': 'Product Name'\n  '#vocabulary': chs_product\n  '#breadcrumb_delimiter': ''\n  '#required': true\nchs_product_description:\n  '#type': textfield\n  '#title': 'Product Description'\nchs_product_size:\n  '#type': textfield\n  '#title': 'Product size'\nchs_product_price:\n  '#type': textfield\n  '#title': 'Product Price'\n  '#required': true\nchs_price_currency:\n  '#type': textfield\n  '#title': 'Price Currency'\n  '#required': true\nchs_uom_unit_of_measure_:\n  '#type': textfield\n  '#title': 'UOM (Unit of Measure)'\n  '#required': true\nchs_availability_status:\n  '#type': select\n  '#title': 'Availability Status'\n  '#options':\n    'Available - In Stock': 'Available - In Stock'\n    'Not Available - Out of Stock': 'Not Available - Out of Stock'\n  '#required': true\nchs_product_sku:\n  '#type': textfield\n  '#title': 'Product SKU'\nchs_product_category:\n  '#type': webform_term_select\n  '#title': 'Product Category'\n  '#vocabulary': chs_product_category\n  '#breadcrumb_delimiter': ''\nchs_product_type:\n  '#type': webform_term_select\n  '#title': 'Product Type'\n  '#vocabulary': chs_product_type\n  '#breadcrumb_delimiter': ''\n  '#required': true\nchs_available_stock:\n  '#type': number\n  '#title': 'Available Stock'\n  '#format_items': comma\n  '#required': true\nchs_category_number:\n  '#type': textfield\n  '#title': 'Category # /Manufacturer #'\nchs_vendor_name:\n  '#type': textfield\n  '#title': 'Vendor Name'\n  '#required': true\nchs_vendor_address:\n  '#type': webform_address\n  '#title': 'Vendor Address'\n  '#address__access': false\n  '#address_2__access': false\n  '#postal_code__access': false\n  '#required': true\nchs_vendor_fulfillment_center:\n  '#type': textfield\n  '#title': 'Vendor Fulfillment Center'\n  '#required': true\nchs_vendor_phone_number:\n  '#type': tel\n  '#title': 'Vendor Phone Number'\n  '#required': true\nchs_vendor_email:\n  '#type': email\n  '#title': 'Vendor Email'\n  '#required': true\nchs_vendor_website:\n  '#type': webform_link\n  '#title': 'Vendor Website'\n  '#title__access': false\n  '#required': true\nchs_manufacturer_name:\n  '#type': textfield\n  '#title': 'Manufacturer Name'\nchs_manufacturer_phone_number:\n  '#type': tel\n  '#title': 'Manufacturer Phone Number'\ncaptcha:\n  '#type': captcha"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: ''
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_admin_theme: false
+  form_title: both
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace:
+    webform_routes: {  }
+    node_routes: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: authenticated
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: 'Thank you for submitting the Vendor Product Availability Form. One of our staff will be in touch via email or phone with further details.'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+access:
+  create:
+    roles:
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles:
+      - chs_data_checker
+      - chs_content_manager
+      - administrator
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles:
+      - chs_data_checker
+      - chs_content_manager
+      - administrator
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles:
+      - chs_vendor
+      - chs_data_checker
+      - chs_content_manager
+      - administrator
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles:
+      - chs_vendor
+      - chs_data_checker
+      - chs_content_manager
+      - administrator
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  email:
+    id: email
+    label: Email
+    handler_id: email
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: tamba.s.lamin@accenture.com
+      to_options: {  }
+      cc_mail: '[webform_submission:values:chs_vendor_email:raw]'
+      cc_options: {  }
+      bcc_mail: '[webform:author:mail]'
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: _default
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+variants: {  }

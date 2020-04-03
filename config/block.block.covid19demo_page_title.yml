@@ -1,0 +1,27 @@
+uuid: 8c333ba6-a85c-47e1-a4ff-5a58750e9ffe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - covid19demo
+_core:
+  default_config_hash: GN1Y2mCZl68JcLZyqjCwx-fXrQYbKwUld468ujqgw18
+id: covid19demo_page_title
+theme: covid19demo
+region: hero_top
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

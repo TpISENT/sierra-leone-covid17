@@ -1,0 +1,14 @@
+uuid: a23e4f85-d32f-4369-84f9-92046d21a737
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_healthcare_facility
+  module:
+    - user
+id: user_remove_role_action.chs_healthcare_facility
+label: 'Remove the CHS Healthcare Facility role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chs_healthcare_facility

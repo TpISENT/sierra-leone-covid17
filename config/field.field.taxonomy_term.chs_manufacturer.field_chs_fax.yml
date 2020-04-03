@@ -1,0 +1,21 @@
+uuid: f56422b2-501f-4cb7-932d-37a3bd2734cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_fax
+    - taxonomy.vocabulary.chs_manufacturer
+  module:
+    - telephone
+id: taxonomy_term.chs_manufacturer.field_chs_fax
+field_name: field_chs_fax
+entity_type: taxonomy_term
+bundle: chs_manufacturer
+label: 'CHS fax'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,22 @@
+uuid: c0c589fb-7c4d-4f36-95a6-ff0b78f15fca
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: vendor
+label: Vendor
+type: 'canonical_entities:node'
+pattern: 'vendors/[node:title]'
+selection_criteria:
+  ee67f3eb-87a7-4855-ac95-879591970bea:
+    id: node_type
+    bundles:
+      chc_vendor: chc_vendor
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ee67f3eb-87a7-4855-ac95-879591970bea
+selection_logic: and
+weight: -5
+relationships: {  }

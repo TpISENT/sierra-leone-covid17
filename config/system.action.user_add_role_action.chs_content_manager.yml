@@ -1,0 +1,14 @@
+uuid: d7e574da-0281-45f5-8946-345d40493736
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_content_manager
+  module:
+    - user
+id: user_add_role_action.chs_content_manager
+label: 'Add the CHS Content Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chs_content_manager

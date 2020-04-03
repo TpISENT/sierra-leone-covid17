@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's albums carousel.
+ */
+.chs-carousel-albums {
+  padding: 0 70px;
+  margin-bottom: 100px;
+}
+.chs-carousel-albums .chs-carousel-item {
+  margin: 10px;
+}

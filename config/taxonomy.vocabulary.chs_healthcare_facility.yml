@@ -1,0 +1,8 @@
+uuid: b9f4881c-e0f1-458f-825d-881ddc32c0f1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Healthcare Facility'
+vid: chs_healthcare_facility
+description: ''
+weight: 0

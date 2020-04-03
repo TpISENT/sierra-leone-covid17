@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - covid19demo
+_core:
+  default_config_hash: ktrKusMLsk7davofX2T_JlxGDAC4cW9cMARcLQJSJPA
+id: covid19demo_local_actions
+theme: covid19demo
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

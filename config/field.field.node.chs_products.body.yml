@@ -1,0 +1,23 @@
+uuid: 3896e427-25c1-4bd9-8a34-aa1c798c11b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chs_products
+  module:
+    - text
+id: node.chs_products.body
+field_name: body
+entity_type: node
+bundle: chs_products
+label: 'Product Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

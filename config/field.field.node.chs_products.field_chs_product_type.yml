@@ -1,0 +1,29 @@
+uuid: 554cf39a-013f-4045-908e-c2e389b1df8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_product_type
+    - node.type.chs_products
+    - taxonomy.vocabulary.chs_product_type
+id: node.chs_products.field_chs_product_type
+field_name: field_chs_product_type
+entity_type: node
+bundle: chs_products
+label: 'Product Type'
+description: 'The platform will start searching for entries as you type to make it easy for you to select the right one.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_product_type: chs_product_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

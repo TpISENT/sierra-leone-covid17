@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Visual styles for chs-tab field in COVID-19-CHS.
+ */
+.field--name-field-chs-prd-content-tabs {
+  margin: 40px 0 60px;
+  padding-bottom: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eaeaea;
+}

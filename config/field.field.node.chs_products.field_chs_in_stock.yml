@@ -1,0 +1,23 @@
+uuid: 5dc0b54c-813c-4b22-8836-fb16a160fdce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_in_stock
+    - node.type.chs_products
+id: node.chs_products.field_chs_in_stock
+field_name: field_chs_in_stock
+entity_type: node
+bundle: chs_products
+label: 'Amount In Stock'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

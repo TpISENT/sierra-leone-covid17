@@ -1,0 +1,22 @@
+uuid: 369cf59a-56b4-4d27-9852-6a3e62a4d34a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: manufacturer
+label: Manufacturer
+type: 'canonical_entities:node'
+pattern: 'manufacturers/[node:title]'
+selection_criteria:
+  4c452404-ce36-4653-b8ed-dc7f27c90d96:
+    id: node_type
+    bundles:
+      chc_manufacturer: chc_manufacturer
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4c452404-ce36-4653-b8ed-dc7f27c90d96
+selection_logic: and
+weight: -6
+relationships: {  }

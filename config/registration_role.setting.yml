@@ -1,0 +1,10 @@
+role_to_select:
+  chs_unapproved_user: chs_unapproved_user
+  chs_vendor: 0
+  chs_healthcare_facility: 0
+  chs_data_checker: 0
+  chs_content_manager: 0
+  administrator: 0
+registration_mode: user
+_core:
+  default_config_hash: o1wWkhSOJotsHFgvzESaUOiTWhLak62cKBDyEtewAIM

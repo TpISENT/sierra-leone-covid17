@@ -1,0 +1,23 @@
+uuid: b6ab76a4-6bc2-4242-a5c7-96dbda4fbc48
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: healthcare_facility_taxonomy
+label: 'Healthcare Facility Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'healthcare-facility/[term:name]'
+selection_criteria:
+  31f87746-6205-46da-83bd-36830f0f5c9f:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      chs_healthcare_facility: chs_healthcare_facility
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 31f87746-6205-46da-83bd-36830f0f5c9f
+selection_logic: and
+weight: -5
+relationships: {  }

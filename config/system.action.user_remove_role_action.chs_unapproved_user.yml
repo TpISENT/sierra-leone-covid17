@@ -1,0 +1,14 @@
+uuid: 11ca18e4-f4c1-4431-8712-ebba002fdf58
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_unapproved_user
+  module:
+    - user
+id: user_remove_role_action.chs_unapproved_user
+label: 'Remove the CHS Unapproved User role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chs_unapproved_user

@@ -1,0 +1,52 @@
+{#
+/**
+ * @file
+ * COVID-19-CHS's theme implementation to display a Post node in teaser tile text view mode.
+ */
+#}
+{% extends "node.html.twig" %}
+{% block node_side %}
+{% endblock %}
+{% block meta_area %}
+
+  {% if display_submitted or content.field_chs_pst_category|render %}
+    <div class="node__meta">
+      {% if display_submitted %}
+        {{ metadata }}
+        <span class="node__meta-item">
+          {{ node.createdtime|format_date('custom', 'M d, Y') }}
+        </span>
+      {% endif %}
+      {% if content.field_chs_pst_category|render %}
+        <span class="node__meta-item node__meta-tags">
+          {{ content.field_chs_pst_category }}
+        </span>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {{ title_prefix }}
+  <h4{{ title_attributes.addClass('node__title chs-0 mb-3') }}>
+    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+  </h4>
+  {{ title_suffix }}
+
+{% endblock %}
+{% block content %}
+  {{ attach_library('covid19demo/node-view-mode-teaser-tile-text') }}
+  {% if content|render %}
+    <div class="node__main-content-section">
+      {{ content }}
+    </div>
+  {% endif %}
+  {% if display_submitted %}
+    <footer class="node__meta mb-0">
+      {{ author_picture }}
+      <span{{ author_attributes.addClass('node__submitted') }}>
+        {{ author_name }}
+        {{ metadata }}
+      </span>
+    </footer>
+  {% endif %}
+  {{ content.links }}
+{% endblock %}

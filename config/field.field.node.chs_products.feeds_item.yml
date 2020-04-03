@@ -1,0 +1,23 @@
+uuid: 04ab48e7-8a61-4c91-848c-8eba1b8a8371
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type.chs_products
+  module:
+    - feeds
+id: node.chs_products.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: chs_products
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

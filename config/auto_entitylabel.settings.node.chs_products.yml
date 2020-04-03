@@ -1,0 +1,6 @@
+status: 0
+pattern: '[node:field_chs_product_name] manufactured by [node:field_chs_manufacturer] and sold by [node:field_chs_vendor]'
+escape: true
+dependencies:
+  config:
+    - node.type.chs_products

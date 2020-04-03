@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Styles for COVID-19-CHS's images.
+ */
+/*global styles*/
+.chs-style-sharp img,
+.chs-style-sharp .overlay {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.chs-style-oval img,
+.chs-style-rounded img,
+.chs-style-oval .overlay,
+.chs-style-rounded .overlay {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*images specific styles*/
+.chs-style-image-sharp img,
+.chs-style-image-sharp .overlay {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.chs-style-image-rounded img,
+.chs-style-image-rounded .overlay {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

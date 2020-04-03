@@ -1,0 +1,23 @@
+uuid: a2e548c5-fb4a-4b5b-aa42-4bbd6a878c77
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: vendor_taxonomy
+label: 'Vendor Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'vendor/[term:name]'
+selection_criteria:
+  ad6b2eae-91fd-48ff-9001-4c5f03c8eef3:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      chs_vendor: chs_vendor
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: ad6b2eae-91fd-48ff-9001-4c5f03c8eef3
+selection_logic: and
+weight: -2
+relationships: {  }

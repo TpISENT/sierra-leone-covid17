@@ -1,0 +1,21 @@
+uuid: 0b909fb2-787e-4890-bfd1-8cfbd1f1f6d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_availability_status
+    - node.type.chs_products
+  module:
+    - options
+id: node.chs_products.field_chs_availability_status
+field_name: field_chs_availability_status
+entity_type: node
+bundle: chs_products
+label: 'Availability Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: 5ed93f96-4b9a-40e3-aac7-39e08ce64346
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - taxonomy
+id: taxonomy_term.field_chs_logo
+field_name: field_chs_logo
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

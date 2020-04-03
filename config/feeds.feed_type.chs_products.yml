@@ -1,0 +1,313 @@
+uuid: 4d4cb834-74af-41c3-a462-59762178fe77
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.chs_products.title
+    - field.field.node.chs_products.body
+    - field.field.node.chs_products.field_chs_availability_status
+    - field.field.node.chs_products.field_chs_comments
+    - field.field.node.chs_products.field_chs_manufacturer
+    - field.field.node.chs_products.field_chs_manufacturer_number
+    - field.field.node.chs_products.field_chs_manufacturer_phone_num
+    - field.field.node.chs_products.field_chs_price
+    - field.field.node.chs_products.field_chs_product_category
+    - field.field.node.chs_products.field_chs_product_size
+    - field.field.node.chs_products.field_chs_product_type
+    - field.field.node.chs_products.field_chs_sku_number
+    - field.field.node.chs_products.field_chs_supplier_reviewed
+    - field.field.node.chs_products.field_chs_uom
+    - field.field.node.chs_products.field_chs_vendor
+    - field.field.node.chs_products.field_chs_vendor_address_details
+    - field.field.node.chs_products.field_chs_vendor_email
+    - field.field.node.chs_products.field_chs_vendor_fulfillment_cen
+    - field.field.node.chs_products.field_chs_vendor_phone_number
+    - field.field.node.chs_products.field_chs_vendor_website
+    - node.type.chs_products
+  module:
+    - node
+label: Products
+id: chs_products
+description: Products
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: true
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: chs_products
+custom_sources:
+  product_title:
+    label: 'Product Title'
+    value: 'Product Title'
+    machine_name: product_title
+  product_name:
+    label: 'Product Name'
+    value: 'Product Name'
+    machine_name: product_name
+  product_description:
+    label: 'Product Description'
+    value: 'Product Description'
+    machine_name: product_description
+  product_description_summary:
+    label: 'Product Description Summary'
+    value: 'Product Description Summary'
+    machine_name: product_description_summary
+  chc_manufacturer:
+    label: 'CHC Manufacturer'
+    value: 'CHC Manufacturer'
+    machine_name: chc_manufacturer
+  chs_manufacturer:
+    label: 'CHS Manufacturer'
+    value: 'CHS Manufacturer'
+    machine_name: chs_manufacturer
+  chc_vendor:
+    label: 'CHC Vendor'
+    value: 'CHC Vendor'
+    machine_name: chc_vendor
+  chs_vendor:
+    label: 'CHS Vendor'
+    value: 'CHS Vendor'
+    machine_name: chs_vendor
+  phone:
+    label: Phone
+    value: Phone
+    machine_name: phone
+  website:
+    label: Website
+    value: Website
+    machine_name: website
+  website_name:
+    label: 'Website Name'
+    value: 'Website Name'
+    machine_name: website_name
+  price:
+    label: Price
+    value: Price
+    machine_name: price
+  uom:
+    label: UOM
+    value: UOM
+    machine_name: uom
+  comments:
+    label: Comments
+    value: Comments
+    machine_name: comments
+  supplier_reviewed:
+    label: 'Supplier Reviewed'
+    value: 'Supplier Reviewed'
+    machine_name: supplier_reviewed
+  product_name_title:
+    label: 'Product Name/Title'
+    value: 'Product Name/Title'
+    machine_name: product_name_title
+  product_description_text:
+    label: 'Product Description Text'
+    value: 'Product Description Text'
+    machine_name: product_description_text
+  product_size:
+    label: 'Product Size'
+    value: 'Product Size'
+    machine_name: product_size
+  product_price_usd:
+    label: 'Product Price (USD)'
+    value: 'Product Price (USD)'
+    machine_name: product_price_usd
+  uom_unit_of_measure:
+    label: 'UOM (Unit of Measure)'
+    value: 'UOM (Unit of Measure)'
+    machine_name: uom_unit_of_measure
+  availability_status:
+    label: 'Availability Status'
+    value: 'Availability Status'
+    machine_name: availability_status
+  sku_number:
+    label: 'SKU Number'
+    value: 'SKU Number'
+    machine_name: sku_number
+  manufacturer_category:
+    label: 'Manufacturer #/ Category #'
+    value: 'Manufacturer #/ Category #'
+    machine_name: manufacturer_category
+  vendor_name:
+    label: 'Vendor Name'
+    value: 'Vendor Name'
+    machine_name: vendor_name
+  vendor_fulfillment_center:
+    label: 'Vendor Fulfillment Center'
+    value: 'Vendor Fulfillment Center'
+    machine_name: vendor_fulfillment_center
+  vendor_phone_number:
+    label: 'Vendor Phone Number'
+    value: 'Vendor Phone Number'
+    machine_name: vendor_phone_number
+  vendor_email:
+    label: 'Vendor Email'
+    value: 'Vendor Email'
+    machine_name: vendor_email
+  vendor_website_uri:
+    label: 'Vendor Website URI'
+    value: 'Vendor Website URI'
+    machine_name: vendor_website_uri
+  vendor_website_link_text:
+    label: 'Vendor Website Link text'
+    value: 'Vendor Website Link text'
+    machine_name: vendor_website_link_text
+  manufacturer_name:
+    label: 'Manufacturer Name'
+    value: 'Manufacturer Name'
+    machine_name: manufacturer_name
+  manufacturer_phone_number:
+    label: 'Manufacturer Phone Number'
+    value: 'Manufacturer Phone Number'
+    machine_name: manufacturer_phone_number
+  product_category:
+    label: 'Product Category'
+    value: 'Product Category'
+    machine_name: product_category
+  product_type:
+    label: 'Product Type'
+    value: 'Product Type'
+    machine_name: product_type
+  vendor_address_region_country_:
+    label: 'Vendor Address (Region, Country)'
+    value: 'Vendor Address (Region, Country)'
+    machine_name: vendor_address_region_country_
+  revision_log_message:
+    label: 'Revision log message'
+    value: 'Revision log message'
+    machine_name: revision_log_message
+  '':
+    label: 'Supplier Reviewed'
+    value: 'Supplier Reviewed'
+    machine_name: ''
+mappings:
+  -
+    target: title
+    map:
+      value: product_name_title
+    unique:
+      value: '1'
+  -
+    target: body
+    map:
+      value: product_description_text
+      summary: product_description_summary
+    settings:
+      format: full_html
+  -
+    target: field_chs_product_size
+    map:
+      value: product_size
+    unique: {  }
+  -
+    target: field_chs_price
+    map:
+      value: product_price_usd
+  -
+    target: field_chs_uom
+    map:
+      value: uom_unit_of_measure
+    unique: {  }
+  -
+    target: field_chs_availability_status
+    map:
+      value: availability_status
+  -
+    target: field_chs_sku_number
+    map:
+      value: sku_number
+    unique: {  }
+  -
+    target: field_chs_manufacturer_number
+    map:
+      value: manufacturer_category
+    unique: {  }
+  -
+    target: field_chs_vendor
+    map:
+      target_id: vendor_name
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_chs_vendor_fulfillment_cen
+    map:
+      value: vendor_fulfillment_center
+    unique: {  }
+  -
+    target: field_chs_vendor_phone_number
+    map:
+      value: vendor_phone_number
+  -
+    target: field_chs_vendor_email
+    map:
+      value: vendor_email
+    unique: {  }
+    settings:
+      defuse: false
+  -
+    target: field_chs_vendor_website
+    map:
+      uri: vendor_website_uri
+      title: vendor_website_link_text
+  -
+    target: field_chs_manufacturer
+    map:
+      target_id: manufacturer_name
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_chs_manufacturer_phone_num
+    map:
+      value: manufacturer_phone_number
+    unique: {  }
+  -
+    target: field_chs_product_category
+    map:
+      target_id: product_category
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_chs_product_type
+    map:
+      target_id: product_type
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_chs_vendor_address_details
+    map:
+      value: vendor_address_region_country_
+    unique: {  }
+  -
+    target: field_chs_comments
+    map:
+      value: comments
+  -
+    target: revision_log
+    map:
+      value: revision_log_message
+  -
+    target: field_chs_supplier_reviewed
+    map:
+      value: supplier_reviewed
+    settings:
+      format: plain_text

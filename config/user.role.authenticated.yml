@@ -1,0 +1,16 @@
+uuid: 6edc55ef-931d-4826-87fe-7f64b8f3bc26
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: -8
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view media'

@@ -1,0 +1,23 @@
+uuid: da7b0d00-1f37-4a9d-9bdb-0b41696a5ac0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_price
+    - node.type.chs_products
+id: node.chs_products.field_chs_price
+field_name: field_chs_price
+entity_type: node
+bundle: chs_products
+label: 'Product Price (USD)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: USD
+  suffix: ''
+field_type: decimal

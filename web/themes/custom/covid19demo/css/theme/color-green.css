@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Green color styling for COVID-19-CHS for Drupal 8.
+ *
+ * $base: #72a732;
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 75%;
+  --chs-dark-color-lightness: 65%;
+  --chs-base-color: 135, 55%, var(--chs-base-color-lightness);
+  --chs-dark-color: 135, 55%, var(--chs-dark-color-lightness);
+  --chs-link-color: 346, 70%, 40%;
+  --chs-link-color-hover: 346, 70%, 30%;
+}

@@ -1,0 +1,31 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's icon features.
+ */
+.feature {
+  margin: 25px 0 0;
+}
+@media (max-width: 767px) {
+  .feature {
+    text-align: center;
+  }
+}
+.feature__icon {
+  margin-bottom: 15px;
+}
+.feature__icon .field--name-field-chs-if-fa-icon,
+.feature__icon .fontawesome-icons,
+.feature__icon .fontawesome-icon,
+.feature__icon .svg-inline--fa {
+  height: 100%;
+}
+.feature__title {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.feature__image {
+  margin-bottom: 30px;
+}
+.field--name-field-chs-if-body {
+  font-size: 16px;
+}

@@ -1,0 +1,18 @@
+uuid: 6ae04986-bce2-483e-a616-3a2074fdf206
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chs_products
+id: node.chs_products.title
+field_name: title
+entity_type: node
+bundle: chs_products
+label: 'Product Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

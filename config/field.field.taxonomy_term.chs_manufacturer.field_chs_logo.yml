@@ -1,0 +1,28 @@
+uuid: efc6895f-1c15-4314-abaa-b9d577f62f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_logo
+    - media.type.image
+    - taxonomy.vocabulary.chs_manufacturer
+id: taxonomy_term.chs_manufacturer.field_chs_logo
+field_name: field_chs_logo
+entity_type: taxonomy_term
+bundle: chs_manufacturer
+label: 'CHs logo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

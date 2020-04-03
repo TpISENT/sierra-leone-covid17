@@ -1,0 +1,14 @@
+uuid: cb2585da-ea8e-4b85-a416-9a71e096851f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_data_checker
+  module:
+    - user
+id: user_remove_role_action.chs_data_checker
+label: 'Remove the CHS Data Checker role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chs_data_checker

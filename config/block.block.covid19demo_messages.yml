@@ -1,0 +1,22 @@
+uuid: 0099d1a3-ea41-43a3-b08f-e69e078a41d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - covid19demo
+_core:
+  default_config_hash: GuqZVgLcLqa-elFDglyOHTZk2YuWHi0vLXnNCfjAbr0
+id: covid19demo_messages
+theme: covid19demo
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

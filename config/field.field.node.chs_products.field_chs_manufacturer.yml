@@ -1,0 +1,29 @@
+uuid: 9db07930-6d59-40e1-8bdb-fc539a3a117a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_manufacturer
+    - node.type.chs_products
+    - taxonomy.vocabulary.chs_manufacturer
+id: node.chs_products.field_chs_manufacturer
+field_name: field_chs_manufacturer
+entity_type: node
+bundle: chs_products
+label: 'Manufacturer Name'
+description: 'The platform will start searching for entries as you type to make it easy for you to select the right one.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_manufacturer: chs_manufacturer
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

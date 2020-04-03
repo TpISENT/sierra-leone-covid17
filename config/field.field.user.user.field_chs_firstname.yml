@@ -1,0 +1,20 @@
+uuid: 64caa2ae-d45a-4e03-a9f8-cfc2c665751d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_chs_firstname
+  module:
+    - user
+id: user.user.field_chs_firstname
+field_name: field_chs_firstname
+entity_type: user
+bundle: user
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

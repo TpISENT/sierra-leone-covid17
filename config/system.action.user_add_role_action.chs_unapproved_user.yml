@@ -1,0 +1,14 @@
+uuid: 1e9bfdcb-9a5d-47f0-8319-09cde1172131
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chs_unapproved_user
+  module:
+    - user
+id: user_add_role_action.chs_unapproved_user
+label: 'Add the CHS Unapproved User role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chs_unapproved_user

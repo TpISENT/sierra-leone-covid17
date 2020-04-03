@@ -1,0 +1,21 @@
+uuid: d83e6780-fe84-45cf-8ed2-fa3906dbc5dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_phone
+    - taxonomy.vocabulary.chs_manufacturer
+  module:
+    - telephone
+id: taxonomy_term.chs_manufacturer.field_chs_phone
+field_name: field_chs_phone
+entity_type: taxonomy_term
+bundle: chs_manufacturer
+label: 'Chs phone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

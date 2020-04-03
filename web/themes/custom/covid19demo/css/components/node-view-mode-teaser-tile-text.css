@@ -1,0 +1,126 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's node in teaser tile view.
+ */
+.node--view-mode-chs-teaser-tile-text {
+  margin-bottom: 60px;
+}
+.node--view-mode-chs-teaser-tile-text .node__header {
+  padding-bottom: 0;
+}
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0 0 5px;
+  padding: 0;
+  display: inline-block;
+}
+.node--view-mode-chs-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-chs-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  line-height: 1.35;
+  vertical-align: text-top;
+}
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+  font-size: 14px;
+}
+.region--dark-typography .node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+  color: #707070;
+}
+.node--type-chs-product.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--type-chs-product.node--view-mode-chs-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+  background-color: #ffffff;
+  color: #707070;
+}
+.node--view-mode-chs-teaser-tile-text .node__meta {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.region--dark-typography .node--view-mode-chs-teaser-tile-text .node__meta {
+  color: #707070;
+}
+.node--view-mode-chs-teaser-tile-text .node__meta-item {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.node--view-mode-chs-teaser-tile-text .node__meta-tags {
+  margin-bottom: 0;
+}
+.node--view-mode-chs-teaser-tile-text .node__meta-item:after {
+  content: "/";
+  display: inline-block;
+}
+.node--view-mode-chs-teaser-tile-text .node__meta-item:last-child:after {
+  content: "";
+}
+.node--view-mode-chs-teaser-tile-text .profile {
+  display: inline-block;
+}
+.node--view-mode-chs-teaser-tile-text .profile .field--name-user-picture {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.node--view-mode-chs-teaser-tile-text .field--name-user-picture img {
+  border-radius: 100%;
+  max-width: 40px;
+  margin-right: 10px;
+}
+.node--view-mode-chs-teaser-tile-text .node__start-date {
+  width: 100px;
+  background-color: #333;
+  color: #fff;
+  max-height: 100px;
+  padding: 8px 0;
+}
+.node--view-mode-chs-teaser-tile-text .node__start-date span {
+  display: block;
+  text-align: center;
+}
+.node--view-mode-chs-teaser-tile-text .node__start-date-day {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.node--view-mode-chs-teaser-tile-text .node__start-date-month {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: -4px;
+}
+.node--view-mode-chs-teaser-tile-text .node__start-date-time {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+/* testimonials */
+.node--view-mode-chs-teaser-tile-text .region--default-background {
+  color: #202124;
+}
+.node--view-mode-chs-teaser-tile-text .region--default-background a {
+  text-decoration: none;
+}
+.node--view-mode-chs-teaser-tile-text .text-tile-footer h4.node__title {
+  font-size: 14px;
+  margin-bottom: 0;
+  display: inline-block;
+  font-weight: 400;
+}
+.node--view-mode-chs-teaser-tile-text .text-tile-footer h4.node__title a {
+  display: inline-flex;
+}
+.node--view-mode-chs-teaser-tile-text .text-tile-footer h4.node__title a:after {
+  content: ",";
+}
+.node--view-mode-chs-teaser-tile-text .text-tile-footer > div {
+  display: inline-block;
+  font-size: 14px;
+  opacity: 0.65;
+}

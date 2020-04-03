@@ -1,0 +1,12 @@
+uuid: 833f67a3-b39a-475d-b36b-ee1eafc7b47c
+langcode: en
+status: true
+dependencies: {  }
+id: chs_vendor
+label: 'Seller (vendor/manufacturer)'
+weight: -7
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'edit own comments'
+  - 'post comments'

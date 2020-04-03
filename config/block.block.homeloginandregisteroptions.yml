@@ -1,0 +1,39 @@
+uuid: c437e95d-aea4-4d42-b761-81b31fd39465
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5964d556-998f-4fd6-830f-3b245b526d45'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - bartik
+id: homeloginandregisteroptions
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:5964d556-998f-4fd6-830f-3b245b526d45'
+settings:
+  id: 'block_content:5964d556-998f-4fd6-830f-3b245b526d45'
+  label: 'Home Login and Register Options'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

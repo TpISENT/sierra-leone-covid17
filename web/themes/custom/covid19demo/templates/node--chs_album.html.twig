@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * COVID-19-CHS's theme implementation to display a Service node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block content %}
+  {{ attach_library('covid19demo/node-album') }}
+  {{ content }}
+{% endblock %}

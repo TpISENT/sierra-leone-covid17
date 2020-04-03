@@ -1,0 +1,8 @@
+uuid: 18a64f87-e7ae-4713-a32b-6b481e9bcbb1
+langcode: en
+status: true
+dependencies: {  }
+name: Vendor
+vid: chs_vendor
+description: Vendor
+weight: 0

@@ -1,0 +1,54 @@
+.page-node-type-chs-post .pre-header,
+.page-node-type-chs-post .header-container,
+.page-node-type-chs-post .banner,
+.page-node-type-chs-post .highlighted-top,
+.page-node-type-chs-post .highlighted,
+.page-node-type-chs-post .content-top,
+.page-node-type-chs-post .content-top-highlighted,
+.page-node-type-chs-post .media-background,
+.page-node-type-chs-post .content-bottom,
+.page-node-type-chs-post .featured-top,
+.page-node-type-chs-post .featured,
+.page-node-type-chs-post .featured-bottom,
+.page-node-type-chs-post .sub-featured,
+.page-node-type-chs-post .footer-top,
+.page-node-type-chs-post .footer,
+.page-node-type-chs-post .footer-bottom,
+.page-node-type-chs-post .subfooter,
+.page-node-type-chs-post #toolbar,
+.page-node-type-chs-post .block-local-tasks-block,
+.page-node-type-chs-post .field--type-comment,
+.page-node-type-chs-post aside,
+.page-node-type-chs-post .slideout,
+.page-node-type-chs-post .slideout-toggle,
+.page-node-type-chs-post .chs-count-down-inject,
+.page-node-type-chs-post .flippy,
+.page-node-type-chs-post .node__links {
+  display: none!important;
+}
+.page-node-type-chs-post .main-content .col-md-8 {
+  width: 100%;
+}
+.page-node-type-chs-post .node__side {
+  display: none!important;
+}
+.page-node-type-chs-post .main-content__section {
+  padding-top: 0;
+}
+.page-node-type-chs-post blockquote {
+  border: none;
+}
+a.image-popup[href]:after {
+  content: none;
+}
+.page-node-type-chs-post img {
+  page-break-inside: avoid;
+}
+.page-node-type-chs-post h1,
+.page-node-type-chs-post h2,
+.page-node-type-chs-post h3,
+.page-node-type-chs-post h4,
+.page-node-type-chs-post h5,
+.page-node-type-chs-post h6 {
+   page-break-after: avoid;
+}

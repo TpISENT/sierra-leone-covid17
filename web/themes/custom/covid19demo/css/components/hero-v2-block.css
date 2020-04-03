@@ -1,0 +1,80 @@
+/**
+ * @file
+ * Visual styles for COVID-19-CHS's hero v2 block.
+ */
+.block-chs-hero-v2 > .content {
+  padding: 40px 0 0;
+}
+.field--name-field-chs-hero-v2-title {
+  margin-bottom: 25px;
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.field--name-field-chs-hero-v2-title .typed-cursor {
+  font-size: 53px;
+}
+@media (min-width: 992px) {
+  .field--name-field-chs-hero-v2-title.chs-typing-animation-enabled {
+    min-height: 166px;
+  }
+}
+@media (min-width: 1200px) {
+  .block-chs-hero-v2 > .content {
+    padding: 80px 0 0;
+  }
+  .field--name-field-chs-hero-v2-title {
+    font-size: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .field--name-field-chs-hero-v2-title {
+    font-size: 35px;
+  }
+  .field--name-field-chs-hero-v2-title .typed-cursor {
+    font-size: 34px;
+  }
+}
+.field--name-field-chs-hero-v2-description {
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  .field--name-field-chs-hero-v2-description {
+    margin-bottom: 50px;
+  }
+  .one-column .field--name-field-chs-hero-v2-description {
+    margin-bottom: 25px;
+  }
+}
+.field--name-field-chs-hero-v2-description p {
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  .field--name-field-chs-hero-v2-description p {
+    margin-bottom: 25px;
+  }
+}
+.field--name-field-chs-hero-v2-description p:last-child {
+  margin-bottom: 0;
+}
+.field--name-field-chs-hero-v2-note {
+  font-size: 14px;
+  opacity: 0.65;
+}
+@media (min-width: 992px) {
+  .two-columns .field--name-field-chs-hero-v2-note {
+    margin-bottom: 70px;
+  }
+}
+.one-column .field--name-field-chs-hero-v2-action {
+  margin-bottom: 10px;
+}
+@media (max-width: 575px) {
+  .field--name-field-chs-hero-v2-action .chs-button a {
+    display: block;
+  }
+  .field--name-field-chs-hero-v2-action .chs-button + .chs-button {
+    margin-left: 0;
+  }
+}

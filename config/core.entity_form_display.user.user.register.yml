@@ -1,0 +1,80 @@
+uuid: 4da693a5-cad5-40fb-ad38-cb4bf13f481a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.field_chs_address
+    - field.field.user.user.field_chs_company
+    - field.field.user.user.field_chs_firstname
+    - field.field.user.user.field_chs_lastname
+    - field.field.user.user.field_chs_organization
+    - field.field.user.user.field_chs_phone_number
+    - field.field.user.user.field_chs_user_type
+    - field.field.user.user.user_picture
+  module:
+    - address
+    - telephone
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_chs_address:
+    type: address_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_chs_company:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_chs_firstname:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_lastname:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_phone_number:
+    type: telephone_default
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_chs_user_type:
+    type: options_select
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  contact: true
+  field_chs_organization: true
+  language: true
+  path: true
+  timezone: true
+  user_picture: true
