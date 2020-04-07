@@ -1,0 +1,20 @@
+uuid: c5d4ffcd-4e75-4ab5-ac89-1f9393286d47
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_chs_total_confirmed_cases
+field_name: field_chs_total_confirmed_cases
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

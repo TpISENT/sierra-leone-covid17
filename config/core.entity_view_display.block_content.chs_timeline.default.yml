@@ -4,20 +4,36 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_timeline
-    - field.field.block_content.chs_timeline.body
+    - field.field.block_content.chs_timeline.field_chs_tml_timeline_item
+    - field.field.block_content.chs_timeline.field_chs_tml_timeline_viewmore
   module:
-    - text
+    - entity_reference_revisions
+    - link
 id: block_content.chs_timeline.default
 targetEntityType: block_content
 bundle: chs_timeline
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
+  field_chs_tml_timeline_item:
+    type: entity_reference_revisions_entity_view
     weight: 0
-    settings: {  }
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
+    region: content
+  field_chs_tml_timeline_viewmore:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
     region: content
 hidden:
   search_api_excerpt: true

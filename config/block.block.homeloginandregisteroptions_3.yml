@@ -13,7 +13,7 @@ dependencies:
 id: homeloginandregisteroptions_3
 theme: covid19demo
 region: content
-weight: 0
+weight: -16
 provider: null
 plugin: 'block_content:75b94e92-9575-476d-9ec7-f5767ac376a2'
 settings:

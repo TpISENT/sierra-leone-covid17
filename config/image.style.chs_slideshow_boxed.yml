@@ -1,0 +1,17 @@
+uuid: 98364ea0-a7a4-478c-94cb-0f788f9c48e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.chs_boxedwidth_slide_image
+  module:
+    - crop
+name: chs_slideshow_boxed
+label: 'Slideshow Boxed Width (1140x650) '
+effects:
+  4b576986-3fae-4402-832f-af85080370cc:
+    uuid: 4b576986-3fae-4402-832f-af85080370cc
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: chs_boxedwidth_slide_image

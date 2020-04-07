@@ -1,0 +1,6 @@
+status: 1
+pattern: ' [node:field_chs_case_id_number] - [node:field_chs_case_type] - [node:field_chs_case_status]'
+escape: false
+dependencies:
+  config:
+    - node.type.chs_covid_19_case

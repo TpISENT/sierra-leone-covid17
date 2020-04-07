@@ -1,0 +1,31 @@
+uuid: 1bc42882-76ed-4627-aa60-16a4e2c63fe9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_background_image:ccef66da-2cce-4fa2-8405-1b9c4b50d72c'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: home4backgroundimage
+theme: covid19demo
+region: banner
+weight: -14
+provider: null
+plugin: 'block_content:ccef66da-2cce-4fa2-8405-1b9c4b50d72c'
+settings:
+  id: 'block_content:ccef66da-2cce-4fa2-8405-1b9c4b50d72c'
+  label: 'Home 4 Background Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-4
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: ff0591fb-d937-4133-b744-8e3dde664026
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_call_to_action
+  module:
+    - text
+id: block_content.chs_quick_updates.field_chs_call_to_action
+field_name: field_chs_call_to_action
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Call to action'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

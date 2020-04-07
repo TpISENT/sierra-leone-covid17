@@ -4,19 +4,21 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_dropdowns
-    - field.field.block_content.chs_dropdowns.body
+    - field.field.block_content.chs_dropdowns.field_chs_drp_dropdown
   module:
-    - text
+    - entity_reference_revisions
 id: block_content.chs_dropdowns.default
 targetEntityType: block_content
 bundle: chs_dropdowns
 mode: default
 content:
-  body:
+  field_chs_drp_dropdown:
+    type: entity_reference_revisions_entity_view
+    weight: 1
     label: hidden
-    type: text_default
-    weight: 0
-    settings: {  }
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     region: content
 hidden:

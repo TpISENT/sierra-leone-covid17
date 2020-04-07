@@ -1,0 +1,23 @@
+uuid: bf62db1f-7cae-4152-beab-1b81c782288e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_modal
+    - field.storage.block_content.field_chs_modal_block
+id: block_content.chs_modal.field_chs_modal_block
+field_name: field_chs_modal_block
+entity_type: block_content
+bundle: chs_modal
+label: 'Block Reference'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

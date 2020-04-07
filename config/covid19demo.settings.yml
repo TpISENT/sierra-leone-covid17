@@ -5,7 +5,7 @@ banner_blocks_paddings: 1
 banner_id: banner
 banner_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
 banner_region_paddings: 1
-bootstrap_remote_type: local
+bootstrap_remote_type: cdn
 breadcrumb_separator: fa-square
 breaking_effect: fade
 breaking_effect_time: '5'
@@ -115,9 +115,9 @@ header_top_animation_effect: no-animation
 header_top_background_color: 'region--dark-typography region--white-background'
 header_top_blocks_paddings: 0
 header_top_highlighted_animation_effect: fadeIn
-header_top_highlighted_background_color: 'region--dark-typography region--gray-background'
+header_top_highlighted_background_color: 'region--dark-typography region--dark-background'
 header_top_highlighted_blocks_paddings: 0
-header_top_highlighted_layout_container: container
+header_top_highlighted_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
 header_top_highlighted_region_paddings: 1
 header_top_layout_container: container
 header_top_region_paddings: 0
@@ -253,7 +253,7 @@ purechat_display: 0
 mobile_menu_widget_display: 1
 mobile_menu_widget_sticky: 1
 rs_slideshow_internal_layout: fullscreen
-header_horizontal_paddings: 0
+header_horizontal_paddings: 1
 _core:
   default_config_hash: zbDPS4WpFptEC0ZWfUuGBf0Q-ewQl2FcYxYvQev49hY
 features:

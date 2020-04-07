@@ -1,0 +1,24 @@
+uuid: d075a828-f203-425e-b461-ce4d119c379c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_status_date
+  module:
+    - datetime
+id: block_content.chs_quick_updates.field_chs_status_date
+field_name: field_chs_status_date
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Status Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

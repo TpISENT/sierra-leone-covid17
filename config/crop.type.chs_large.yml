@@ -1,0 +1,12 @@
+uuid: dedc493f-d5c2-499c-a204-4fd62f4bc995
+langcode: en
+status: true
+dependencies: {  }
+id: chs_large
+label: Large
+description: ''
+aspect_ratio: '1350:730'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

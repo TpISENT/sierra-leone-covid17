@@ -1,0 +1,20 @@
+uuid: c0bc5042-1ca2-4d56-9ab6-2277305be3cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - paragraphs
+id: paragraph.field_chs_tml_timeline_date
+field_name: field_chs_tml_timeline_date
+entity_type: paragraph
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

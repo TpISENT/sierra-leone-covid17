@@ -1,0 +1,20 @@
+uuid: e7de1117-0f23-4f7c-b9ca-1e9619a5a959
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - datetime
+id: block_content.field_chs_status_date
+field_name: field_chs_status_date
+entity_type: block_content
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

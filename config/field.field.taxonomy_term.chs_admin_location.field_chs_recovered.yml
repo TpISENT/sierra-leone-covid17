@@ -1,0 +1,25 @@
+uuid: 99c1905d-a103-42fb-a296-96a18aaac07a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_recovered
+    - taxonomy.vocabulary.chs_admin_location
+id: taxonomy_term.chs_admin_location.field_chs_recovered
+field_name: field_chs_recovered
+entity_type: taxonomy_term
+bundle: chs_admin_location
+label: Recovered
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

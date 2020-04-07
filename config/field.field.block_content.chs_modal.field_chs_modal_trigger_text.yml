@@ -1,0 +1,19 @@
+uuid: 8c470a8b-bc8a-4462-9b85-ec7f9dd87d76
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_modal
+    - field.storage.block_content.field_chs_modal_trigger_text
+id: block_content.chs_modal.field_chs_modal_trigger_text
+field_name: field_chs_modal_trigger_text
+entity_type: block_content
+bundle: chs_modal
+label: 'Modal Trigger Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: d00d2ddf-7bed-4d06-a5fa-db9bc15008ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_chs_case_status
+field_name: field_chs_case_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Recovered
+      label: Recovered
+    -
+      value: Death
+      label: Death
+    -
+      value: Confirmed
+      label: Confirmed
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

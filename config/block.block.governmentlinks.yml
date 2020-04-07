@@ -1,0 +1,25 @@
+uuid: dcbc86d0-0024-47ed-be78-d18ffe5bab17
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.chs-government-links
+  module:
+    - system
+  theme:
+    - covid19demo
+id: governmentlinks
+theme: covid19demo
+region: footer_second
+weight: -20
+provider: null
+plugin: 'system_menu_block:chs-government-links'
+settings:
+  id: 'system_menu_block:chs-government-links'
+  label: 'Official Government Websites'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

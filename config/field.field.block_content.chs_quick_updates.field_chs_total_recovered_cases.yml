@@ -1,0 +1,23 @@
+uuid: 66d2045e-0254-44f0-b3b0-d95abcd0ede7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_total_recovered_cases
+id: block_content.chs_quick_updates.field_chs_total_recovered_cases
+field_name: field_chs_total_recovered_cases
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Total Recovered Cases'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

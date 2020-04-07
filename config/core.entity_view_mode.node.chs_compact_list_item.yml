@@ -1,0 +1,10 @@
+uuid: f9708cf9-911a-4d1e-92f5-6d0f6fe78554
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_compact_list_item
+label: 'Compact List Item'
+targetEntityType: node
+cache: true

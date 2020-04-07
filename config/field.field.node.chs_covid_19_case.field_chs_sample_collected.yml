@@ -1,0 +1,25 @@
+uuid: eef75ea5-22ac-4682-9748-4be0a2aaf148
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_sample_collected
+    - node.type.chs_covid_19_case
+id: node.chs_covid_19_case.field_chs_sample_collected
+field_name: field_chs_sample_collected
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Sample Collected'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

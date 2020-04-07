@@ -1,0 +1,24 @@
+uuid: 21963541-7470-440b-aa88-a438c35c0074
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chs_categories
+  module:
+    - views
+  theme:
+    - covid19demo
+id: views_block__chs_categories_block_2
+theme: covid19demo
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'views_block:chs_categories-block_2'
+settings:
+  id: 'views_block:chs_categories-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

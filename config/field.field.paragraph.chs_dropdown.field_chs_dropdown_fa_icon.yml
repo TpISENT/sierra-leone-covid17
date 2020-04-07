@@ -1,0 +1,21 @@
+uuid: b7eb7094-4113-4b49-9895-a8d6c6782817
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_dropdown_fa_icon
+    - paragraphs.paragraphs_type.chs_dropdown
+  module:
+    - fontawesome
+id: paragraph.chs_dropdown.field_chs_dropdown_fa_icon
+field_name: field_chs_dropdown_fa_icon
+entity_type: paragraph
+bundle: chs_dropdown
+label: 'Dropdown Trigger Icon'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

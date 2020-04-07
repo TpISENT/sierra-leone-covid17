@@ -1,0 +1,10 @@
+uuid: 6e5c5ff8-5431-4636-8214-d146910e245b
+langcode: en
+status: true
+dependencies: {  }
+id: chs_image_link
+label: ' Image and Link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

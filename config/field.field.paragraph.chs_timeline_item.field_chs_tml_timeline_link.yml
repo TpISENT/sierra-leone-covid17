@@ -1,0 +1,23 @@
+uuid: b8b8cb22-36cb-459c-9176-c78a3dca2379
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_tml_timeline_link
+    - paragraphs.paragraphs_type.chs_timeline_item
+  module:
+    - link
+id: paragraph.chs_timeline_item.field_chs_tml_timeline_link
+field_name: field_chs_tml_timeline_link
+entity_type: paragraph
+bundle: chs_timeline_item
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

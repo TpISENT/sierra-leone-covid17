@@ -1,0 +1,42 @@
+uuid: 1be096b9-5a55-410a-99b7-7f17e278bc77
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_chs_category
+field_name: field_chs_category
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '​Diagnostics and testing'
+      label: '​Diagnostics and testing'
+    -
+      value: '​Health facilities infrastructure and equipment'
+      label: '​Health facilities infrastructure and equipment'
+    -
+      value: '​Personal protective equipment'
+      label: '​Personal protective equipment'
+    -
+      value: '​Drugs and medical consumables'
+      label: '​Drugs and medical consumables'
+    -
+      value: '​Medical equipment'
+      label: '​Medical equipment'
+    -
+      value: Advanced
+      label: Advanced
+    -
+      value: 'Disinfection consumables/ biohazardous waste management'
+      label: 'Disinfection consumables/ biohazardous waste management'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

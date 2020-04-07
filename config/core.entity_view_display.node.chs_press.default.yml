@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_header
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
+    - field.field.node.chs_press.field_chs_pst_category
     - node.type.chs_press
   module:
     - options
@@ -73,6 +74,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_chs_pst_category:
+    weight: 108
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

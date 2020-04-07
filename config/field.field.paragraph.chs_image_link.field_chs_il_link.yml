@@ -1,0 +1,23 @@
+uuid: 99e6c84b-7890-42aa-8a54-196c2f49abe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_il_link
+    - paragraphs.paragraphs_type.chs_image_link
+  module:
+    - link
+id: paragraph.chs_image_link.field_chs_il_link
+field_name: field_chs_il_link
+entity_type: paragraph
+bundle: chs_image_link
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

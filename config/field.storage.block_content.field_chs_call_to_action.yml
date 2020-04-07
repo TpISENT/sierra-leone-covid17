@@ -1,0 +1,19 @@
+uuid: 09d6530e-9067-4ad9-b81f-d01a1b6ffd17
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_chs_call_to_action
+field_name: field_chs_call_to_action
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

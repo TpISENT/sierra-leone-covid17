@@ -4,19 +4,21 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_logo_links
-    - field.field.block_content.chs_logo_links.body
+    - field.field.block_content.chs_logo_links.field_chs_logo_links_logo
   module:
-    - text
+    - entity_reference_revisions
 id: block_content.chs_logo_links.default
 targetEntityType: block_content
 bundle: chs_logo_links
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
+  field_chs_logo_links_logo:
+    type: entity_reference_revisions_entity_view
     weight: 0
-    settings: {  }
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     region: content
 hidden:

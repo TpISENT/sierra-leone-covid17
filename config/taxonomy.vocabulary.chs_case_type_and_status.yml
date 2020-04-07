@@ -1,0 +1,8 @@
+uuid: 8114b57d-6dfd-4f2c-9986-5c1ebcd0438a
+langcode: en
+status: true
+dependencies: {  }
+name: 'CHS Case Type and Status'
+vid: chs_case_type_and_status
+description: 'Case Type and Status'
+weight: 0

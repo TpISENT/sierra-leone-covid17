@@ -4,22 +4,24 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_dropdowns
-    - field.field.block_content.chs_dropdowns.body
+    - field.field.block_content.chs_dropdowns.field_chs_drp_dropdown
   module:
-    - text
+    - paragraphs
 id: block_content.chs_dropdowns.default
 targetEntityType: block_content
 bundle: chs_dropdowns
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 26
+  field_chs_drp_dropdown:
+    type: entity_reference_paragraphs
+    weight: 27
     settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
     region: content
   info:

@@ -1,0 +1,19 @@
+uuid: aa7c6e8e-60a6-4cde-b44a-01b89bc814ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_chs_pst_subheader
+field_name: field_chs_pst_subheader
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

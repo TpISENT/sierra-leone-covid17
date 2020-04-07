@@ -1,0 +1,102 @@
+uuid: 8d51c3db-9646-4b5d-a57e-55fffda6ef1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chs_covid_19_case.field_chs_case_id_number
+    - field.field.node.chs_covid_19_case.field_chs_case_status
+    - field.field.node.chs_covid_19_case.field_chs_case_type
+    - field.field.node.chs_covid_19_case.field_chs_gender
+    - field.field.node.chs_covid_19_case.field_chs_location_latitude
+    - field.field.node.chs_covid_19_case.field_chs_location_longitude
+    - field.field.node.chs_covid_19_case.field_chs_location_name
+    - node.type.chs_covid_19_case
+  module:
+    - node
+label: 'CHS Case'
+id: chs_case
+description: Case
+help: Case
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: chs_covid_19_case
+custom_sources:
+  case_id_number:
+    label: 'Case ID Number'
+    value: 'Case ID Number'
+    machine_name: case_id_number
+  case_type:
+    label: 'Case Type'
+    value: 'Case Type'
+    machine_name: case_type
+  case_status:
+    label: 'Case Status'
+    value: 'Case Status'
+    machine_name: case_status
+  gender:
+    label: Gender
+    value: Gender
+    machine_name: gender
+  location_name:
+    label: 'Location Name'
+    value: 'Location Name'
+    machine_name: location_name
+  location_latitude:
+    label: 'Location Latitude'
+    value: 'Location Latitude'
+    machine_name: location_latitude
+  location_longitude:
+    label: 'Location Longitude'
+    value: 'Location Longitude'
+    machine_name: location_longitude
+mappings:
+  -
+    target: field_chs_case_id_number
+    map:
+      value: case_id_number
+    unique: {  }
+  -
+    target: field_chs_case_type
+    map:
+      value: case_type
+  -
+    target: field_chs_case_status
+    map:
+      value: case_status
+  -
+    target: field_chs_gender
+    map:
+      value: gender
+  -
+    target: field_chs_location_name
+    map:
+      value: location_name
+    unique: {  }
+  -
+    target: field_chs_location_latitude
+    map:
+      value: location_latitude
+    unique: {  }
+  -
+    target: field_chs_location_longitude
+    map:
+      value: location_longitude
+    unique: {  }

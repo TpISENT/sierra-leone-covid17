@@ -1,0 +1,10 @@
+uuid: 179e87dc-214a-4532-9ca5-d85e391210ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_hero
+label: Hero
+targetEntityType: node
+cache: true

@@ -1,0 +1,31 @@
+uuid: 83a2dc6a-084f-4288-bd7b-b60a448eec61
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_background_image:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: homewelcomebackgroundimage
+theme: covid19demo
+region: banner
+weight: -17
+provider: null
+plugin: 'block_content:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+settings:
+  id: 'block_content:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+  label: 'Home Welcome - background Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

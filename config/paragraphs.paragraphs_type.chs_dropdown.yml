@@ -1,0 +1,10 @@
+uuid: 05c115d9-0550-4aa2-9fa7-6142e2f71dc6
+langcode: en
+status: true
+dependencies: {  }
+id: chs_dropdown
+label: Dropdown
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

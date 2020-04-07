@@ -1,0 +1,8 @@
+uuid: fff2f0aa-559f-4e22-bda9-24765a21e98f
+langcode: en
+status: true
+dependencies: {  }
+id: chs_quick_updates
+label: 'CHS Quick Updates'
+revision: 1
+description: ''

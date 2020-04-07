@@ -1,0 +1,20 @@
+uuid: 4ce74a4b-3a65-413b-9821-8a0e83970591
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_chs_sample_collected
+field_name: field_chs_sample_collected
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

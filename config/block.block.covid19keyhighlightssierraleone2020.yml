@@ -1,0 +1,31 @@
+uuid: 417f8231-003b-4215-bcb1-6fe8b8e80d0a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1f1029ac-5a88-42df-9a67-6f0b48c66962'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: covid19keyhighlightssierraleone2020
+theme: covid19demo
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:1f1029ac-5a88-42df-9a67-6f0b48c66962'
+settings:
+  id: 'block_content:1f1029ac-5a88-42df-9a67-6f0b48c66962'
+  label: 'COVID-19 Key Highlights, Sierra Leone 2020'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /situation-reports
+    negate: false
+    context_mapping: {  }

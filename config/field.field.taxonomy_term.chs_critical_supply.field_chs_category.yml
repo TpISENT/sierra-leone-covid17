@@ -1,0 +1,21 @@
+uuid: fd30b273-dd24-4be5-8516-066c0a8f0227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_category
+    - taxonomy.vocabulary.chs_critical_supply
+  module:
+    - options
+id: taxonomy_term.chs_critical_supply.field_chs_category
+field_name: field_chs_category
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

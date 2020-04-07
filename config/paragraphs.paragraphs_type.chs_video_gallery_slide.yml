@@ -1,0 +1,10 @@
+uuid: c466eb64-1e3a-40cd-b5b7-4936adab6b3b
+langcode: en
+status: true
+dependencies: {  }
+id: chs_video_gallery_slide
+label: 'Video Gallery slide'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

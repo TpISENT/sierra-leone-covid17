@@ -1,0 +1,23 @@
+uuid: efcf4156-6ee1-4cc5-91d7-38e303a05b65
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_total_confirmed_cases
+id: block_content.chs_quick_updates.field_chs_total_confirmed_cases
+field_name: field_chs_total_confirmed_cases
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Total Confirmed Cases'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

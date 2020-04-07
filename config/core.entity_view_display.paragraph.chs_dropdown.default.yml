@@ -1,0 +1,27 @@
+uuid: 3cb16528-427d-43b3-8b0e-bee2499e137d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chs_dropdown.field_ch_dropdown_fa_icon_active
+    - field.field.paragraph.chs_dropdown.field_chs_dropdown_block
+    - field.field.paragraph.chs_dropdown.field_chs_dropdown_fa_icon
+    - paragraphs.paragraphs_type.chs_dropdown
+id: paragraph.chs_dropdown.default
+targetEntityType: paragraph
+bundle: chs_dropdown
+mode: default
+content:
+  field_chs_dropdown_block:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  field_ch_dropdown_fa_icon_active: true
+  field_chs_dropdown_fa_icon: true
+  search_api_excerpt: true

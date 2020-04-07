@@ -1,0 +1,15 @@
+uuid: 021d3716-af14-44a6-bec9-57fc3224d208
+langcode: en
+status: true
+dependencies: {  }
+name: chs_logos
+label: 'Logos (scale width to 230)'
+effects:
+  ba116275-36a9-4d8d-b6e4-34b96e0f7d74:
+    uuid: ba116275-36a9-4d8d-b6e4-34b96e0f7d74
+    id: image_scale
+    weight: 1
+    data:
+      width: 230
+      height: null
+      upscale: false

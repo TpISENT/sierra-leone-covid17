@@ -1,0 +1,106 @@
+uuid: bb266ec8-8d4f-4f11-ae9a-0f88c9784d95
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.field.block_content.chs_quick_updates.field_chs_call_to_action
+    - field.field.block_content.chs_quick_updates.field_chs_new_confirmed_cases
+    - field.field.block_content.chs_quick_updates.field_chs_status_date
+    - field.field.block_content.chs_quick_updates.field_chs_status_header
+    - field.field.block_content.chs_quick_updates.field_chs_status_links
+    - field.field.block_content.chs_quick_updates.field_chs_total_confirmed_cases
+    - field.field.block_content.chs_quick_updates.field_chs_total_deaths
+    - field.field.block_content.chs_quick_updates.field_chs_total_in_quarantine
+    - field.field.block_content.chs_quick_updates.field_chs_total_recovered_cases
+  module:
+    - datetime
+    - link
+    - text
+id: block_content.chs_quick_updates.default
+targetEntityType: block_content
+bundle: chs_quick_updates
+mode: default
+content:
+  field_chs_call_to_action:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_chs_new_confirmed_cases:
+    weight: 2
+    label: inline
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_status_date:
+    weight: 1
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_chs_status_header:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_chs_status_links:
+    weight: 7
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_chs_total_confirmed_cases:
+    weight: 3
+    label: inline
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_total_deaths:
+    weight: 5
+    label: inline
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_total_in_quarantine:
+    weight: 6
+    label: inline
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_total_recovered_cases:
+    weight: 4
+    label: inline
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  search_api_excerpt: true

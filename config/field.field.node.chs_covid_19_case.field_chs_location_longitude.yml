@@ -1,0 +1,21 @@
+uuid: 2e221e13-2111-450d-adf0-6b3e202aa395
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_location_longitude
+    - node.type.chs_covid_19_case
+id: node.chs_covid_19_case.field_chs_location_longitude
+field_name: field_chs_location_longitude
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Location Longitude'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '11.813361'
+default_value_callback: ''
+settings: {  }
+field_type: string

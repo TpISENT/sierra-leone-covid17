@@ -1,0 +1,23 @@
+uuid: 237698d8-941b-4fa9-8aa5-ceda7b2db8e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_status_links
+  module:
+    - link
+id: block_content.chs_quick_updates.field_chs_status_links
+field_name: field_chs_status_links
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Status Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

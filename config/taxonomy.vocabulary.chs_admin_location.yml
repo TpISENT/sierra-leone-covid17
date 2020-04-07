@@ -1,0 +1,8 @@
+uuid: 079573cb-3a06-420c-8cbb-dd9aec8352a4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Admin Location'
+vid: chs_admin_location
+description: 'Admin Location'
+weight: 0

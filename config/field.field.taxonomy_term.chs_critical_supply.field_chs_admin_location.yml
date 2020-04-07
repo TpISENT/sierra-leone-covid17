@@ -1,0 +1,29 @@
+uuid: 1509b3f3-542a-41ea-a021-1b4d6930c63e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_admin_location
+    - taxonomy.vocabulary.chs_admin_location
+    - taxonomy.vocabulary.chs_critical_supply
+id: taxonomy_term.chs_critical_supply.field_chs_admin_location
+field_name: field_chs_admin_location
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: 'Admin Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_admin_location: chs_admin_location
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

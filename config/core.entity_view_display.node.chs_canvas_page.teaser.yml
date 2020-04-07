@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.chs_canvas_page.field_chs_cnv_body
+    - field.field.node.chs_canvas_page.field_chs_pst_category
     - node.type.chs_canvas_page
   module:
     - text
@@ -28,4 +29,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_chs_pst_category: true
   search_api_excerpt: true

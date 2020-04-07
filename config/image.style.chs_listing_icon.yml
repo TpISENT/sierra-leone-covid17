@@ -1,0 +1,15 @@
+uuid: d8129922-3cbd-4ec2-89a8-609d424ab521
+langcode: en
+status: true
+dependencies: {  }
+name: chs_listing_icon
+label: 'Listing Icon (39x52)'
+effects:
+  dd138ddd-d769-4c90-a495-feed05d11d98:
+    uuid: dd138ddd-d769-4c90-a495-feed05d11d98
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 39
+      height: 52
+      anchor: center-center

@@ -4,20 +4,32 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_background_video
-    - field.field.block_content.chs_background_video.body
-  module:
-    - text
+    - field.field.block_content.chs_background_video.field_chs_bv_block_reference
+    - field.field.block_content.chs_background_video.field_chs_bv_layout_mode
+    - field.field.block_content.chs_background_video.field_chs_bv_overlay_color
+    - field.field.block_content.chs_background_video.field_chs_bv_overlay_opacity
+    - field.field.block_content.chs_background_video.field_chs_bv_poster
+    - field.field.block_content.chs_background_video.field_chs_bv_video_mp4
+    - field.field.block_content.chs_background_video.field_chs_bv_video_webm
 id: block_content.chs_background_video.default
 targetEntityType: block_content
 bundle: chs_background_video
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
+  field_chs_bv_block_reference:
     weight: 0
-    settings: {  }
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
     third_party_settings: {  }
+    type: entity_reference_entity_view
     region: content
 hidden:
+  field_chs_bv_layout_mode: true
+  field_chs_bv_overlay_color: true
+  field_chs_bv_overlay_opacity: true
+  field_chs_bv_poster: true
+  field_chs_bv_video_mp4: true
+  field_chs_bv_video_webm: true
   search_api_excerpt: true

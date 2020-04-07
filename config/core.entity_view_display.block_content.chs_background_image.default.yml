@@ -4,20 +4,30 @@ status: true
 dependencies:
   config:
     - block_content.type.chs_background_image
-    - field.field.block_content.chs_background_image.body
-  module:
-    - text
+    - field.field.block_content.chs_background_image.field_chs_bg_image
+    - field.field.block_content.chs_background_image.field_chs_bg_image_block
+    - field.field.block_content.chs_background_image.field_chs_bg_image_color
+    - field.field.block_content.chs_background_image.field_chs_bg_image_layout_mode
+    - field.field.block_content.chs_background_image.field_chs_bg_image_opacity
+    - field.field.block_content.chs_background_image.field_chs_bg_image_positioning
 id: block_content.chs_background_image.default
 targetEntityType: block_content
 bundle: chs_background_image
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
+  field_chs_bg_image_block:
+    type: entity_reference_entity_view
     weight: 0
-    settings: {  }
-    third_party_settings: {  }
     region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
 hidden:
+  field_chs_bg_image: true
+  field_chs_bg_image_color: true
+  field_chs_bg_image_layout_mode: true
+  field_chs_bg_image_opacity: true
+  field_chs_bg_image_positioning: true
   search_api_excerpt: true

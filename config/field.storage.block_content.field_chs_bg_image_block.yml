@@ -1,0 +1,20 @@
+uuid: 0e91d703-40f0-4626-80cb-fcc545d26971
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+id: block_content.field_chs_bg_image_block
+field_name: field_chs_bg_image_block
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

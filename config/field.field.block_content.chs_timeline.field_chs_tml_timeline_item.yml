@@ -1,0 +1,34 @@
+uuid: 8ce3da7a-edde-4af7-a4a9-602d53de9c70
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_timeline
+    - field.storage.block_content.field_chs_tml_timeline_item
+    - paragraphs.paragraphs_type.chs_timeline_item
+  module:
+    - entity_reference_revisions
+id: block_content.chs_timeline.field_chs_tml_timeline_item
+field_name: field_chs_tml_timeline_item
+entity_type: block_content
+bundle: chs_timeline
+label: Timeline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chs_timeline_item: chs_timeline_item
+    target_bundles_drag_drop:
+      chs_timeline_item:
+        enabled: true
+        weight: 3
+      chs_video_gallery_slide:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,25 @@
+uuid: 6ad8f1b5-ac16-42c6-94f3-bf203952c017
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_new_cases
+    - taxonomy.vocabulary.chs_admin_location
+id: taxonomy_term.chs_admin_location.field_chs_new_cases
+field_name: field_chs_new_cases
+entity_type: taxonomy_term
+bundle: chs_admin_location
+label: 'New Cases'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

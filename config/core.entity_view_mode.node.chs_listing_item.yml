@@ -1,0 +1,10 @@
+uuid: 881c9528-ee98-45e8-a42b-dafbd8d4f3ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_listing_item
+label: 'Listing Item'
+targetEntityType: node
+cache: true

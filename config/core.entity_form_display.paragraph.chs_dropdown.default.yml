@@ -1,0 +1,41 @@
+uuid: cd20ec6c-a1bf-4d9e-b8ac-d4e039438bfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chs_dropdown.field_ch_dropdown_fa_icon_active
+    - field.field.paragraph.chs_dropdown.field_chs_dropdown_block
+    - field.field.paragraph.chs_dropdown.field_chs_dropdown_fa_icon
+    - paragraphs.paragraphs_type.chs_dropdown
+  module:
+    - fontawesome
+id: paragraph.chs_dropdown.default
+targetEntityType: paragraph
+bundle: chs_dropdown
+mode: default
+content:
+  field_ch_dropdown_fa_icon_active:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  field_chs_dropdown_block:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_chs_dropdown_fa_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+hidden:
+  created: true
+  status: true

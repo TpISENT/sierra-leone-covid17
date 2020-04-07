@@ -1,0 +1,8 @@
+uuid: 69508c6d-9fb3-435f-b7bc-5013b53ecab4
+langcode: en
+status: true
+dependencies: {  }
+id: chs-case-updates
+label: 'Case Updates'
+description: 'Case Updates'
+locked: false

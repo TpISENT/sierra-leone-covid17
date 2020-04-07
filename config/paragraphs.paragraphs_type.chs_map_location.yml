@@ -1,0 +1,10 @@
+uuid: bf0c8520-664d-40ce-9366-421a0cf2dff5
+langcode: en
+status: true
+dependencies: {  }
+id: chs_map_location
+label: 'Map location'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

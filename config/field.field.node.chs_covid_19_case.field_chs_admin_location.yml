@@ -1,0 +1,29 @@
+uuid: 5079f46d-a1e5-418d-9477-b18ea2545aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_admin_location
+    - node.type.chs_covid_19_case
+    - taxonomy.vocabulary.chs_admin_location
+id: node.chs_covid_19_case.field_chs_admin_location
+field_name: field_chs_admin_location
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Admin Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_admin_location: chs_admin_location
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

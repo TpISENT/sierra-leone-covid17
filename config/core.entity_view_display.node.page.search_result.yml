@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.page.body
+    - field.field.node.page.field_chs_pst_category
     - node.type.page
   module:
     - text
@@ -35,4 +36,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_chs_pst_category: true
   search_api_excerpt: true

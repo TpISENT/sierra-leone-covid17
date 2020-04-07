@@ -1,0 +1,19 @@
+uuid: 9aaad0b0-f264-45b5-9d32-9e071049c1d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_location_longitude
+    - taxonomy.vocabulary.chs_critical_supply
+id: taxonomy_term.chs_critical_supply.field_chs_location_longitude
+field_name: field_chs_location_longitude
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: 'Location Longitude'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

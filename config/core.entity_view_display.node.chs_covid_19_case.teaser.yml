@@ -1,0 +1,61 @@
+uuid: f9852fa7-41e0-41c4-9fed-e55a670ea0d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chs_covid_19_case.feeds_item
+    - field.field.node.chs_covid_19_case.field_chs_admin_location
+    - field.field.node.chs_covid_19_case.field_chs_case_count
+    - field.field.node.chs_covid_19_case.field_chs_case_id_number
+    - field.field.node.chs_covid_19_case.field_chs_case_status
+    - field.field.node.chs_covid_19_case.field_chs_case_type
+    - field.field.node.chs_covid_19_case.field_chs_case_type_and_status
+    - field.field.node.chs_covid_19_case.field_chs_contacts_listed
+    - field.field.node.chs_covid_19_case.field_chs_gender
+    - field.field.node.chs_covid_19_case.field_chs_geofields
+    - field.field.node.chs_covid_19_case.field_chs_location_latitude
+    - field.field.node.chs_covid_19_case.field_chs_location_longitude
+    - field.field.node.chs_covid_19_case.field_chs_location_name
+    - field.field.node.chs_covid_19_case.field_chs_negative
+    - field.field.node.chs_covid_19_case.field_chs_positive
+    - field.field.node.chs_covid_19_case.field_chs_priority_contacts
+    - field.field.node.chs_covid_19_case.field_chs_pst_category
+    - field.field.node.chs_covid_19_case.field_chs_sample_collected
+    - field.field.node.chs_covid_19_case.field_chs_sample_tested
+    - field.field.node.chs_covid_19_case.field_priority_contacts_reached
+    - node.type.chs_covid_19_case
+  module:
+    - user
+id: node.chs_covid_19_case.teaser
+targetEntityType: node
+bundle: chs_covid_19_case
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  feeds_item: true
+  field_chs_admin_location: true
+  field_chs_case_count: true
+  field_chs_case_id_number: true
+  field_chs_case_status: true
+  field_chs_case_type: true
+  field_chs_case_type_and_status: true
+  field_chs_contacts_listed: true
+  field_chs_gender: true
+  field_chs_geofields: true
+  field_chs_location_latitude: true
+  field_chs_location_longitude: true
+  field_chs_location_name: true
+  field_chs_negative: true
+  field_chs_positive: true
+  field_chs_priority_contacts: true
+  field_chs_pst_category: true
+  field_chs_sample_collected: true
+  field_chs_sample_tested: true
+  field_priority_contacts_reached: true
+  search_api_excerpt: true

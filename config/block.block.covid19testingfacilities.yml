@@ -1,0 +1,31 @@
+uuid: 2b751c77-946e-42e3-8cca-c033dfb3df61
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_google_maps:b02f723c-22f9-4f5a-845e-b6534278dda9'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: covid19testingfacilities
+theme: covid19demo
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:b02f723c-22f9-4f5a-845e-b6534278dda9'
+settings:
+  id: 'block_content:b02f723c-22f9-4f5a-845e-b6534278dda9'
+  label: 'Covid-19 Testing Facilities in Sierra Leone'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

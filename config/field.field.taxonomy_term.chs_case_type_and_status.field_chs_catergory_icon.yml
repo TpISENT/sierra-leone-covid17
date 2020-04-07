@@ -1,0 +1,21 @@
+uuid: e93c445a-3dda-444a-b3cb-dd9c3134038d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_catergory_icon
+    - taxonomy.vocabulary.chs_case_type_and_status
+  module:
+    - fontawesome
+id: taxonomy_term.chs_case_type_and_status.field_chs_catergory_icon
+field_name: field_chs_catergory_icon
+entity_type: taxonomy_term
+bundle: chs_case_type_and_status
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

@@ -9,7 +9,7 @@ _core:
 id: covid19demo_local_actions
 theme: covid19demo
 region: content
-weight: -4
+weight: -18
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,0 +1,38 @@
+uuid: cb930f03-9442-48e4-8726-c190432af438
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_catergory_image
+    - taxonomy.vocabulary.chs_case_type_and_status
+  module:
+    - image
+id: taxonomy_term.chs_case_type_and_status.field_chs_catergory_image
+field_name: field_chs_catergory_image
+entity_type: taxonomy_term
+bundle: chs_case_type_and_status
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

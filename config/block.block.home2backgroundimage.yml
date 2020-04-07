@@ -1,0 +1,31 @@
+uuid: 6ccc7ca3-a8d9-4b52-8575-ecc5feea1819
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_background_image:b0cf79a4-e73f-4233-9da7-df8626df1f8b'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: home2backgroundimage
+theme: covid19demo
+region: banner
+weight: -16
+provider: null
+plugin: 'block_content:b0cf79a4-e73f-4233-9da7-df8626df1f8b'
+settings:
+  id: 'block_content:b0cf79a4-e73f-4233-9da7-df8626df1f8b'
+  label: 'Home 2 Background Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-2
+    negate: false
+    context_mapping: {  }

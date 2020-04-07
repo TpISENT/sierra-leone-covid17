@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_header
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
+    - field.field.node.chs_press.field_chs_pst_category
     - node.type.chs_press
   module:
     - content_moderation
@@ -80,6 +81,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_chs_pst_category:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   moderation_state:
     type: moderation_state_default

@@ -1,0 +1,23 @@
+uuid: aade5ada-ce70-4be8-b05d-6f7d6babdd3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.storage.block_content.field_chs_bg_image_positioning
+id: block_content.chs_background_image.field_chs_bg_image_positioning
+field_name: field_chs_bg_image_positioning
+entity_type: block_content
+bundle: chs_background_image
+label: 'Enable fixed positioning of the background image'
+description: 'Use the checkbox to fix the position of the background image or allow it to scroll with the content'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: 85f30016-0f32-4fc2-a48c-2b5f5a00e694
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_negative
+    - node.type.chs_covid_19_case
+id: node.chs_covid_19_case.field_chs_negative
+field_name: field_chs_negative
+entity_type: node
+bundle: chs_covid_19_case
+label: Negative
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

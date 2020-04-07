@@ -1,0 +1,23 @@
+uuid: bdcfe16d-5325-402a-810f-db0653f0a2a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_dropdown_block
+    - paragraphs.paragraphs_type.chs_dropdown
+id: paragraph.chs_dropdown.field_chs_dropdown_block
+field_name: field_chs_dropdown_block
+entity_type: paragraph
+bundle: chs_dropdown
+label: 'Dropdown Block'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

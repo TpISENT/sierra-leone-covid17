@@ -1,0 +1,25 @@
+uuid: 55387cb1-f8ac-4817-9ac2-8f22809ec0b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_contacts_listed
+    - node.type.chs_covid_19_case
+id: node.chs_covid_19_case.field_chs_contacts_listed
+field_name: field_chs_contacts_listed
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Contacts Listed'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

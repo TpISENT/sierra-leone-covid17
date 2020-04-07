@@ -1,0 +1,10 @@
+uuid: 4020282c-c830-4f1f-b7ae-aa27cb08f2fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_teaser_tile_video
+label: 'Teaser Tile Video'
+targetEntityType: node
+cache: true

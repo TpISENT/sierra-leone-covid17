@@ -1,0 +1,25 @@
+uuid: ca639f21-cdd0-4404-b252-c25e3222e180
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9cb8d6d3-2527-4e74-889a-da4ca91bb0c7'
+  module:
+    - block_content
+  theme:
+    - covid19demo
+id: sociallinksandcontact
+theme: covid19demo
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:9cb8d6d3-2527-4e74-889a-da4ca91bb0c7'
+settings:
+  id: 'block_content:9cb8d6d3-2527-4e74-889a-da4ca91bb0c7'
+  label: 'Social links and contact'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

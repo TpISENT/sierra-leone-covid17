@@ -1,0 +1,20 @@
+uuid: d0be3319-d14b-480c-a8c5-2817d039c6d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_chs_total_deaths
+field_name: field_chs_total_deaths
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

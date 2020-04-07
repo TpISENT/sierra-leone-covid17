@@ -1,0 +1,37 @@
+uuid: a0f818a1-68b4-4472-a5a4-dbf9674739fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_logo_links
+    - field.storage.block_content.field_chs_logo_links_logo
+    - paragraphs.paragraphs_type.chs_image_link
+  module:
+    - entity_reference_revisions
+id: block_content.chs_logo_links.field_chs_logo_links_logo
+field_name: field_chs_logo_links_logo
+entity_type: block_content
+bundle: chs_logo_links
+label: 'Logo Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chs_image_link: chs_image_link
+    target_bundles_drag_drop:
+      chs_image_link:
+        enabled: true
+        weight: 4
+      chs_timeline_item:
+        weight: 5
+        enabled: false
+      chs_video_gallery_slide:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

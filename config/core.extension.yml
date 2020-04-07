@@ -25,6 +25,7 @@ module:
   contact: 0
   content_moderation: 0
   contextual: 0
+  crop: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -33,6 +34,8 @@ module:
   editor: 0
   embed: 0
   encrypt: 0
+  entity_browser: 0
+  entity_browser_example: 0
   entity_embed: 0
   entity_reference_revisions: 0
   facets: 0
@@ -48,18 +51,24 @@ module:
   flag_bookmark: 0
   flippy: 0
   fontawesome: 0
+  geofield: 0
   google_analytics: 0
   help: 0
   history: 0
   honeypot: 0
   image: 0
   image_captcha: 0
+  image_widget_crop: 0
   inline_entity_form: 0
   inline_form_errors: 0
   jsonapi: 0
   key: 0
   layout_builder: 0
   layout_discovery: 0
+  leaflet: 0
+  leaflet_markercluster: 0
+  leaflet_views: 0
+  leaflet_widget: 0
   libraries: 0
   link: 0
   login_onlyemail: 0
