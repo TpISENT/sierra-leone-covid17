@@ -1,0 +1,20 @@
+uuid: 04d36ff8-0810-4e08-b2f3-2cc370a785a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+id: block_content.field_chs_bv_block_reference
+field_name: field_chs_bv_block_reference
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

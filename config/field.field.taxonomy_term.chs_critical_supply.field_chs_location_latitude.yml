@@ -1,0 +1,19 @@
+uuid: 148f55c4-c9e5-45f7-8680-269f2cc64162
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_location_latitude
+    - taxonomy.vocabulary.chs_critical_supply
+id: taxonomy_term.chs_critical_supply.field_chs_location_latitude
+field_name: field_chs_location_latitude
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: 'Location Latitude'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

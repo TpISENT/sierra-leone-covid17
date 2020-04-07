@@ -1,0 +1,19 @@
+uuid: 2b3c5338-c32a-4a99-8144-1584959d7479
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_ml_latitude
+    - paragraphs.paragraphs_type.chs_map_location
+id: paragraph.chs_map_location.field_chs_ml_latitude
+field_name: field_chs_ml_latitude
+entity_type: paragraph
+bundle: chs_map_location
+label: Latitude
+description: 'Enter the Latitude of the marker. e.g. 40.726576'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

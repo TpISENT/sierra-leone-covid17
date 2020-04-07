@@ -1,0 +1,23 @@
+uuid: 8e226513-f03c-488f-8f83-ee22d4630509
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_deaths
+    - taxonomy.vocabulary.chs_admin_location
+id: taxonomy_term.chs_admin_location.field_chs_deaths
+field_name: field_chs_deaths
+entity_type: taxonomy_term
+bundle: chs_admin_location
+label: Deaths
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,8 @@
+uuid: 4295758a-3697-4f53-927d-1ccdc23e1473
+langcode: en
+status: true
+dependencies: {  }
+name: 'Critical Supply'
+vid: chs_critical_supply
+description: 'Critical Supply'
+weight: 0

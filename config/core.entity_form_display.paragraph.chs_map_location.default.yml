@@ -1,0 +1,41 @@
+uuid: 655bf053-4df0-49f1-b17e-598edc553244
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chs_map_location.field_chs_ml_latitude
+    - field.field.paragraph.chs_map_location.field_chs_ml_location_name
+    - field.field.paragraph.chs_map_location.field_chs_ml_longitude
+    - paragraphs.paragraphs_type.chs_map_location
+id: paragraph.chs_map_location.default
+targetEntityType: paragraph
+bundle: chs_map_location
+mode: default
+content:
+  field_chs_ml_latitude:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_ml_location_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_ml_longitude:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

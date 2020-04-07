@@ -1,0 +1,20 @@
+uuid: d4a46de8-ae73-4e77-a527-771e56cd66ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_priority_contacts_reached
+field_name: field_priority_contacts_reached
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: cb76c15a-50d4-43f1-98b9-2d168713213e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.storage.block_content.field_chs_bg_image_block
+id: block_content.chs_background_image.field_chs_bg_image_block
+field_name: field_chs_bg_image_block
+entity_type: block_content
+bundle: chs_background_image
+label: 'Block Reference'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

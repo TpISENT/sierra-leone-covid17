@@ -1,0 +1,63 @@
+uuid: 291e66ed-c71f-4544-b2ce-bc8473578e6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chs_case_type_and_status.field_chs_catergory_icon
+    - field.field.taxonomy_term.chs_case_type_and_status.field_chs_catergory_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.chs_case_type_and_status
+  module:
+    - fontawesome
+    - image
+    - path
+    - text
+id: taxonomy_term.chs_case_type_and_status.default
+targetEntityType: taxonomy_term
+bundle: chs_case_type_and_status
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_chs_catergory_icon:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  field_chs_catergory_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+hidden: {  }

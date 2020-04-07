@@ -1,0 +1,31 @@
+uuid: 2d491b2b-8010-4bd2-bcd8-135a777c9763
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_logo_links:1a48826b-4caa-4d10-aab1-27a1cd8153c2'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: partners
+theme: covid19demo
+region: sub_footer_top_second
+weight: -11
+provider: null
+plugin: 'block_content:1a48826b-4caa-4d10-aab1-27a1cd8153c2'
+settings:
+  id: 'block_content:1a48826b-4caa-4d10-aab1-27a1cd8153c2'
+  label: 'Primary Data Sources'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

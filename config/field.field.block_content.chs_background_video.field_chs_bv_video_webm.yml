@@ -1,0 +1,27 @@
+uuid: f17d9411-94ed-43bc-af4f-90324755b78f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_video
+    - field.storage.block_content.field_chs_bv_video_webm
+  module:
+    - file
+id: block_content.chs_background_video.field_chs_bv_video_webm
+field_name: field_chs_bv_video_webm
+entity_type: block_content
+bundle: chs_background_video
+label: 'Background Video (webm)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: webm
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,19 @@
+uuid: 0730beb5-2f2f-4990-8846-af9ebc3a7919
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_vgs_slide_title
+    - paragraphs.paragraphs_type.chs_video_gallery_slide
+id: paragraph.chs_video_gallery_slide.field_chs_vgs_slide_title
+field_name: field_chs_vgs_slide_title
+entity_type: paragraph
+bundle: chs_video_gallery_slide
+label: 'Slide Title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

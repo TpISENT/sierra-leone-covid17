@@ -1,0 +1,20 @@
+uuid: 6b401904-7510-4d2d-ac9e-430c7de4e6ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_chs_new_cases
+field_name: field_chs_new_cases
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

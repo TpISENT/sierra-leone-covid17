@@ -1,0 +1,15 @@
+uuid: e23e1038-7a67-472d-9314-01d42e8eeddc
+langcode: en
+status: true
+dependencies: {  }
+name: chs_video_gallery_thumbnail
+label: 'Video Gallery thumbnail (400×226 )'
+effects:
+  9d4a2ab4-60c7-46b5-954b-b35c11117d9c:
+    uuid: 9d4a2ab4-60c7-46b5-954b-b35c11117d9c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 226
+      anchor: center-center

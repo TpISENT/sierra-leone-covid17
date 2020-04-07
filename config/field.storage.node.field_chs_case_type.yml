@@ -1,0 +1,36 @@
+uuid: 69cb7996-90e4-4278-ae71-f25609f94f9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_chs_case_type
+field_name: field_chs_case_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'New Case'
+      label: 'New Case'
+    -
+      value: 'Existing Case'
+      label: 'Existing Case'
+    -
+      value: 'In Quarantine'
+      label: 'In Quarantine'
+    -
+      value: Tested
+      label: Tested
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

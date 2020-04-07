@@ -1,0 +1,25 @@
+uuid: fb8836a8-7396-4929-ac1b-d16ad914454e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0c9a1636-d3fc-4f6f-b62f-23346b97e2fa'
+  module:
+    - block_content
+  theme:
+    - covid19demo
+id: covid19dailyupdates
+theme: covid19demo
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:0c9a1636-d3fc-4f6f-b62f-23346b97e2fa'
+settings:
+  id: 'block_content:0c9a1636-d3fc-4f6f-b62f-23346b97e2fa'
+  label: 'Covid-19 Daily Updates'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,126 @@
+uuid: c8fac610-32ad-48ea-9529-53487c79db1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_admin_location
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_category
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_email
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_image
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_latitude
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_longitude
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_phone
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_location_street_addres
+    - field.field.taxonomy_term.chs_critical_supply.field_chs_quantity
+    - image.style.thumbnail
+    - taxonomy.vocabulary.chs_critical_supply
+  module:
+    - image
+    - path
+    - telephone
+    - text
+id: taxonomy_term.chs_critical_supply.default
+targetEntityType: taxonomy_term
+bundle: chs_critical_supply
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_chs_admin_location:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_chs_category:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_chs_location_email:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_chs_location_image:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_chs_location_latitude:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_location_longitude:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_location_phone:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_chs_location_street_addres:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_chs_quantity:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    region: content
+    third_party_settings: {  }
+hidden: {  }

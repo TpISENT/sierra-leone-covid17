@@ -1,0 +1,38 @@
+uuid: 075652e7-4fb6-44e3-9c56-23b5e8660d8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_location_image
+    - taxonomy.vocabulary.chs_critical_supply
+  module:
+    - image
+id: taxonomy_term.chs_critical_supply.field_chs_location_image
+field_name: field_chs_location_image
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: 'Location Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

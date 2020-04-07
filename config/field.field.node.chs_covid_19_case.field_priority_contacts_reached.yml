@@ -1,0 +1,25 @@
+uuid: 52e837b6-bc70-4913-bdd6-0822fd422ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority_contacts_reached
+    - node.type.chs_covid_19_case
+id: node.chs_covid_19_case.field_priority_contacts_reached
+field_name: field_priority_contacts_reached
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Priority Contacts Reached'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

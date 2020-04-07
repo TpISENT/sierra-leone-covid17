@@ -1,0 +1,20 @@
+uuid: 5eae26d6-050f-484d-8011-544b92874c7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_chs_recovered
+field_name: field_chs_recovered
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

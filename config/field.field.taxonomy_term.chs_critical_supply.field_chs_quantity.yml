@@ -1,0 +1,23 @@
+uuid: faf607a6-eee9-44a9-b4c2-fd73943808ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_quantity
+    - taxonomy.vocabulary.chs_critical_supply
+id: taxonomy_term.chs_critical_supply.field_chs_quantity
+field_name: field_chs_quantity
+entity_type: taxonomy_term
+bundle: chs_critical_supply
+label: Quantity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

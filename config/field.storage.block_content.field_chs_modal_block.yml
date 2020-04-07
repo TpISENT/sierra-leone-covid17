@@ -1,0 +1,20 @@
+uuid: 674fce19-fc76-4c60-9b12-da31ca11b452
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+id: block_content.field_chs_modal_block
+field_name: field_chs_modal_block
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

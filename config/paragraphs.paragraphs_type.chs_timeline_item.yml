@@ -1,0 +1,10 @@
+uuid: 92e57644-ddfc-4017-b124-6f159dbb5753
+langcode: en
+status: true
+dependencies: {  }
+id: chs_timeline_item
+label: 'Timeline Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

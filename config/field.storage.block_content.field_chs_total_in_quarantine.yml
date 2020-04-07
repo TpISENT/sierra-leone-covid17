@@ -1,0 +1,20 @@
+uuid: c8348ec3-5eaf-4d76-acad-6df7340860ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_chs_total_in_quarantine
+field_name: field_chs_total_in_quarantine
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

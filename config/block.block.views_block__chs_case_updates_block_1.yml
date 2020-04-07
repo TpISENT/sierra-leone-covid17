@@ -1,0 +1,30 @@
+uuid: 9c80f9e3-af2f-4dc8-a1e7-bdcf1b0c6a8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chs_case_updates
+  module:
+    - system
+    - views
+  theme:
+    - covid19demo
+id: views_block__chs_case_updates_block_1
+theme: covid19demo
+region: banner
+weight: -12
+provider: null
+plugin: 'views_block:chs_case_updates-block_1'
+settings:
+  id: 'views_block:chs_case_updates-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

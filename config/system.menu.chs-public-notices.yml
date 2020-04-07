@@ -1,0 +1,8 @@
+uuid: d56ebee9-4cb9-41f4-b002-8d5d03a1e356
+langcode: en
+status: true
+dependencies: {  }
+id: chs-public-notices
+label: 'Public Notices'
+description: 'Public Notices'
+locked: false

@@ -1,0 +1,25 @@
+uuid: fe5e2547-d025-4bda-bcb1-80ac2ab08de4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d1b86990-06de-4fe6-8565-0bdfa3e73d95'
+  module:
+    - block_content
+  theme:
+    - covid19demo
+id: publicnoticealert
+theme: covid19demo
+region: hidden_blocks_collection
+weight: -12
+provider: null
+plugin: 'block_content:d1b86990-06de-4fe6-8565-0bdfa3e73d95'
+settings:
+  id: 'block_content:d1b86990-06de-4fe6-8565-0bdfa3e73d95'
+  label: 'Public Notice - Alert'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

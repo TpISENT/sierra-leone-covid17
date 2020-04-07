@@ -1,0 +1,23 @@
+uuid: 2f46a2b8-4881-44f5-9086-2c36cd18fb10
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_timeline
+    - field.storage.block_content.field_chs_tml_timeline_viewmore
+  module:
+    - link
+id: block_content.chs_timeline.field_chs_tml_timeline_viewmore
+field_name: field_chs_tml_timeline_viewmore
+entity_type: block_content
+bundle: chs_timeline
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

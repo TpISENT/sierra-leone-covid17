@@ -1,0 +1,20 @@
+uuid: d4c60541-e27d-4146-ad59-14b76ae75d80
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_chs_negative
+field_name: field_chs_negative
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

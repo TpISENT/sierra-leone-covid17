@@ -1,0 +1,23 @@
+uuid: ab81f9ee-f495-4d1a-88e0-69c7cb26572b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_video
+    - field.storage.block_content.field_chs_bv_overlay_color
+  module:
+    - options
+id: block_content.chs_background_video.field_chs_bv_overlay_color
+field_name: field_chs_bv_overlay_color
+entity_type: block_content
+bundle: chs_background_video
+label: 'Background Video Overlay Color'
+description: 'From the drop-down menu, select the color you prefer.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'region--light-typography region--black-background'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

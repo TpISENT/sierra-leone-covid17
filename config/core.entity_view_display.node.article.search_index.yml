@@ -1,12 +1,21 @@
 uuid: 3a6ed60c-3218-4899-a3d1-fd6e682a8f23
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - core.entity_view_mode.node.search_index
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_chs_press_source
+    - field.field.node.article.field_chs_pst_banner_image
+    - field.field.node.article.field_chs_pst_category
+    - field.field.node.article.field_chs_pst_image
+    - field.field.node.article.field_chs_pst_slideshow
+    - field.field.node.article.field_chs_pst_slideshow_image
+    - field.field.node.article.field_chs_pst_slideshow_text
+    - field.field.node.article.field_chs_pst_subheader
+    - field.field.node.article.field_chs_pst_video
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
@@ -50,6 +59,15 @@ content:
     label: hidden
     region: content
 hidden:
+  field_chs_press_source: true
+  field_chs_pst_banner_image: true
+  field_chs_pst_category: true
+  field_chs_pst_image: true
+  field_chs_pst_slideshow: true
+  field_chs_pst_slideshow_image: true
+  field_chs_pst_slideshow_text: true
+  field_chs_pst_subheader: true
+  field_chs_pst_video: true
   field_image: true
   links: true
   search_api_excerpt: true

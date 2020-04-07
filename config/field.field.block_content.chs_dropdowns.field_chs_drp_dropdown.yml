@@ -1,0 +1,43 @@
+uuid: fcaeeee8-9e28-44f9-b438-cb4e47fe4728
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_dropdowns
+    - field.storage.block_content.field_chs_drp_dropdown
+    - paragraphs.paragraphs_type.chs_dropdown
+  module:
+    - entity_reference_revisions
+id: block_content.chs_dropdowns.field_chs_drp_dropdown
+field_name: field_chs_drp_dropdown
+entity_type: block_content
+bundle: chs_dropdowns
+label: Dropdowns
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chs_dropdown: chs_dropdown
+    target_bundles_drag_drop:
+      chs_dropdown:
+        enabled: true
+        weight: 6
+      chs_image_link:
+        weight: 7
+        enabled: false
+      chs_map_location:
+        weight: 8
+        enabled: false
+      chs_timeline_item:
+        weight: 9
+        enabled: false
+      chs_video_gallery_slide:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

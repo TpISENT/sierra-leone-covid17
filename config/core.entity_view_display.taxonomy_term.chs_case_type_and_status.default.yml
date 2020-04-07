@@ -1,0 +1,26 @@
+uuid: e1103f8c-d994-4cb1-a802-1959d87fbe2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chs_case_type_and_status.field_chs_catergory_icon
+    - field.field.taxonomy_term.chs_case_type_and_status.field_chs_catergory_image
+    - taxonomy.vocabulary.chs_case_type_and_status
+  module:
+    - text
+id: taxonomy_term.chs_case_type_and_status.default
+targetEntityType: taxonomy_term
+bundle: chs_case_type_and_status
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_chs_catergory_icon: true
+  field_chs_catergory_image: true
+  search_api_excerpt: true

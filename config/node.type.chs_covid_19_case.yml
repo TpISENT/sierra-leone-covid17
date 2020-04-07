@@ -1,0 +1,17 @@
+uuid: d21323d2-d5b4-457c-897b-fc91c4569aab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Covid-19 Case'
+type: chs_covid_19_case
+description: 'Covid-19 Case'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

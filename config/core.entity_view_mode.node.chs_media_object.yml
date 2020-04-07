@@ -1,0 +1,10 @@
+uuid: d0b471c8-7678-47e2-ae8b-20b97c5cd576
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_media_object
+label: 'Media object'
+targetEntityType: node
+cache: true

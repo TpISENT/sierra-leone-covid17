@@ -1,0 +1,10 @@
+uuid: 4a502118-b136-4bff-81a2-c29463594bbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_video_grid_item
+label: 'Video Grid Item'
+targetEntityType: node
+cache: true

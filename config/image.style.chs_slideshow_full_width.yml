@@ -1,0 +1,17 @@
+uuid: 6f8005bd-6ab4-4c53-ae83-b7a75937580a
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.chs_fullwidth_slide_image
+  module:
+    - crop
+name: chs_slideshow_full_width
+label: 'Slideshow Full Width'
+effects:
+  cf2a9a39-984b-413e-b444-3f932604601b:
+    uuid: cf2a9a39-984b-413e-b444-3f932604601b
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: chs_fullwidth_slide_image

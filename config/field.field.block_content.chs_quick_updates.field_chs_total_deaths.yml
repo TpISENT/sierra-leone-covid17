@@ -1,0 +1,23 @@
+uuid: 665ce679-9641-4b4b-b58d-566c2b095bba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_total_deaths
+id: block_content.chs_quick_updates.field_chs_total_deaths
+field_name: field_chs_total_deaths
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Total Deaths'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

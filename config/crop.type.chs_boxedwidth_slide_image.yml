@@ -1,0 +1,12 @@
+uuid: 4d662959-ae96-4f04-ab46-ea300beae3a7
+langcode: en
+status: true
+dependencies: {  }
+id: chs_boxedwidth_slide_image
+label: 'Boxedwidth Slide Image'
+description: ''
+aspect_ratio: '1140:650'
+soft_limit_width: 1140
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

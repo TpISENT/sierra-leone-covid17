@@ -1,0 +1,21 @@
+uuid: 451167a7-b301-4bbd-bc68-2387deedb9d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - covid19demo
+id: searchform
+theme: covid19demo
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

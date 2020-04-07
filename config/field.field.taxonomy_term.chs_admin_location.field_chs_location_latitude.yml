@@ -1,0 +1,21 @@
+uuid: b0554a34-c451-411f-9635-d545b4d87c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_location_latitude
+    - taxonomy.vocabulary.chs_admin_location
+id: taxonomy_term.chs_admin_location.field_chs_location_latitude
+field_name: field_chs_location_latitude
+entity_type: taxonomy_term
+bundle: chs_admin_location
+label: 'Location Latitude'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '8.557176'
+default_value_callback: ''
+settings: {  }
+field_type: string

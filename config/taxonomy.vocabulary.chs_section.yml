@@ -1,0 +1,8 @@
+uuid: c92d86e9-225d-415f-ad94-ddb152335960
+langcode: en
+status: true
+dependencies: {  }
+name: Section
+vid: chs_section
+description: ''
+weight: 0

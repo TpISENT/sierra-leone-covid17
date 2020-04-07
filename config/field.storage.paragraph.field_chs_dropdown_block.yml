@@ -1,0 +1,20 @@
+uuid: 0811415e-fa5c-4060-ab3f-2334ac33c7fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - paragraphs
+id: paragraph.field_chs_dropdown_block
+field_name: field_chs_dropdown_block
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

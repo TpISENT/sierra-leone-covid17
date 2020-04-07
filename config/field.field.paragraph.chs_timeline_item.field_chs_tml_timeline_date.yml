@@ -1,0 +1,21 @@
+uuid: 2cbff3b8-f40e-4d4a-bd38-aa872541e9b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chs_tml_timeline_date
+    - paragraphs.paragraphs_type.chs_timeline_item
+  module:
+    - datetime
+id: paragraph.chs_timeline_item.field_chs_tml_timeline_date
+field_name: field_chs_tml_timeline_date
+entity_type: paragraph
+bundle: chs_timeline_item
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

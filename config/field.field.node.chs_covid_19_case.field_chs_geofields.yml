@@ -1,0 +1,22 @@
+uuid: d981712c-3b33-4ce7-8366-7fa4a2ca71ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_geofields
+    - node.type.chs_covid_19_case
+  module:
+    - geofield
+id: node.chs_covid_19_case.field_chs_geofields
+field_name: field_chs_geofields
+entity_type: node
+bundle: chs_covid_19_case
+label: Geofields
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

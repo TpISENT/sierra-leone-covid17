@@ -1,0 +1,21 @@
+uuid: d5825ed9-f84c-4b7b-b275-3b1ef6a39d11
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_status_header
+  module:
+    - text
+id: block_content.chs_quick_updates.field_chs_status_header
+field_name: field_chs_status_header
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Status Header'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

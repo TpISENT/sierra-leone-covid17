@@ -1,0 +1,25 @@
+uuid: a91a4008-3710-4b97-8f62-6c5140565963
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.chs_large
+  module:
+    - crop
+name: chs_large
+label: 'CHS Large (1350x730)'
+effects:
+  063a7d98-eb3c-4a4f-b020-3527d7bbbfbe:
+    uuid: 063a7d98-eb3c-4a4f-b020-3527d7bbbfbe
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: chs_large
+  cb51548d-7b29-430a-8658-e8980e75c71c:
+    uuid: cb51548d-7b29-430a-8658-e8980e75c71c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1350
+      height: 730
+      anchor: center-center

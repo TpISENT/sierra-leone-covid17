@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_header
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
+    - field.field.node.chs_press.field_chs_pst_category
     - node.type.chs_press
   module:
     - text
@@ -40,4 +41,5 @@ hidden:
   field_chs_press_header: true
   field_chs_press_media: true
   field_chs_press_source: true
+  field_chs_pst_category: true
   search_api_excerpt: true

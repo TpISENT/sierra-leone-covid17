@@ -1,0 +1,10 @@
+uuid: a0c880c9-95ec-464b-832c-4278ca1da7b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_featured_teaser
+label: 'Featured teaser'
+targetEntityType: node
+cache: true

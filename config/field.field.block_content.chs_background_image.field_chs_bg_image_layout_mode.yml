@@ -1,0 +1,23 @@
+uuid: 2b600b73-1e69-4e40-9fcb-d6d895ea3359
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.storage.block_content.field_chs_bg_image_layout_mode
+  module:
+    - options
+id: block_content.chs_background_image.field_chs_bg_image_layout_mode
+field_name: field_chs_bg_image_layout_mode
+entity_type: block_content
+bundle: chs_background_image
+label: 'Inner Blocks Layout'
+description: 'From the drop-down menu, select the layout mode you prefer.'
+required: true
+translatable: false
+default_value:
+  -
+    value: container
+default_value_callback: ''
+settings: {  }
+field_type: list_string

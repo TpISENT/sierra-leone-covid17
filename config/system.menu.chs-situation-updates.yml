@@ -1,0 +1,8 @@
+uuid: cc2ce5ea-cca9-41b2-8900-255a034e60bb
+langcode: en
+status: true
+dependencies: {  }
+id: chs-situation-updates
+label: 'Situation Updates'
+description: 'Situation Updates'
+locked: false

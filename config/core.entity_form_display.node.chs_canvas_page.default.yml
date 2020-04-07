@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.chs_canvas_page.field_chs_cnv_body
+    - field.field.node.chs_canvas_page.field_chs_pst_category
     - node.type.chs_canvas_page
   module:
     - content_moderation
@@ -29,6 +30,16 @@ content:
       show_summary: false
     third_party_settings: {  }
     type: text_textarea_with_summary
+    region: content
+  field_chs_pst_category:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   moderation_state:
     type: moderation_state_default

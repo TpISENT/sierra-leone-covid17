@@ -1,0 +1,10 @@
+uuid: 3a5eebb3-6810-4683-904e-ea539668b82a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_teaser_tile_text
+label: 'Teaser Tile Text'
+targetEntityType: node
+cache: true

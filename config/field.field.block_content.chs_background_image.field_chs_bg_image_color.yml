@@ -1,0 +1,23 @@
+uuid: 74bd574f-b72a-4979-8ea1-51bc5fff350f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_background_image
+    - field.storage.block_content.field_chs_bg_image_color
+  module:
+    - options
+id: block_content.chs_background_image.field_chs_bg_image_color
+field_name: field_chs_bg_image_color
+entity_type: block_content
+bundle: chs_background_image
+label: 'Background Image Overlay Color'
+description: 'From the drop-down menu, select the color you prefer.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'region--light-typography region--black-background'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

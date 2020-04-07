@@ -1,0 +1,91 @@
+uuid: 49e5708e-91af-431e-b3b8-8c821d7cf965
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chs_admin_location.field_chs_deaths
+    - field.field.taxonomy_term.chs_admin_location.field_chs_location_image
+    - field.field.taxonomy_term.chs_admin_location.field_chs_location_latitude
+    - field.field.taxonomy_term.chs_admin_location.field_chs_location_longitude
+    - field.field.taxonomy_term.chs_admin_location.field_chs_new_cases
+    - field.field.taxonomy_term.chs_admin_location.field_chs_recovered
+    - field.field.taxonomy_term.chs_admin_location.field_chs_total_cases
+    - taxonomy.vocabulary.chs_admin_location
+  module:
+    - image
+    - text
+id: taxonomy_term.chs_admin_location.default
+targetEntityType: taxonomy_term
+bundle: chs_admin_location
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_chs_deaths:
+    weight: 6
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_location_image:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_chs_location_latitude:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_chs_location_longitude:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_chs_new_cases:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_recovered:
+    weight: 7
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_chs_total_cases:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  search_api_excerpt: true

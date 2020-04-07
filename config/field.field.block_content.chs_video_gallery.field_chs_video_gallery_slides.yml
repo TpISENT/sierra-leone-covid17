@@ -1,0 +1,31 @@
+uuid: 7d477594-ceb7-4211-aaae-9ff5e36cfedc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_video_gallery
+    - field.storage.block_content.field_chs_video_gallery_slides
+    - paragraphs.paragraphs_type.chs_video_gallery_slide
+  module:
+    - entity_reference_revisions
+id: block_content.chs_video_gallery.field_chs_video_gallery_slides
+field_name: field_chs_video_gallery_slides
+entity_type: block_content
+bundle: chs_video_gallery
+label: 'Video Gallery '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chs_video_gallery_slide: chs_video_gallery_slide
+    target_bundles_drag_drop:
+      chs_video_gallery_slide:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,25 @@
+uuid: c35728a1-ea48-41d4-b465-29959ee1b48b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_chs_total_cases
+    - taxonomy.vocabulary.chs_admin_location
+id: taxonomy_term.chs_admin_location.field_chs_total_cases
+field_name: field_chs_total_cases
+entity_type: taxonomy_term
+bundle: chs_admin_location
+label: 'Total Cases'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

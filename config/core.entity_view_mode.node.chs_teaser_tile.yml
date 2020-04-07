@@ -1,0 +1,10 @@
+uuid: 501477c6-254b-41a0-8a3e-d6e3ad55da80
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_teaser_tile
+label: 'Teaser Tile'
+targetEntityType: node
+cache: true

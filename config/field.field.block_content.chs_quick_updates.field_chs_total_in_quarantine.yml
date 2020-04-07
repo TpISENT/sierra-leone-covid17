@@ -1,0 +1,23 @@
+uuid: 42abc55f-444e-4675-95a0-50a2f4035164
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chs_quick_updates
+    - field.storage.block_content.field_chs_total_in_quarantine
+id: block_content.chs_quick_updates.field_chs_total_in_quarantine
+field_name: field_chs_total_in_quarantine
+entity_type: block_content
+bundle: chs_quick_updates
+label: 'Total in Quarantine'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

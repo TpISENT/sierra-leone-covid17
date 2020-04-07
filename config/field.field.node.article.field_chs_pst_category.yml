@@ -1,0 +1,29 @@
+uuid: 35acf9db-bfc9-4954-b7f1-9ea636d63560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_pst_category
+    - node.type.article
+    - taxonomy.vocabulary.chs_section
+id: node.article.field_chs_pst_category
+field_name: field_chs_pst_category
+entity_type: node
+bundle: article
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chs_section: chs_section
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

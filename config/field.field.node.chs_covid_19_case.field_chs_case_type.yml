@@ -1,0 +1,21 @@
+uuid: 02fad7f8-6ccd-4428-b12b-f0aa21c3b322
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_case_type
+    - node.type.chs_covid_19_case
+  module:
+    - options
+id: node.chs_covid_19_case.field_chs_case_type
+field_name: field_chs_case_type
+entity_type: node
+bundle: chs_covid_19_case
+label: 'Case Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

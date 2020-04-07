@@ -1,0 +1,10 @@
+uuid: 1ec23fe3-ec0b-4509-b5bb-1a4a91dd7d38
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chs_featured_teaser_video
+label: 'Featured teaser video'
+targetEntityType: node
+cache: true

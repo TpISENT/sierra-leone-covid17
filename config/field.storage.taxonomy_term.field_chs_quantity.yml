@@ -1,0 +1,20 @@
+uuid: e958a7cd-d3ba-47c4-8775-10f9fdb0dae6
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_chs_quantity
+field_name: field_chs_quantity
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
