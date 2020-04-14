@@ -1,0 +1,31 @@
+uuid: 2fec93ad-45a7-465f-9a34-5bb72a3c0972
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3c343c42-53ba-4217-8d15-31f036ed8e35'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: homecardexample
+theme: covid19demo
+region: footer_top_first
+weight: -26
+provider: null
+plugin: 'block_content:3c343c42-53ba-4217-8d15-31f036ed8e35'
+settings:
+  id: 'block_content:3c343c42-53ba-4217-8d15-31f036ed8e35'
+  label: 'Home: Card Example'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

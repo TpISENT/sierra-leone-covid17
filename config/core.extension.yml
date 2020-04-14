@@ -17,6 +17,8 @@ module:
   breakpoint: 0
   captcha: 0
   ckeditor: 0
+  cloudflare: 0
+  cloudflarepurger: 0
   color: 0
   comment: 0
   config: 0
@@ -35,6 +37,7 @@ module:
   embed: 0
   encrypt: 0
   entity_browser: 0
+  entity_browser_enhanced: 0
   entity_browser_example: 0
   entity_embed: 0
   entity_reference_revisions: 0
@@ -44,8 +47,10 @@ module:
   feeds_ex: 0
   feeds_tamper: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
   filter: 0
   flag: 0
   flag_bookmark: 0
@@ -59,6 +64,10 @@ module:
   image: 0
   image_captcha: 0
   image_widget_crop: 0
+  imageapi_optimize: 0
+  imageapi_optimize_binaries: 0
+  imageapi_optimize_tinypng: 0
+  imagemagick: 0
   inline_entity_form: 0
   inline_form_errors: 0
   jsonapi: 0
@@ -74,6 +83,7 @@ module:
   login_onlyemail: 0
   media: 0
   media_library: 0
+  menu_link_attributes: 0
   menu_ui: 0
   metatag: 0
   metatag_dc: 0
@@ -87,6 +97,7 @@ module:
   moderation_dashboard: 0
   moderation_sidebar: 0
   node: 0
+  onesignal: 0
   openapi: 0
   openapi_jsonapi: 0
   openapi_ui: 0
@@ -99,8 +110,16 @@ module:
   path: 0
   path_alias: 0
   phpmailer_smtp: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_processor_lateruntime: 0
+  purge_queuer_url: 0
+  purge_tokens: 0
+  purge_ui: 0
   quickedit: 0
   rdf: 0
+  real_aes: 0
   realname: 0
   recaptcha: 0
   redirect: 0
@@ -119,7 +138,12 @@ module:
   settings_tray: 0
   shortcut: 0
   simple_oauth: 0
+  simple_sitemap: 0
+  simple_sitemap_engines: 0
+  simple_sitemap_views: 0
+  sitemap: 0
   smtp: 0
+  sophron: 0
   superfish: 0
   system: 0
   tamper: 0

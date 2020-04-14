@@ -1,0 +1,31 @@
+uuid: 73f431f2-78c4-45ea-bbb5-a4000b367422
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:55e391a3-b716-4ef7-8fc6-0501a4a1540a'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: newhomegetupdatessituationreportsandpressbriefings
+theme: covid19demo
+region: featured
+weight: -27
+provider: null
+plugin: 'block_content:55e391a3-b716-4ef7-8fc6-0501a4a1540a'
+settings:
+  id: 'block_content:55e391a3-b716-4ef7-8fc6-0501a4a1540a'
+  label: 'New Home: Get Updates, Situation Reports and Press Briefings'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

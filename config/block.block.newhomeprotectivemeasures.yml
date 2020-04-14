@@ -1,0 +1,31 @@
+uuid: 386d285c-efb5-46fd-9541-5475d5cca26e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: newhomeprotectivemeasures
+theme: covid19demo
+region: content_bottom_highlighted
+weight: -25
+provider: null
+plugin: 'block_content:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+settings:
+  id: 'block_content:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+  label: 'New Home: Protective Measures'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

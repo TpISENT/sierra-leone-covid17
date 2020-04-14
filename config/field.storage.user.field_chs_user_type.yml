@@ -18,6 +18,12 @@ settings:
       value: 'Seller (Vendor/Manufacturer)'
       label: 'Seller (Vendor/Manufacturer)'
     -
+      value: Developer
+      label: Developer
+    -
+      value: 'Content Manager'
+      label: 'Content Manager'
+    -
       value: Other
       label: Other
   allowed_values_function: ''

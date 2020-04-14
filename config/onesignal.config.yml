@@ -1,0 +1,11 @@
+onesignal_app_id: 71b69785-36c2-4b32-8054-05ca83463cef
+onesignal_safari_web_id: 0b751c21-4ab5-448f-a888-cd2e20e2cfd5
+onesignal_rest_api_key: ''
+onesignal_action_message: ''
+onesignal_accept_button: ''
+onesignal_cancel_button: ''
+onesignal_welcome_title: ''
+onesignal_welcome_message: ''
+onesignal_auto_register: 'true'
+onesignal_notify_button: 'true'
+onesignal_localhost_secure: '0'

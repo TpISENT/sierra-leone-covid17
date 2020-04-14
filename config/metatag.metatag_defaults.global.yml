@@ -7,5 +7,26 @@ _core:
 id: global
 label: Global
 tags:
+  keywords: 'Sierra Leone, Corona Virus, COVID-19, covid19, covid-19 data, Sierra Leone case counts'
+  robots: 'index, follow'
+  geo_region: SL
+  rights: 'Sierra Leone Open Corona Virus (COVID-19) Data Platform'
+  icbm: '8.469337, -13.224836'
+  title: '[current-page:title] | Sierra Leone Corona Virus (COVID-19) Response and Open Data Platform'
   canonical_url: '[current-page:url]'
-  title: '[current-page:title] | [site:name]'
+  geo_position: '8.469337, -13.224836'
+  description: 'Corona Virus (COVID-19) information, resources and assistance for people living Sierra Leone. An open-source COVID-19 data platform. Aggregating, visualizing and sharing coronavirus data.'
+  geo_placename: 'Sierra Leone'
+  abstract: 'Corona Virus (COVID-19) information, resources and assistance for people living Sierra Leone. An open-source COVID-19 data platform. Aggregating, visualizing and sharing coronavirus data.'
+  fb_admins: tamba.lamin
+  fb_pages: 'https://www.facebook.com/Sierra-Leone-Open-Covid-19-Data-Platform-103351301340742'
+  og_country_name: 'Sierra Leone'
+  og_site_name: 'Sierra Leone Open Corona Virus (COVID-19) Data Platform'
+  og_postal_code: '00232'
+  og_latitude: '8.469337'
+  og_region: 'Western Area'
+  og_phone_number: '+23271617550'
+  og_email: info@covid19.sl
+  og_longitude: '-13.224836'
+  og_locality: 'Western Area Urban'
+  og_street_address: 'Hill Cot Road'

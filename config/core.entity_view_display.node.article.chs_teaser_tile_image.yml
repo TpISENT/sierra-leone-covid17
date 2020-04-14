@@ -7,6 +7,7 @@ dependencies:
     - core.entity_view_mode.node.chs_teaser_tile_image
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_chs_metatag
     - field.field.node.article.field_chs_press_source
     - field.field.node.article.field_chs_pst_banner_image
     - field.field.node.article.field_chs_pst_category
@@ -16,6 +17,7 @@ dependencies:
     - field.field.node.article.field_chs_pst_slideshow_text
     - field.field.node.article.field_chs_pst_subheader
     - field.field.node.article.field_chs_pst_video
+    - field.field.node.article.field_chs_seo_description
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.large
@@ -141,6 +143,8 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_chs_metatag: true
   field_chs_press_source: true
   field_chs_pst_category: true
+  field_chs_seo_description: true
   search_api_excerpt: true

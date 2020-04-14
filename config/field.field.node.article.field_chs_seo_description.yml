@@ -1,0 +1,19 @@
+uuid: e44037e7-c88f-419a-8528-fa733fb00234
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_seo_description
+    - node.type.article
+id: node.article.field_chs_seo_description
+field_name: field_chs_seo_description
+entity_type: node
+bundle: article
+label: 'SEO Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

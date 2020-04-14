@@ -1,6 +1,6 @@
 uuid: ae391f27-79c6-4cd3-af2d-c76fa7c0ed2e
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:75b94e92-9575-476d-9ec7-f5767ac376a2'
@@ -13,7 +13,7 @@ dependencies:
 id: homeloginandregisteroptions_3
 theme: covid19demo
 region: content
-weight: -16
+weight: -18
 provider: null
 plugin: 'block_content:75b94e92-9575-476d-9ec7-f5767ac376a2'
 settings:

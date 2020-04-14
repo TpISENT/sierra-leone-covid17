@@ -7,5 +7,31 @@ _core:
 id: front
 label: 'Front page'
 tags:
+  keywords: 'Sierra Leone, Corona Virus, COVID-19, covid19, covid-19 data, Sierra Leone case counts'
+  robots: 'index, follow'
+  geo_region: SLthemes/custom/covid19demo/logo.png
+  rights: 'TpISENT (SL) Limited - Sierra Leone Open Corona Virus (COVID-19) Data Platform'
+  icbm: '8.469337, -13.224836'
+  title: 'COVID19.SL | Sierra Leone Corona Virus (COVID-19) Response and Open Data Platform'
+  image_src: /themes/custom/covid19demo/logo.png
   canonical_url: '[site:url]'
+  geo_position: '8.469337, -13.224836'
+  description: 'Corona Virus (COVID-19) information, resources and assistance for people living Sierra Leone. An open-source COVID-19 data platform. Aggregating, visualizing and sharing coronavirus data.'
   shortlink: '[site:url]'
+  geo_placename: 'Sierra Leone'
+  abstract: 'Corona Virus (COVID-19) information, resources and assistance for people living Sierra Leone. An open-source COVID-19 data platform. Aggregating, visualizing and sharing coronavirus data.'
+  fb_admins: tamba.lamin
+  fb_pages: 'https://www.facebook.com/Sierra-Leone-Open-Covid-19-Data-Platform-103351301340742'
+  og_country_name: 'Sierra Leone'
+  og_site_name: 'Sierra Leone Open Covid-19 Data Platform'
+  og_postal_code: '00232'
+  og_latitude: '8.469337'
+  og_description: 'Corona Virus (COVID-19) information, resources and assistance for people living Sierra Leone. An open-source COVID-19 data platform. Aggregating, visualizing and sharing coronavirus data.'
+  og_image_url: /themes/custom/covid19demo/logo.png
+  og_region: 'Western Area'
+  og_phone_number: '+23271617550'
+  og_title: 'COVID19.SL | Sierra Leone Corona Virus (COVID-19) Response and Open Data Platform'
+  og_email: info@covid19.sl
+  og_longitude: '-13.224836'
+  og_locality: 'Western Area Urban'
+  og_street_address: 'Hill Cot Road'

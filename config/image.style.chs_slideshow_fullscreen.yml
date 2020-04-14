@@ -15,3 +15,10 @@ effects:
     weight: 1
     data:
       crop_type: chs_fullscreen_slide_image
+  d90a9100-dcac-49f4-9b55-7140e672da83:
+    uuid: d90a9100-dcac-49f4-9b55-7140e672da83
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

@@ -1,0 +1,31 @@
+uuid: 9da0a6e4-8212-4c4f-bd40-15f90317745f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da9e8de3-ecc8-43a6-a6fe-dcd7a67e150e'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: homeaccordionexample
+theme: covid19demo
+region: content
+weight: -19
+provider: null
+plugin: 'block_content:da9e8de3-ecc8-43a6-a6fe-dcd7a67e150e'
+settings:
+  id: 'block_content:da9e8de3-ecc8-43a6-a6fe-dcd7a67e150e'
+  label: 'Home: Accordion Example'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

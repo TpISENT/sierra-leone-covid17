@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:22211214-07c5-425e-9ff1-f1f9122505d2'
   module:
     - block_content
+    - system
   theme:
     - covid19demo
 id: whatsappcontact
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

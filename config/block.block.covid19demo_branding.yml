@@ -11,7 +11,7 @@ _core:
 id: covid19demo_branding
 theme: covid19demo
 region: header_first
-weight: -6
+weight: -31
 provider: null
 plugin: system_branding_block
 settings:

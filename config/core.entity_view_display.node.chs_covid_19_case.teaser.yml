@@ -17,12 +17,14 @@ dependencies:
     - field.field.node.chs_covid_19_case.field_chs_location_latitude
     - field.field.node.chs_covid_19_case.field_chs_location_longitude
     - field.field.node.chs_covid_19_case.field_chs_location_name
+    - field.field.node.chs_covid_19_case.field_chs_metatag
     - field.field.node.chs_covid_19_case.field_chs_negative
     - field.field.node.chs_covid_19_case.field_chs_positive
     - field.field.node.chs_covid_19_case.field_chs_priority_contacts
     - field.field.node.chs_covid_19_case.field_chs_pst_category
     - field.field.node.chs_covid_19_case.field_chs_sample_collected
     - field.field.node.chs_covid_19_case.field_chs_sample_tested
+    - field.field.node.chs_covid_19_case.field_chs_seo_description
     - field.field.node.chs_covid_19_case.field_priority_contacts_reached
     - node.type.chs_covid_19_case
   module:
@@ -51,11 +53,13 @@ hidden:
   field_chs_location_latitude: true
   field_chs_location_longitude: true
   field_chs_location_name: true
+  field_chs_metatag: true
   field_chs_negative: true
   field_chs_positive: true
   field_chs_priority_contacts: true
   field_chs_pst_category: true
   field_chs_sample_collected: true
   field_chs_sample_tested: true
+  field_chs_seo_description: true
   field_priority_contacts_reached: true
   search_api_excerpt: true

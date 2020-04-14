@@ -1,0 +1,21 @@
+uuid: 71e03353-00f9-4cf7-ab4b-7610ead44c91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_metatag
+    - node.type.chs_covid_19_case
+  module:
+    - metatag
+id: node.chs_covid_19_case.field_chs_metatag
+field_name: field_chs_metatag
+entity_type: node
+bundle: chs_covid_19_case
+label: Metatag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

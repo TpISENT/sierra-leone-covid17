@@ -7,20 +7,6 @@ dependencies:
     - user
     - search_api
   config:
-    - field.storage.node.body
-    - field.storage.node.field_chs_availability_status
-    - field.storage.node.field_chs_in_stock
-    - field.storage.node.field_chs_manufacturer
-    - field.storage.node.field_chs_manufacturer_number
-    - field.storage.node.field_chs_price
-    - field.storage.node.field_chs_product_category
-    - field.storage.node.field_chs_product_size
-    - field.storage.node.field_chs_product_type
-    - field.storage.node.field_chs_sku_number
-    - field.storage.node.field_chs_uom
-    - field.storage.node.field_chs_vendor
-    - field.storage.node.field_chs_vendor_address_details
-    - field.storage.node.field_chs_vendor_fulfillment_cen
     - search_api.server.default_server
     - core.entity_view_mode.node.search_index
 _core:
@@ -40,14 +26,6 @@ field_settings:
         - node
         - user
         - user
-  body:
-    label: 'Product Description'
-    datasource_id: 'entity:node'
-    property_path: body
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.body
   changed:
     label: Changed
     datasource_id: 'entity:node'
@@ -64,110 +42,6 @@ field_settings:
     dependencies:
       module:
         - node
-  field_chs_availability_status:
-    label: 'Availability Status'
-    datasource_id: 'entity:node'
-    property_path: field_chs_availability_status
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_availability_status
-  field_chs_in_stock:
-    label: 'Amount In Stock'
-    datasource_id: 'entity:node'
-    property_path: field_chs_in_stock
-    type: integer
-    dependencies:
-      config:
-        - field.storage.node.field_chs_in_stock
-  field_chs_manufacturer:
-    label: 'Manufacturer Name'
-    datasource_id: 'entity:node'
-    property_path: field_chs_manufacturer
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_chs_manufacturer
-  field_chs_manufacturer_number:
-    label: 'Manufacturer #/ Category #'
-    datasource_id: 'entity:node'
-    property_path: field_chs_manufacturer_number
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_manufacturer_number
-  field_chs_price:
-    label: 'Product Price (USD)'
-    datasource_id: 'entity:node'
-    property_path: field_chs_price
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_price
-  field_chs_product_category:
-    label: 'Product Category'
-    datasource_id: 'entity:node'
-    property_path: field_chs_product_category
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_chs_product_category
-  field_chs_product_size:
-    label: 'Product Size'
-    datasource_id: 'entity:node'
-    property_path: field_chs_product_size
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_product_size
-  field_chs_product_type:
-    label: 'Product Type'
-    datasource_id: 'entity:node'
-    property_path: field_chs_product_type
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_chs_product_type
-  field_chs_sku_number:
-    label: 'SKU Number'
-    datasource_id: 'entity:node'
-    property_path: field_chs_sku_number
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_sku_number
-  field_chs_uom:
-    label: 'UOM (Unit of Measure)'
-    datasource_id: 'entity:node'
-    property_path: field_chs_uom
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_uom
-  field_chs_vendor:
-    label: 'Vendor Name'
-    datasource_id: 'entity:node'
-    property_path: field_chs_vendor
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_chs_vendor
-  field_chs_vendor_address_details:
-    label: 'Vendor Address (Region, Country)'
-    datasource_id: 'entity:node'
-    property_path: field_chs_vendor_address_details
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_vendor_address_details
-  field_chs_vendor_fulfillment_cen:
-    label: 'Vendor Fulfillment Center'
-    datasource_id: 'entity:node'
-    property_path: field_chs_vendor_fulfillment_cen
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_chs_vendor_fulfillment_cen
   node_grants:
     label: 'Node access information'
     property_path: search_api_node_grants
@@ -268,19 +142,6 @@ processor_settings:
     all_fields: true
     fields:
       - author
-      - body
-      - field_chs_availability_status
-      - field_chs_manufacturer
-      - field_chs_manufacturer_number
-      - field_chs_price
-      - field_chs_product_category
-      - field_chs_product_size
-      - field_chs_product_type
-      - field_chs_sku_number
-      - field_chs_uom
-      - field_chs_vendor
-      - field_chs_vendor_address_details
-      - field_chs_vendor_fulfillment_cen
       - rendered_item
       - title
       - type
@@ -299,19 +160,6 @@ processor_settings:
     all_fields: true
     fields:
       - author
-      - body
-      - field_chs_availability_status
-      - field_chs_manufacturer
-      - field_chs_manufacturer_number
-      - field_chs_price
-      - field_chs_product_category
-      - field_chs_product_size
-      - field_chs_product_type
-      - field_chs_sku_number
-      - field_chs_uom
-      - field_chs_vendor
-      - field_chs_vendor_address_details
-      - field_chs_vendor_fulfillment_cen
       - rendered_item
       - title
       - type
@@ -326,11 +174,6 @@ processor_settings:
   stopwords:
     all_fields: true
     fields:
-      - body
-      - field_chs_manufacturer
-      - field_chs_product_category
-      - field_chs_product_type
-      - field_chs_vendor
       - rendered_item
       - title
     stopwords:
@@ -375,11 +218,6 @@ processor_settings:
   tokenizer:
     all_fields: true
     fields:
-      - body
-      - field_chs_manufacturer
-      - field_chs_product_category
-      - field_chs_product_type
-      - field_chs_vendor
       - rendered_item
       - title
     spaces: ''
@@ -392,19 +230,6 @@ processor_settings:
     all_fields: true
     fields:
       - author
-      - body
-      - field_chs_availability_status
-      - field_chs_manufacturer
-      - field_chs_manufacturer_number
-      - field_chs_price
-      - field_chs_product_category
-      - field_chs_product_size
-      - field_chs_product_type
-      - field_chs_sku_number
-      - field_chs_uom
-      - field_chs_vendor
-      - field_chs_vendor_address_details
-      - field_chs_vendor_fulfillment_cen
       - rendered_item
       - title
       - type

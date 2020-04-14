@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.chs_press.body
+    - field.field.node.chs_press.field_chs_metatag
     - field.field.node.chs_press.field_chs_other_press_source
     - field.field.node.chs_press.field_chs_press_featured_image
     - field.field.node.chs_press.field_chs_press_footer
@@ -12,6 +13,7 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
     - field.field.node.chs_press.field_chs_pst_category
+    - field.field.node.chs_press.field_chs_seo_description
     - node.type.chs_press
   module:
     - text
@@ -35,6 +37,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_chs_metatag: true
   field_chs_other_press_source: true
   field_chs_press_featured_image: true
   field_chs_press_footer: true
@@ -42,4 +45,5 @@ hidden:
   field_chs_press_media: true
   field_chs_press_source: true
   field_chs_pst_category: true
+  field_chs_seo_description: true
   search_api_excerpt: true

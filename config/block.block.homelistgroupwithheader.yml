@@ -1,0 +1,31 @@
+uuid: 02d8bfc9-df60-4484-8877-1296c29aa6b7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4cd6665a-d95a-4d1d-ab62-87cc5ec6dbce'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: homelistgroupwithheader
+theme: covid19demo
+region: footer_top_second
+weight: -29
+provider: null
+plugin: 'block_content:4cd6665a-d95a-4d1d-ab62-87cc5ec6dbce'
+settings:
+  id: 'block_content:4cd6665a-d95a-4d1d-ab62-87cc5ec6dbce'
+  label: 'Home: List Group with Header'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

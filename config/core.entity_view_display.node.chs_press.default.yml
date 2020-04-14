@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.chs_press.body
+    - field.field.node.chs_press.field_chs_metatag
     - field.field.node.chs_press.field_chs_other_press_source
     - field.field.node.chs_press.field_chs_press_featured_image
     - field.field.node.chs_press.field_chs_press_footer
@@ -11,8 +12,10 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
     - field.field.node.chs_press.field_chs_pst_category
+    - field.field.node.chs_press.field_chs_seo_description
     - node.type.chs_press
   module:
+    - metatag
     - options
     - text
     - user
@@ -24,12 +27,19 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_chs_metatag:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_chs_other_press_source:
-    weight: 107
+    weight: 6
     label: above
     settings:
       link_to_entity: false
@@ -38,55 +48,49 @@ content:
     region: content
   field_chs_press_featured_image:
     type: entity_reference_entity_view
-    weight: 105
-    label: above
+    weight: 1
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
     region: content
   field_chs_press_footer:
-    weight: 103
-    label: above
+    weight: 4
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_chs_press_header:
-    weight: 102
-    label: above
+    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_chs_press_media:
     type: entity_reference_entity_view
-    weight: 104
-    label: above
+    weight: 2
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
     region: content
   field_chs_press_source:
-    weight: 106
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
-  field_chs_pst_category:
-    weight: 108
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   links:
-    weight: 100
+    weight: 8
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
+  field_chs_pst_category: true
+  field_chs_seo_description: true
   search_api_excerpt: true

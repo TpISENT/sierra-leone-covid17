@@ -10,8 +10,8 @@ dependencies:
     - covid19demo
 id: headercontactinformation
 theme: covid19demo
-region: header_top_highlighted_first
-weight: 0
+region: sub_footer_top_second
+weight: -27
 provider: null
 plugin: 'block_content:39fbf7a8-4289-4907-b94e-d718521877b4'
 settings:

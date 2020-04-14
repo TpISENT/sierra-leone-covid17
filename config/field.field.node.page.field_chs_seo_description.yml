@@ -1,0 +1,19 @@
+uuid: 54212433-6455-417a-917f-11e1cc692c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_seo_description
+    - node.type.page
+id: node.page.field_chs_seo_description
+field_name: field_chs_seo_description
+entity_type: node
+bundle: page
+label: 'SEO Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

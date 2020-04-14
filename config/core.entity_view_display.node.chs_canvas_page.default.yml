@@ -4,9 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.chs_canvas_page.field_chs_cnv_body
+    - field.field.node.chs_canvas_page.field_chs_metatag
     - field.field.node.chs_canvas_page.field_chs_pst_category
+    - field.field.node.chs_canvas_page.field_chs_seo_description
     - node.type.chs_canvas_page
   module:
+    - metatag
     - text
     - user
 id: node.chs_canvas_page.default
@@ -21,13 +24,12 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_chs_pst_category:
+  field_chs_metatag:
     weight: 2
     label: above
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: metatag_empty_formatter
     region: content
   links:
     weight: 1
@@ -35,4 +37,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_chs_pst_category: true
+  field_chs_seo_description: true
   search_api_excerpt: true

@@ -7,5 +7,7 @@ _core:
 id: '403'
 label: '403 access denied'
 tags:
+  title: '[current-page:title] | Sierra Leone Corona Virus (COVID-19) Response and Open Data Platform'
   canonical_url: '[site:url]'
+  description: 'Access denied to the page you are trying to visit.'
   shortlink: '[site:url]'

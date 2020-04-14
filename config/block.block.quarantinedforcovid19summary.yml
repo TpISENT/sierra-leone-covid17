@@ -12,7 +12,7 @@ dependencies:
 id: quarantinedforcovid19summary
 theme: covid19demo
 region: content
-weight: -13
+weight: -22
 provider: null
 plugin: 'block_content:71cd540c-74aa-4c3b-87cd-ad262851e11d'
 settings:

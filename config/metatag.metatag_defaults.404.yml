@@ -7,5 +7,7 @@ _core:
 id: '404'
 label: '404 page not found'
 tags:
+  title: '[current-page:title] | Sierra Leone Corona Virus (COVID-19) Response and Open Data Platform'
   canonical_url: '[site:url]'
+  description: 'The page you are looking for cannot be found.'
   shortlink: '[site:url]'

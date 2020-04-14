@@ -15,3 +15,10 @@ effects:
     weight: 1
     data:
       crop_type: chs_boxedwidth_slide_image
+  b20f5304-153e-4541-91ea-ec492737a735:
+    uuid: b20f5304-153e-4541-91ea-ec492737a735
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

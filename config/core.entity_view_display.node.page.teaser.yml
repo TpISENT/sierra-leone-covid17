@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_chs_metatag
     - field.field.node.page.field_chs_pst_category
+    - field.field.node.page.field_chs_seo_description
     - node.type.page
   module:
     - text
@@ -34,5 +36,7 @@ content:
     weight: 101
     region: content
 hidden:
+  field_chs_metatag: true
   field_chs_pst_category: true
+  field_chs_seo_description: true
   search_api_excerpt: true

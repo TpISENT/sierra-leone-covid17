@@ -11,7 +11,7 @@ _core:
 id: covid19demo_messages
 theme: covid19demo
 region: system_messages
-weight: -6
+weight: -27
 provider: null
 plugin: system_messages_block
 settings:

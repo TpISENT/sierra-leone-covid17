@@ -12,7 +12,7 @@ dependencies:
 id: home5backgroundimage
 theme: covid19demo
 region: banner
-weight: -13
+weight: -23
 provider: null
 plugin: 'block_content:3d9ad7cf-d275-430e-9812-38f7094df4eb'
 settings:

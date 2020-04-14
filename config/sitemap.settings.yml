@@ -1,0 +1,66 @@
+langcode: en
+page_title: Sitemap
+message:
+  value: ''
+  format: restricted_html
+show_front: true
+show_titles: true
+show_books: {  }
+books_expanded: true
+show_menus:
+  chs-case-updates: chs-case-updates
+  chs-government-links: chs-government-links
+  chs-public-notices: chs-public-notices
+  chs-situation-updates: chs-situation-updates
+  main: main
+  account: '0'
+  admin: '0'
+  footer: '0'
+  tools: '0'
+show_menus_hidden: false
+show_vocabularies:
+  chs_admin_location: '0'
+  chs_case_type_and_status: '0'
+  chs_critical_supply: '0'
+  chs_healthcare_facility: '0'
+  chs_manufacturer: '0'
+  chs_product: '0'
+  chs_product_category: '0'
+  chs_product_type: '0'
+  chs_section: '0'
+  chs_vendor: '0'
+  tags: '0'
+show_description: true
+show_count: true
+vocabulary_show_links: false
+vocabulary_depth: -1
+term_threshold: 0
+forum_threshold: -1
+rss_front: rss.xml
+show_rss_links: 1
+rss_taxonomy: -1
+css: true
+order:
+  front: -50
+  vocabularies_chs_case_type_and_status: -50
+  vocabularies_chs_vendor: -50
+  vocabularies_chs_section: -50
+  vocabularies_chs_product_type: -50
+  vocabularies_chs_product_category: -50
+  vocabularies_chs_product: -50
+  vocabularies_chs_manufacturer: -50
+  vocabularies_chs_healthcare_facility: -50
+  vocabularies_chs_critical_supply: -50
+  vocabularies_chs_admin_location: -50
+  menus_account: -50
+  menus_tools: -50
+  menus_main: -50
+  menus_footer: -50
+  menus_chs-situation-updates: -50
+  menus_chs-public-notices: -50
+  menus_chs-government-links: -50
+  menus_chs-case-updates: -50
+  menus_admin: -50
+  vocabularies_tags: -50
+_core:
+  default_config_hash: f4sH8CGbEMFQXKFoGeaHbmIP_f6cOTi02EeFhHSbYyo

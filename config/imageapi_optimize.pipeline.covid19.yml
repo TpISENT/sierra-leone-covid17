@@ -1,0 +1,43 @@
+uuid: a10e0968-ffef-49b7-ac6c-af715fa5cebd
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_binaries
+name: covid19
+label: Covid19
+processors:
+  659832e5-6a0d-4298-b846-b627ff8a4245:
+    uuid: 659832e5-6a0d-4298-b846-b627ff8a4245
+    id: jpegtran
+    weight: 1
+    data:
+      manual_executable_path: ''
+      progressive: true
+  9ec059c9-91c3-40a4-a0dc-75a0eae5bac5:
+    uuid: 9ec059c9-91c3-40a4-a0dc-75a0eae5bac5
+    id: pngquant
+    weight: 2
+    data:
+      manual_executable_path: ''
+      speed: 3
+      quality:
+        min: 90
+        max: 99
+  3ac34813-fd57-4971-91be-40bdd5c10571:
+    uuid: 3ac34813-fd57-4971-91be-40bdd5c10571
+    id: jpegoptim
+    weight: 3
+    data:
+      manual_executable_path: ''
+      progressive: 1
+      quality: 50
+      size: null
+  9d741c59-6e14-4b58-98e1-1353a82618ca:
+    uuid: 9d741c59-6e14-4b58-98e1-1353a82618ca
+    id: optipng
+    weight: 4
+    data:
+      manual_executable_path: ''
+      level: 5
+      interlace: true

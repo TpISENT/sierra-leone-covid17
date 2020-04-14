@@ -1,0 +1,21 @@
+uuid: 5ae65d8d-c5b7-4616-b35e-863fee5e0c6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_metatag
+    - node.type.page
+  module:
+    - metatag
+id: node.page.field_chs_metatag
+field_name: field_chs_metatag
+entity_type: node
+bundle: page
+label: Metatag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

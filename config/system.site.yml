@@ -1,7 +1,7 @@
 uuid: ec558830-52ee-42a7-8168-e47808ada0e1
-name: 'Open Corona Virus Data'
+name: COVID19.SL
 mail: info@covid19.sl
-slogan: 'Information and Resources on Corona Virus in Sierra Leone'
+slogan: 'Corona Virus Information'
 page:
   403: /node/3
   404: /node/2
@@ -12,4 +12,4 @@ langcode: en
 default_langcode: en
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
-mail_notification: tamba.s.lamin@accenture.com
+mail_notification: tamba.s.lamin@tpisent.com

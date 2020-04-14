@@ -1,0 +1,8 @@
+uuid: 1a43bd50-9ad9-43cb-9a9a-a5607410381e
+langcode: en
+status: true
+dependencies: {  }
+id: chs-quick-menu
+label: 'Quick Menu'
+description: 'Quick Menu'
+locked: false

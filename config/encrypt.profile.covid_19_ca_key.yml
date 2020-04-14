@@ -1,0 +1,13 @@
+uuid: 6509dbcb-5056-453f-909f-f1166ff15bc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.covid_19_key
+  module:
+    - real_aes
+id: covid_19_ca_key
+label: 'Covid-19 CA Key'
+encryption_method: real_aes
+encryption_key: covid_19_key
+encryption_method_configuration: {  }

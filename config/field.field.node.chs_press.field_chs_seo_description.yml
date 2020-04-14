@@ -1,0 +1,19 @@
+uuid: 5bf47611-fbdc-44c5-be67-c62795be5741
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chs_seo_description
+    - node.type.chs_press
+id: node.chs_press.field_chs_seo_description
+field_name: field_chs_seo_description
+entity_type: node
+bundle: chs_press
+label: 'SEO Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

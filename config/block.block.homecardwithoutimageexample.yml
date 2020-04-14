@@ -1,0 +1,31 @@
+uuid: 4674365e-43c5-4a91-976e-6496186d437b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1dbf24e-b3ec-46da-ad58-4c0600d251f3'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19demo
+id: homecardwithoutimageexample
+theme: covid19demo
+region: footer_top_first
+weight: 0
+provider: null
+plugin: 'block_content:a1dbf24e-b3ec-46da-ad58-4c0600d251f3'
+settings:
+  id: 'block_content:a1dbf24e-b3ec-46da-ad58-4c0600d251f3'
+  label: 'Home: Card without Image Example'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

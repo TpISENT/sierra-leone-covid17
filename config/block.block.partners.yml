@@ -12,7 +12,7 @@ dependencies:
 id: partners
 theme: covid19demo
 region: sub_footer_top_second
-weight: -11
+weight: -28
 provider: null
 plugin: 'block_content:1a48826b-4caa-4d10-aab1-27a1cd8153c2'
 settings:
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /blocks
     negate: false
     context_mapping: {  }

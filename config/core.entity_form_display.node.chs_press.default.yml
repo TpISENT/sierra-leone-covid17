@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.chs_press.body
+    - field.field.node.chs_press.field_chs_metatag
     - field.field.node.chs_press.field_chs_other_press_source
     - field.field.node.chs_press.field_chs_press_featured_image
     - field.field.node.chs_press.field_chs_press_footer
@@ -11,10 +12,12 @@ dependencies:
     - field.field.node.chs_press.field_chs_press_media
     - field.field.node.chs_press.field_chs_press_source
     - field.field.node.chs_press.field_chs_pst_category
+    - field.field.node.chs_press.field_chs_seo_description
     - node.type.chs_press
   module:
     - content_moderation
     - media_library
+    - metatag
     - path
     - text
 id: node.chs_press.default
@@ -24,7 +27,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 3
+    weight: 4
     settings:
       rows: 9
       summary_rows: 3
@@ -34,12 +37,19 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 9
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_chs_metatag:
+    weight: 18
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_chs_other_press_source:
-    weight: 7
+    weight: 8
     settings:
       size: 60
       placeholder: ''
@@ -48,13 +58,13 @@ content:
     region: content
   field_chs_press_featured_image:
     type: media_library_widget
-    weight: 2
+    weight: 3
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   field_chs_press_footer:
-    weight: 5
+    weight: 6
     settings:
       rows: 5
       placeholder: ''
@@ -62,7 +72,7 @@ content:
     type: text_textarea
     region: content
   field_chs_press_header:
-    weight: 1
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
@@ -71,19 +81,19 @@ content:
     region: content
   field_chs_press_media:
     type: media_library_widget
-    weight: 4
+    weight: 5
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   field_chs_press_source:
-    weight: 6
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_chs_pst_category:
-    weight: 26
+    weight: 17
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -92,15 +102,23 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
+  field_chs_seo_description:
+    weight: 1
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
   moderation_state:
     type: moderation_state_default
-    weight: 14
+    weight: 15
     settings: {  }
     region: content
     third_party_settings: {  }
   path:
     type: path
-    weight: 12
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -108,21 +126,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 11
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 16
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 12
     region: content
     third_party_settings: {  }
   title:
@@ -135,7 +153,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 8
+    weight: 9
     settings:
       match_operator: CONTAINS
       size: 60
@@ -144,7 +162,7 @@ content:
     region: content
     third_party_settings: {  }
   url_redirects:
-    weight: 13
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
