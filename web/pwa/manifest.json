@@ -1,6 +1,6 @@
 {
-  "name": "Flashy+",
-  "short_name": "Flashy+",
+  "name": "COVID-19 Sierra Leone",
+  "short_name": "COVID19.SL",
   "icons": [
     {
       "src": "images/launcher-icon-0-75x.png",
@@ -40,7 +40,7 @@
   ],
   "gcm_sender_id": "482941778795",
   "gcm_sender_id_comment": "Do not change the GCM Sender ID",
-  "theme_color": "#9E9E9E",
+  "theme_color": "#fbbd04",
   "background_color": "#9E9E9E",
   "start_url": "../../../../",
   "display": "standalone"
