@@ -1,0 +1,22 @@
+uuid: 919ceecd-49a5-4f93-9297-ac00a6dd1efd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - covid19
+_core:
+  default_config_hash: HYFLk-wbfs0HA8szZ9IgtUCWy0x45l_LgXyj3ZXDOws
+id: covid19_messages
+theme: covid19
+region: system_messages
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,55 @@
+/**
+ * @file
+ * Visual styles for COVID-19's testimonials carousel.
+ */
+.view-chs-testimonials-carousel {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.owl-carousel.chs-carousel-testimonials {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.view-chs-testimonials-carousel .view-header h2 {
+  margin-bottom: 70px;
+}
+.view-chs-testimonials-carousel .views-field-title a {
+  font-size: 22px;
+}
+.view-chs-testimonials-carousel .views-field-field-chs-tst-body {
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.view-chs-testimonials-carousel .views-field-field-chs-tst-subtitle {
+  font-size: 14px;
+}
+.region--dark-typography .view-chs-testimonials-carousel .views-field-field-chs-tst-subtitle {
+  color: #b5b5b5;
+}
+.chs-carousel-testimonials .owl-item {
+  margin-bottom: 0px;
+}
+.chs-carousel-testimonials .owl-nav {
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -20px;
+}
+.owl-nav div:after {
+  font-size: 36px;
+}
+.chs-carousel-testimonials .owl-nav .owl-prev {
+  left: 0px;
+  margin-left: 0;
+}
+.chs-carousel-testimonials .owl-nav .owl-next {
+  right: 0px;
+  margin-right: 0;
+}

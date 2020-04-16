@@ -1,0 +1,885 @@
+/**
+ * @file
+ * Color styling rules for COVID-19.
+ *
+ */
+
+/* base: elements */
+a {
+  color: hsl(var(--chs-link-color));
+}
+a:hover,
+a:focus {
+  color: hsl(var(--chs-link-color-hover));
+}
+a.link--dark,
+.link--dark a {
+  color: hsl(var(--chs-link-color-hover));
+}
+a.link--dark:hover,
+.link--dark a:hover,
+a.link--dark:focus,
+.link--dark a:focus {
+  color: hsl(var(--chs-link-color));
+}
+a.link--bordered,
+.link--bordered a {
+  border-color: hsl(var(--chs-link-color));
+}
+.text--dark {
+  color: hsl(var(--chs-dark-color));
+}
+.region--colored-background h1.text--dark,
+.region--colored-background h2.text--dark,
+.region--colored-background h3.text--dark,
+.region--colored-background h4.text--dark,
+.region--colored-background h5.text--dark,
+.region--colored-background h6.text--dark {
+  color: hsl(var(--chs-dark-color));
+}
+.text--colored {
+  color: hsl(var(--chs-base-color));
+}
+.region--black-background h1.text--colored,
+.region--black-background h2.text--colored,
+.region--black-background h3.text--colored,
+.region--black-background h4.text--colored,
+.region--black-background h5.text--colored,
+.region--black-background h6.text--colored,
+.region--dark-background h1.text--colored,
+.region--dark-background h2.text--colored,
+.region--dark-background h3.text--colored,
+.region--dark-background h4.text--colored,
+.region--dark-background h5.text--colored,
+.region--dark-background h6.text--colored,
+.region--dark-gray-background h1.text--colored,
+.region--dark-gray-background h2.text--colored,
+.region--dark-gray-background h3.text--colored,
+.region--dark-gray-background h4.text--colored,
+.region--dark-gray-background h5.text--colored,
+.region--dark-gray-background h6.text--colored {
+  color: hsl(var(--chs-base-color));
+}
+.link--hover-style-3 {
+  background-image: linear-gradient(hsla(var(--chs-link-color), 0.5) 0%, hsla(var(--chs-link-color), 0.5) 100%);
+}
+.link--hover-style-3:hover {
+  background-image: linear-gradient(hsl(var(--chs-link-color)) 0%, hsl(var(--chs-link-color)) 100%);
+}
+.region--light-typography .link--hover-style-3:hover {
+  color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-underline-1 .chs-link-stylable:after {
+  background-color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-underline-2 .chs-link-stylable:after {
+  background-color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-underline-3 .chs-link-stylable:before {
+  background-color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-background-1 .chs-link-stylable:before {
+  background-color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-background-2 .chs-link-stylable:after {
+  background-color: hsl(var(--chs-link-color));
+}
+.chs-link-style-animated-background-3 .chs-link-stylable:before {
+  background-color: hsl(var(--chs-link-color));
+}
+.region--dark-typography .block-title.block-title--border {
+  border-color: hsl(var(--chs-link-color));
+}
+/* invert foreground color */
+.chs-link-style-animated-icon .region--light-typography .chs-link-stylable {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-icon .region--light-typography .chs-link-stylable:before {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-underline-1 .region--light-typography .chs-link-stylable:after {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-underline-3 .region--light-typography .chs-link-stylable:before {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-underline-2 .region--light-typography .chs-link-stylable:after {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-1 .region--light-typography .chs-link-stylable:before {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-1 .region--light-typography .chs-link-stylable:hover,
+.chs-link-style-animated-background-1 .region--light-typography .chs-link-stylable:focus {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-2 .region--light-typography .chs-link-stylable:after {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-2 .region--light-typography .chs-link-stylable:hover,
+.chs-link-style-animated-background-2 .region--light-typography .chs-link-stylable:focus {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-3 .region--light-typography .chs-link-stylable:before {
+  background-color: hsl(var(--chs-foreground-color-contrast));
+}
+.chs-link-style-animated-background-3 .region--light-typography .chs-link-stylable:hover,
+.chs-link-style-animated-background-3 .region--light-typography .chs-link-stylable:focus {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography a,
+.region--light-typography a.link--dark,
+.region--light-typography .link--dark a {
+  color: hsl(var(--chs-base-color));
+}
+.region--light-typography a:hover,
+.region--light-typography a:focus,
+.region--light-typography a.link--dark:hover,
+.region--light-typography a.link--dark:focus,
+.region--light-typography .link--dark a:hover,
+.region--light-typography .link--dark a:focus {
+  color: hsl(var(--chs-dark-color));
+}
+.region--light-typography a.link--hover-style-2:before,
+.region--light-typography .link--hover-style-2 a:before {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography .link--hover-style-3:hover {
+  background-image: linear-gradient(hsl(var(--chs-foreground-color-contrast)) 0%, hsl(var(--chs-foreground-color-contrast)) 100%);
+}
+.region--light-typography.region--dark-background .text--dark {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography.region--colored-background .text--colored {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography hr {
+  border-color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography .block-title.block-title--border {
+  border-bottom-color: hsla(hsl(var(--chs-foreground-color-contrast)), 0.2);
+}
+.region--light-typography .hero__section h4.title,
+.region--light-typography .hero__section h2.title,
+.region--light-typography .hero__section nav > h2,
+.region--light-typography .hero__section .block-search > h2 {
+  border-bottom-color: hsla(hsl(var(--chs-foreground-color-contrast)), 0.2);
+}
+
+/* base: layout */
+.region--dark-background {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--colored-background {
+  background-color: hsl(var(--chs-base-color));
+}
+.region--white-dark-colored-background {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 35%, hsl(var(--chs-dark-color)) 35%);
+  background: -webkit-linear-gradient(top, #ffffff 35%, hsl(var(--chs-dark-color)) 35%);
+  background: linear-gradient(to bottom, #ffffff 35%, hsl(var(--chs-dark-color)) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='hsl(var(--chs-dark-color))',GradientType=0 );
+}
+.region--gray-background + .region--white-dark-colored-background {
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top, #f1f1f1 35%, hsl(var(--chs-dark-color)) 35%);
+  background: -webkit-linear-gradient(top, #f1f1f1 35%, hsl(var(--chs-dark-color)) 35%);
+  background: linear-gradient(to bottom, #f1f1f1 35%, hsl(var(--chs-dark-color)) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='hsl(var(--chs-dark-color))',GradientType=0 );
+}
+.region--white-colored-background {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 35%, hsl(var(--chs-base-color)) 35%);
+  background: -webkit-linear-gradient(top, #ffffff 35%, hsl(var(--chs-base-color)) 35%);
+  background: linear-gradient(to bottom, #ffffff 35%, hsl(var(--chs-base-color)) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='hsl(var(--chs-base-color))',GradientType=0 );
+}
+.region--gray-background + .region--white-colored-background {
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top, #f1f1f1 35%, hsl(var(--chs-base-color)) 35%);
+  background: -webkit-linear-gradient(top, #f1f1f1 35%, hsl(var(--chs-base-color)) 35%);
+  background: linear-gradient(to bottom, #f1f1f1 35%, hsl(var(--chs-base-color)) 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='hsl(var(--chs-base-color))',GradientType=0 );
+}
+.region--dark-background + .region--separator-incline-diagonal:before {
+  background: linear-gradient(to bottom right, hsl(var(--chs-dark-color)) 49.5%, transparent 50%);
+}
+.region--colored-background + .region--separator-incline-diagonal:before {
+  background: linear-gradient(to bottom right, hsl(var(--chs-base-color)) 49.5%, transparent 50%);
+}
+.region--dark-background + .region--separator-decline-diagonal:before {
+  background: linear-gradient(to bottom left, hsl(var(--chs-dark-color)) 49.5%, transparent 50%);
+}
+.region--colored-background + .region--separator-decline-diagonal:before {
+  background: linear-gradient(to bottom left, hsl(var(--chs-base-color)) 49.5%, transparent 50%);
+}
+.page-container-border-enabled .page-container {
+  border-color: hsl(var(--chs-base-color));
+}
+
+/* components: buttons */
+a.chs-button,
+.chs-button > a,
+button.chs-button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.region--light-typography a.chs-button,
+.region--light-typography .chs-button > a,
+.region--light-typography button.chs-button,
+.region--light-typography input[type="submit"],
+.region--light-typography input[type="reset"],
+.region--light-typography input[type="button"] {
+  border-color: hsl(var(--chs-base-color));
+  background-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-foreground-color));
+}
+a.chs-button:hover,
+.chs-button > a:hover,
+button.chs-button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+a.chs-button:focus,
+.chs-button > a:focus,
+button.chs-button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--light-typography a.chs-button:focus,
+.region--light-typography .chs-button > a:focus,
+.region--light-typography button.chs-button:focus,
+.region--light-typography input[type="submit"]:focus,
+.region--light-typography input[type="reset"]:focus,
+.region--light-typography input[type="button"]:focus {
+  outline-color: #FFFFFF;
+}
+.region--light-typography a.chs-button.chs-button--outline:focus,
+.region--light-typography .chs-button.chs-button--outline > a:focus,
+.region--light-typography button.chs-button.chs-button--outline:focus,
+.region--light-typography input[type="submit"][value="Reset"]:focus,
+.region--light-typography input[type="submit"].chs-button--outline:focus,
+.region--light-typography input[type="reset"].chs-button--outline:focus,
+.region--light-typography input[type="button"].chs-button--outline:focus {
+  outline-color: hsl(var(--chs-base-color));
+}
+.region--dark-typography.region--colored-background a.chs-button:hover,
+.region--dark-typography.region--colored-background .chs-button > a:hover,
+.region--dark-typography.region--colored-background button.chs-button:hover,
+.region--dark-typography.region--colored-background input[type="submit"]:hover,
+.region--dark-typography.region--colored-background input[type="reset"]:hover,
+.region--dark-typography.region--colored-background input[type="button"]:hover,
+.region--dark-typography.region--dark-background a.chs-button:hover,
+.region--dark-typography.region--dark-background .chs-button > a:hover,
+.region--dark-typography.region--dark-background button.chs-button:hover,
+.region--dark-typography.region--dark-background input[type="submit"]:hover,
+.region--dark-typography.region--dark-background input[type="reset"]:hover,
+.region--dark-typography.region--dark-background input[type="button"]:hover {
+  color: hsl(var(--chs-base-color));
+}
+.region--dark-typography.region--colored-background a.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--colored-background .chs-button.chs-button--outline > a:hover,
+.region--dark-typography.region--colored-background button.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="submit"][value="Reset"]:hover,
+.region--dark-typography.region--colored-background input[type="submit"].chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="reset"].chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="button"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background a.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--dark-background .chs-button.chs-button--outline > a:hover,
+.region--dark-typography.region--dark-background button.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="submit"][value="Reset"]:hover,
+.region--dark-typography.region--dark-background input[type="submit"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="reset"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="button"].chs-button--outline:hover {
+  color: hsl(var(--chs-foreground-color));
+}
+
+/* components: collapsible block */
+.collapsible-block__trigger a {
+  background-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-foreground-color));
+}
+.collapsible-block__trigger a:hover,
+.collapsible-block__trigger a:focus {
+  background-color: hsl(var(--chs-dark-color));
+  color: hsl(var(--chs-foreground-color));
+}
+.region--colored-background .collapsible-block__trigger a {
+  background-color: hsl(var(--chs-dark-color));
+  text-decoration: none;
+}
+.region--colored-background .collapsible-block__trigger a:hover {
+  background-color: hsla(var(--chs-base-color), 0.8);
+}
+
+/* components: detailed feature block */
+.region--dark-typography .detailed-feature-block__section .svg-inline--fa {
+  color: hsl(var(--chs-dark-color));
+}
+.region--dark-typography .detailed-feature-block__section h2 {
+  color: hsl(var(--chs-dark-color));
+}
+.region--dark-typography .list--fa-check-circle li:before {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: detailed pager */
+.region--dark-typography .detailed-pager--bottom {
+  border-top-color: hsl(var(--chs-base-color));
+}
+
+/* components: dropdowns */
+.region--colored-background .dropdown-menu {
+  background-color: hsla(var(--chs-base-color), 0.95);
+}
+.region--dark-background .dropdown-menu {
+  background-color: hsla(var(--chs-dark-color), 0.95);
+}
+
+/* components: fancy block */
+.region--dark-background .fancy-block-text {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--colored-background .fancy-block-text {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: fancy linked images block */
+.clip-path-support .clip-pentagon-container {
+  background-color: hsl(var(--chs-dark-color));
+}
+.clip-path-support .clip-circle-container {
+  background-color: hsl(var(--chs-dark-color));
+}
+.clip-path-support .clip-rectangle-container:before {
+  border-color: hsl(var(--chs-dark-color));
+}
+
+/* CSS rules only for FF*/
+@-moz-document url-prefix() {
+  .clip-pentagon-container {
+    background-color: hsl(var(--chs-dark-color));
+  }
+  .clip-circle-container {
+    background-color: hsl(var(--chs-dark-color));
+  }
+  .clip-rectangle-container:before {
+    border-color: hsl(var(--chs-dark-color));
+  }
+}
+
+/* components: feature */
+.region--dark-typography .feature-item__title {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: forms */
+input.form-text:hover,
+input.form-tel:hover,
+input.form-email:hover,
+input.form-url:hover,
+input.form-search:hover,
+input.form-file:hover,
+input.form-number:hover,
+input.form-color:hover,
+input.form-date:hover,
+input.form-time:hover,
+textarea:hover,
+select:hover,
+input.form-text:focus,
+input.form-tel:focus,
+input.form-email:focus,
+input.form-url:focus,
+input.form-search:focus,
+input.form-file:focus,
+input.form-number:focus,
+input.form-color:focus,
+input.form-date:focus,
+input.form-time:focus,
+textarea:focus,
+select:focus {
+  border-color: hsl(var(--chs-base-color));
+}
+.region--dark-typography .form--style-2 a.chs-button:hover,
+.region--dark-typography .form--style-2 .chs-button > a:hover,
+.region--dark-typography .form--style-2 button.chs-button:hover,
+.region--dark-typography .form--style-2 input[type="submit"]:hover,
+.region--dark-typography .form--style-2 input[type="reset"]:hover,
+.region--dark-typography .form--style-2 input[type="button"]:hover,
+.region--dark-typography .form--style-2 a.chs-button:focus,
+.region--dark-typography .form--style-2 .chs-button > a:focus,
+.region--dark-typography .form--style-2 button.chs-button:focus,
+.region--dark-typography .form--style-2 input[type="submit"]:focus,
+.region--dark-typography .form--style-2 input[type="reset"]:focus,
+.region--dark-typography .form--style-2 input[type="button"]:focus {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: content front page background */
+@media (max-width: 767px) {
+  .background-image-area.region--colored-background .header {
+    background-color: hsl(var(--chs-base-color));
+  }
+  .background-image-area.region--dark-background .header {
+    background-color: hsl(var(--chs-dark-color));
+  }
+}
+
+/* components: fixed header */
+.onscroll .header.js-fixed.region--dark-background,
+.onscroll .region--dark-background .header.js-fixed {
+  background-color: hsla(var(--chs-dark-color), 0.95);
+}
+.onscroll .header.js-fixed.region--colored-background,
+.onscroll .region--colored-background .header.js-fixed {
+  background-color: hsla(var(--chs-base-color), 0.95);
+}
+
+/* components: flexslider in page */
+.in-page-images-carousel .slides li a:after {
+  background-color: hsla(var(--chs-dark-color), 0.8);
+}
+.in-page-images-carousel .slides li a:hover:after {
+  background-color: hsla(var(--chs-dark-color), 0.5);
+}
+
+/* components: frontpage cover block */
+.cta-button {
+  border-color: hsl(var(--chs-base-color));
+}
+.cta-button:hover,
+.cta-button:focus {
+  background-color: hsla(var(--chs-base-color), 0.15);
+}
+.cta-button span {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: hero */
+.region--dark-background .hero-caption {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--colored-background .hero-caption {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: highlights */
+.region--dark-typography .highlights-grid-item .svg-inline--fa {
+  color: hsl(var(--chs-dark-color));
+}
+.region--dark-typography .highlights-grid-item h5 {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: how it works */
+.region--dark-background .field--name-field-chs-hiw-item .field__item .how-it-works__badge {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--colored-background .field--name-field-chs-hiw-item .field__item .how-it-works__badge {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: icons feature */
+.feature__icon {
+  color: hsl(var(--chs-base-color));
+}
+.region--dark-background.region--dark-typography .feature__icon,
+.region--colored-background.region--dark-typography .feature__icon {
+  color: hsl(var(--chs-foreground-color));
+}
+
+/* components: icons list */
+.region--dark-typography ul.icons-list.icons-list--bordered li a:hover {
+  color: hsl(var(--chs-base-color));
+  border-color: hsl(var(--chs-base-color));
+}
+
+/* components: image overlay */
+.overlay--colored {
+  background-color: hsla(var(--chs-dark-color), 0.5);
+}
+.overlay--visible:hover {
+  background-color: hsla(var(--chs-dark-color), 0.6);
+}
+.overlay-icon:hover,
+.overlay-icon:focus,
+.region--light-typography .overlay-icon:hover,
+.region--light-typography .overlay-icon:focus {
+  color: hsl(var(--chs-dark-color));
+}
+.overlay-icon--button {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: image with overlaid text */
+.region--colored-background .image-with-overlaid-text__text {
+  background-color: hsla(var(--chs-base-color), 0.75);
+}
+.region--dark-background .image-with-overlaid-text__text {
+  background-color: hsla(var(--chs-dark-color), 0.75);
+}
+
+/* components: in page navigation */
+.header-container ul.in-page-navigation li a.active,
+.header-container ul.in-page-navigation li a:hover,
+.header-container ul.in-page-navigation li a:focus {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: inverted header */
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li.sfHover > a,
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li > a:hover,
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li > a.is-active,
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li.active-trail > a,
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li.sfHover > a.is-active,
+.inverted-header-enabled:not(.onscroll) .header-container .sf-menu ul li.sfHover.active-trail > a {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: language switcher */
+.region--dark-typography .block-language ul li .is-active {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: layout switcher */
+.layout-switcher ul li.active a,
+.layout-switcher ul li a:hover,
+.layout-switcher ul li a:focus {
+  color: hsl(var(--chs-base-color));
+  border-color: hsl(var(--chs-base-color));
+}
+
+/*main slideshow block*/
+.ms-transparent-background .region--dark-typography.tp-caption__title a:hover {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: menu - invert foreground color */
+.region--light-typography ul.menu li > a:before {
+  color: hsl(var(--chs-foreground-color-contrast));
+}
+.region--light-typography .footer-top__section ul.menu li a:hover,
+.region--light-typography .col-12 .footer-bottom__section ul.menu li a:hover,
+.region--light-typography .subfooter-top__section ul.menu li a:hover,
+.region--light-typography .subfooter__section ul.menu li a:hover {
+  border-bottom-color: hsl(var(--chs-foreground-color-contrast));
+}
+
+/* components: header menu */
+.header-container ul.menu > li > a:before,
+.header-container ul.menu > li > span:before {
+  background-color: hsl(var(--chs-base-color));
+}
+.header-container .sf-menu ul li.sfHover > a,
+.header-container .sf-menu ul li a:hover,
+.header-container .sf-menu ul li > a.is-active,
+.header-container .sf-menu ul li.active-trail > a {
+  background-color: hsl(var(--chs-base-color));
+}
+.header-container .sf-menu.menu li ul {
+  border-top-color: hsl(var(--chs-base-color));
+}
+.menu.cta-active > li:last-child > a:hover:before,
+.menu.cta-active > li:last-child > a:focus:before,
+.menu.cta-active > li:last-child > a.is-active:hover:before,
+.menu.cta-active > li:last-child > a.is-active:focus:before {
+  background-color: hsl(var(--chs-base-color));
+}
+.region--dark-gray-background .menu.cta-active > li:last-child > a:before,
+.region--black-background .menu.cta-active > li:last-child > a:before,
+.region--dark-gray-background .menu.cta-active > li:last-child > a.is-active:before,
+.region--black-background .menu.cta-active > li:last-child > a.is-active:before {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: footer menu */
+.region--dark-typography .footer-bottom__section ul.menu li a:hover,
+.region--dark-typography .footer-bottom__section ul.menu li a:focus {
+  border-bottom-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-base-color));
+}
+.region--dark-typography .subfooter-top__section ul.menu li a:hover,
+.region--dark-typography .subfooter-top__section ul.menu li a:focus {
+  border-bottom-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-base-color));
+}
+.region--dark-typography .subfooter__section ul.menu li a:hover,
+.region--dark-typography .subfooter__section ul.menu li a:focus {
+  border-bottom-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: modal block */
+header.header .block-type--chs-modal .modal-icon-button {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: mt count down */
+.chs-count-down-block.chs-count-down-theme .chs-count-down__button {
+  border-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-base-color));
+}
+.chs-count-down-block.chs-count-down-theme .chs-count-down__button:hover,
+.chs-count-down-block.chs-count-down-theme .chs-count-down__button:focus {
+  color: hsl(var(--chs-base-color));
+  border-color: hsl(var(--chs-base-color));
+  background-color: hsla(var(--chs-base-color), 0.15);
+}
+
+/* components: node article*/
+.node--view-mode-teaser.node--type-article .node__header h2 a:hover {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: node images */
+.image-caption h4 {
+  background-color: hsla(var(--chs-base-color), 0.8);
+}
+
+/* components: node post */
+.node--type-chs-post .share-links ul li a:hover,
+.node--type-chs-post .share-links ul li a:focus {
+  border-color: hsl(var(--chs-dark-color));
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: node view mode featured products */
+.region--dark-typography .node--view-mode-chs-featured-product .field--name-field-chs-prd-price {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: node view mode featured teaser */
+.region--dark-typography .node--view-mode-chs-featured-teaser .node__title a:hover,
+.region--dark-typography .node--view-mode-chs-featured-teaser .node__title a:focus {
+  color: hsl(var(--chs-link-color-hover));
+}
+.quote-icon {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: node view mode teaser tile */
+.region--dark-typography .node--view-mode-chs-teaser-tile .node__title a:hover,
+.region--dark-typography .node--view-mode-chs-teaser-tile .node__title a:focus {
+  color: hsl(var(--chs-link-color-hover));
+}
+
+/* components: node view mode teaser tile text */
+.region--dark-typography .node--view-mode-chs-teaser-tile-text {
+  border-bottom-color: hsl(var(--chs-base-color));
+}
+.node--view-mode-chs-teaser-tile-text .region--default-background a {
+  color: hsl(var(--chs-link-color));
+}
+.node--view-mode-chs-teaser-tile-text .region--default-background a:hover,
+.node--view-mode-chs-teaser-tile-text .region--default-background a:focus {
+  color: hsl(var(--chs-link-color-hover));
+}
+
+/* components: node view mode teaser */
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags .field__item a,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags.field__item a {
+  border-color: hsl(var(--chs-link-color));
+  color: hsl(var(--chs-link-color));
+}
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:focus,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags .field__item a:hover,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags.field__item a:hover,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags .field__item a:focus,
+.region--dark-typography .field--entity-reference-target-type-taxonomy-term--tags.field__item a:focus {
+  background-color: hsl(var(--chs-link-color));
+  color: #FFFFFF;
+}
+
+/* components: owl carousel global */
+.owl-dot.active span {
+  border-color: hsl(var(--chs-base-color));
+  background-color: hsl(var(--chs-base-color));
+}
+.owl-dot:hover span {
+  border-color: hsl(var(--chs-dark-color));
+  background-color: hsl(var(--chs-dark-color));
+}
+
+/* components: pager */
+li.pager__item.is-active a,
+li.pager__item.is-active a:hover,
+li.pager__item.is-active a:focus {
+  border-color: hsl(var(--chs-base-color));
+}
+li.pager__item a:not(.chs-button):hover,
+li.pager__item a:not(.chs-button):focus {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: post progress */
+.post-progress__bar {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: pills */
+.nav-pills > li > a.nav-link:hover,
+.nav-pills > li > a.nav-link:focus {
+  background-color: hsl(var(--chs-dark-color));
+}
+
+/* components: progress bars */
+.progress-bar-default {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: search */
+.header-top__section .block.block-search .form-actions:after {
+  background-color: hsl(var(--chs-base-color));
+}
+.header-top__section .block.block-search .form-actions:hover:after {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--light-typography .header-top__section .block.block-search .form-actions:after {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: separators */
+.separator {
+  background: hsl(var(--chs-base-color));
+}
+
+/* components: share links */
+.js-share-links-fixed .share-links ul li a:hover {
+  background-color: hsl(var(--chs-dark-color));
+}
+
+/* components: slideout */
+.slideout-toggle {
+  background-color: hsl(var(--chs-dark-color));
+}
+
+/* components: slider revolution global */
+.tp-tabs {
+  background-color: hsla(var(--chs-base-color), 0.93) !important;
+}
+.tp-tabs .tp-tab.selected,
+.tp-tabs .tp-tab:hover {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: sticky footer */
+.collapsible-sticky-footer-trigger .region--dark-background.chs-button {
+  background-color: hsl(var(--chs-dark-color));
+  border-bottom-color: hsl(var(--chs-dark-color));
+}
+.collapsible-sticky-footer-trigger .region--colored-background.chs-button {
+  background-color: hsl(var(--chs-base-color));
+  border-bottom-color: hsl(var(--chs-base-color));
+}
+
+/* components: subscribe form */
+.region--dark-typography .subscribe-form input[type="submit"]:hover,
+.region--dark-typography .subscribe-form input[type="submit"]:focus {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: tabs */
+.nav-tabs {
+  border-color: hsl(var(--chs-base-color));
+}
+.nav-tabs a.nav-link,
+.region--light-typography .nav-tabs a.nav-link {
+  border-bottom-color: hsl(var(--chs-base-color));
+}
+.nav-tabs a.nav-link.active,
+.nav-tabs a.nav-link.active:focus,
+.nav-tabs a.nav-link.active:hover,
+.nav-tabs a.nav-link:hover,
+.nav-tabs a.nav-link:focus {
+  border-color: hsl(var(--chs-base-color));
+  color: hsl(var(--chs-foreground-color));
+  background-color: hsl(var(--chs-base-color));
+}
+.nav-tabs.nav-tabs--fancy a.nav-link.active,
+.nav-tabs.nav-tabs--fancy a.nav-link.active:focus,
+.nav-tabs.nav-tabs--fancy a.nav-link.active:hover {
+  border-color: hsl(var(--chs-base-color));
+}
+.nav-tabs.nav-tabs--vertical a.nav-link.active,
+.nav-tabs.nav-tabs--vertical a.nav-link:hover,
+.nav-tabs.nav-tabs--vertical a.nav-link:focus {
+  border-bottom-color: hsl(var(--chs-base-color));
+}
+.region--light-typography .nav-tabs.nav-tabs--vertical a.nav-link,
+.region--light-typography .nav-tabs.nav-tabs--vertical a.nav-link:hover,
+.region--light-typography .nav-tabs.nav-tabs--vertical a.nav-link:focus,
+.region--light-typography .nav-tabs.nav-tabs--vertical a.active.nav-link,
+.region--light-typography .nav-tabs.nav-tabs--vertical a.active.nav-link:focus,
+.region--light-typography .nav-tabs.nav-tabs--vertical a.active.nav-link:hover {
+  border-right-color: hsl(var(--chs-base-color));
+}
+
+/* components: timeline */
+.region--dark-background .field--name-field-chs-tml-timeline-item .field__item .timeline__badge {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--colored-background .field--name-field-chs-tml-timeline-item .field__item .timeline__badge {
+  background-color: hsl(var(--chs-base-color));
+}
+
+/* components: view articles carousel */
+.region--dark-typography .view-articles-grid .chs-carousel-item .views-field-title a:hover,
+.region--dark-typography .view-articles-grid .chs-carousel-item .views-field-title a:focus {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: view articles list 2 */
+.region--dark-typography .view-articles-list-2 .views-row:after {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: view popular taxonomy */
+.region--dark-typography .view-chs-popular-tags .views-row a {
+  color: hsl(var(--chs-base-color));
+}
+.region--dark-typography .view-chs-popular-tags .views-row a:hover {
+  background-color: hsl(var(--chs-dark-color));
+}
+.region--light-typography .view-chs-popular-tags .views-row a:hover {
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: view pricing tables */
+.view-pricing-tables .pricing-table .views-field-title a {
+  color: hsl(var(--chs-base-color));
+}
+.view-pricing-tables .pricing-table .views-field-title a:hover {
+  color: hsl(var(--chs-base-color));
+}
+.view-pricing-tables .pricing-table .pricing-table-body .svg-inline--fa {
+  color: hsl(var(--chs-base-color));
+}
+.view-pricing-tables .pricing-table a.chs-button {
+  border-color: hsl(var(--chs-base-color));
+  background-color: hsl(var(--chs-base-color));
+}
+.view-pricing-tables .pricing-table a.chs-button:hover,
+.view-pricing-tables .pricing-table a.chs-button:focus {
+  border-color: hsl(var(--chs-dark-color));
+  color: hsl(var(--chs-dark-color));
+}
+
+/* components: view team members carousel */
+.region--light-typography .view-team-members-carousel .text-container .views-field-title a {
+  color: hsl(var(--chs-base-color));
+}
+
+/* components: view team members masonry */
+.view-team-members-masonry .masonry-grid-item .overlay__text:after {
+  background-color: hsl(var(--chs-base-color));
+}

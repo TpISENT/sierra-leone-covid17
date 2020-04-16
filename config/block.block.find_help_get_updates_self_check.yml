@@ -1,0 +1,31 @@
+uuid: a97d7fa1-5852-47f6-8d48-41ee07b9fe68
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4dd32413-913e-474b-8f4b-b417c1e12765'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: find_help_get_updates_self_check
+theme: covid19
+region: content_top_highlighted
+weight: -13
+provider: null
+plugin: 'block_content:4dd32413-913e-474b-8f4b-b417c1e12765'
+settings:
+  id: 'block_content:4dd32413-913e-474b-8f4b-b417c1e12765'
+  label: 'Find Help, Get Updates and Self-Check for Coronavirus Disease 2019 (COVID-19) in Sierra Leone'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

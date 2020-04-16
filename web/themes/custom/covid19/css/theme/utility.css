@@ -1,0 +1,157 @@
+/**
+ * @file
+ * utility classes for COVID-19's .
+ */
+/*global styles*/
+.chs-style-sharp .chs-style-custom-all {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-sharp .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 0;
+  -moz-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.chs-style-sharp .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.chs-style-sharp .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.chs-style-sharp .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.chs-style-oval .chs-style-custom-all {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.chs-style-oval .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.chs-style-oval .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.chs-style-oval .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.chs-style-oval .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.chs-style-rounded .chs-style-custom-all {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.chs-style-rounded .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.chs-style-rounded .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.chs-style-rounded .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.chs-style-rounded .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*specific styles*/
+.chs-style-custom-sharp .chs-style-custom-all {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-custom-sharp .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 0;
+  -moz-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.chs-style-custom-sharp .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.chs-style-custom-sharp .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.chs-style-custom-sharp .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.chs-style-custom-oval .chs-style-custom-all {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.chs-style-custom-oval .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.chs-style-custom-oval .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.chs-style-custom-oval .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.chs-style-custom-oval .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.chs-style-custom-rounded .chs-style-custom-all {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.chs-style-custom-rounded .chs-style-custom-tl {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.chs-style-custom-rounded .chs-style-custom-tr {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.chs-style-custom-rounded .chs-style-custom-bl {
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.chs-style-custom-rounded .chs-style-custom-br {
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

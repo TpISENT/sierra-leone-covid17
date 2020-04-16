@@ -1,0 +1,5 @@
+# Schema for the configuration files of the COVID-19 theme.
+
+covid19.settings:
+  type: theme_settings
+  label: 'COVID-19 settings'

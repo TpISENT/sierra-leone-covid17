@@ -1,0 +1,30 @@
+uuid: 83a952c5-201b-4a1c-9918-26d1a9b38b9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chs_latest
+  module:
+    - system
+    - views
+  theme:
+    - covid19
+id: views_block__chs_latest_block_5_2
+theme: covid19
+region: highlighted_top
+weight: 0
+provider: null
+plugin: 'views_block:chs_latest-block_5'
+settings:
+  id: 'views_block:chs_latest-block_5'
+  label: 'Guidance, Information, Updates and Resources from the Government of Sierra Leone'
+  provider: views
+  label_display: visible
+  views_label: 'Guidance, Information, Updates and Resources from the Government of Sierra Leone'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

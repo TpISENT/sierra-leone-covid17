@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - covid19
+_core:
+  default_config_hash: hdR5Y27CI8xaHIclPbhr1E8l1U3QB1gu2dPEQ4E-dfg
+id: covid19_page_title
+theme: covid19
+region: hero_top
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

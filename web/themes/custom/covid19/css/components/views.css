@@ -1,0 +1,61 @@
+/**
+ * @file
+ * Visual styles for COVID-19's views.
+ */
+.views-field-title a {
+  display: block;
+}
+.view-header .chs-view-header {
+  display: none;
+}
+.chs-view-header {
+  font-size: 58px;
+  text-transform: capitalize;
+  line-height: 1.09;
+  font-weight: 700;
+}
+@media (max-width: 576px) {
+  .chs-view-header {
+    font-size: 28px;
+  }
+}
+.block-views .chs-view-header {
+  font-size: 1em;
+  margin-bottom: 20px;
+  text-transform: none;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+.chs-view-header-enabled > h2.title {
+  margin-bottom: 0;
+}
+
+/*more links*/
+.headings-wide-spacing-enabled .view > .more-link a {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.col-12 .view > .more-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.col-12 .view.view-chs-showcases-metro-tiles > .more-link {
+  margin-top: 40px;
+}
+
+/*more links @sidebars and footer regions*/
+.footer__section .view > .more-link a {
+  margin: 10px 0 0;
+  text-transform: none;
+}
+
+/*clear grid floats*/
+.view.row .view-content:before,
+.view.row .view-content:after {
+  display: table;
+  content: " ";
+}
+.view.row .view-content:after {
+  clear: both;
+}

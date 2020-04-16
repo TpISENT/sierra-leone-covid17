@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Visual styles for COVID-19's related nodes carousel.
+ */
+.chs-carousel-related-nodes .chs-carousel-item {
+  margin: 15px;
+}
+@media (max-width: 991px) {
+  .chs-carousel-related-nodes .chs-carousel-item {
+    margin: 8px;
+  }
+}
+
+/* overlay */
+.view-chs-carousel .chs-carousel-item > .overlay-container {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.view-chs-carousel {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.view-chs-carousel .owl-nav {
+  height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+}
+.view-chs-carousel .owl-nav .owl-prev {
+  left: -50px;
+  margin-left: 0;
+}
+.view-chs-carousel .owl-nav .owl-next {
+  right: -50px;
+  margin-right: 0;
+}
+.view-chs-carousel .node--view-mode-chs-media-object .field--name-field-chs-prd-image {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+@media (max-width: 991px) {
+  .view-chs-carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .view-chs-carousel .owl-nav {
+    display: none;
+  }
+  .view-chs-carousel .node--view-mode-chs-media-object .media {
+    display: block;
+  }
+  .view-chs-carousel .node--view-mode-chs-media-object .field--name-field-chs-prd-body {
+    display: none;
+  }
+  .view-chs-carousel .node--view-mode-chs-media-object .field--name-field-chs-prd-image {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

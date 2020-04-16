@@ -1,0 +1,25 @@
+uuid: 9c32ccbf-0229-41bb-be93-1e8a5bd4843f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6d746d11-e182-4327-9927-8e8a3d4c2f64'
+  module:
+    - block_content
+  theme:
+    - covid19
+id: homehomepagewelcome
+theme: covid19
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:6d746d11-e182-4327-9927-8e8a3d4c2f64'
+settings:
+  id: 'block_content:6d746d11-e182-4327-9927-8e8a3d4c2f64'
+  label: 'Home: Homepage Welcome'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,7 @@
+/**
+ * @file
+ * Visual styles for COVID-19's products carousel.
+ */
+.chs-carousel-products .chs-carousel-item {
+  margin: 15px;
+}

@@ -1,0 +1,31 @@
+uuid: 57d2ad07-1ce1-44c5-a78d-e4374091b49c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: newhomecoronavirusdiseasecovid19adviceforthepublic
+theme: covid19
+region: featured
+weight: -13
+provider: null
+plugin: 'block_content:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+settings:
+  id: 'block_content:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+  label: 'New Home: Coronavirus Disease (COVID-19) Advice for the Public'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

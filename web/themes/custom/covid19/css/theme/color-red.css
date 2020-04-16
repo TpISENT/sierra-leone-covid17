@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Red color styling for Directory+ for Drupal 8.
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 85%;
+  --chs-dark-color-lightness: 75%;
+  --chs-base-color: 0, 65%, var(--chs-base-color-lightness);
+  --chs-dark-color: 0, 65%, var(--chs-dark-color-lightness);
+  --chs-link-color: 211, 80%, 40%;
+  --chs-link-color-hover: 210, 80%, 30%;
+}

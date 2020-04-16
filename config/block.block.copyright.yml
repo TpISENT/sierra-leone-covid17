@@ -1,0 +1,25 @@
+uuid: 98c876c3-1d28-4c07-a3f1-9a6491a82203
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:18644f2b-2fea-4ba3-a3bc-a8a739d30839'
+  module:
+    - block_content
+  theme:
+    - covid19
+id: copyright
+theme: covid19
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:18644f2b-2fea-4ba3-a3bc-a8a739d30839'
+settings:
+  id: 'block_content:18644f2b-2fea-4ba3-a3bc-a8a739d30839'
+  label: 'Global: Copyright'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 1a3c9693-82f3-499b-8245-781ca1edd1fe
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_background_image:49360ab1-9de6-4387-8f10-a8e659fea87d'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: backgroundimagenewsierraleonecasecountblock
+theme: covid19
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:49360ab1-9de6-4387-8f10-a8e659fea87d'
+settings:
+  id: 'block_content:49360ab1-9de6-4387-8f10-a8e659fea87d'
+  label: 'Background Image - New Sierra Leone Case Count Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

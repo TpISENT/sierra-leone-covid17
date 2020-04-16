@@ -1,0 +1,23 @@
+uuid: 30058a40-5abd-4917-9c85-d132538a4f6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - covid19
+_core:
+  default_config_hash: kjnot9_4OhsdXzf3GmfCHbFj7LjMC-f6biXnTlNJhEw
+id: covid19_search
+theme: covid19
+region: hidden_blocks_collection
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

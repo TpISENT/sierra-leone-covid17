@@ -1,0 +1,7 @@
+/**
+ * @file
+ * Visual styles for COVID-19's social media.
+ */
+.social-media img {
+  border-radius: 0;
+}

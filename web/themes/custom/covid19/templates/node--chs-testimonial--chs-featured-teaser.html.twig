@@ -1,0 +1,67 @@
+{#
+/**
+ * @file
+ * COVID-19's theme implementation to display a Post node in featured teaser view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('covid19/node-view-mode-featured-teaser') }}
+
+{% set image = content.field_chs_tst_testimonial_image %}
+{% set featured_teaser_content = content.field_chs_tst_body %}
+{% set featured_teaser_footer = content.field_chs_tst_subtitle %}
+{% set width_class = 'fixed-width' %}
+{% set quote_icon = true %}
+{% if content.field_chs_tst_testimonial_link|render %}
+  {% set url = node.field_chs_tst_testimonial_link.0.url %}
+{% endif %}
+
+<article{{ attributes.addClass(classes).addClass(width_class).addClass('mb-5 pb-4') }}>
+  <div class="row align-items-center">
+    {% if image|render %}
+      <div class="col-md-3 col-sm-4 col-8 ml-auto mr-auto mb-3 mb-md-0">
+        {{ image }}
+      </div>
+    {% endif %}
+    <div class="{{ (image|render) ? 'pl-md-5 col-md-9 col-sm-8 col-12' : 'col-12' }}">
+
+      {% if featured_teaser_content|render %}
+        <div class="featured-teaser-content">
+          {% if quote_icon %}<div class="quote-icon">"</div>{% endif %}
+          {{ featured_teaser_content }}
+        </div>
+      {% endif %}
+
+      {% if content|without('field_chs_tst_body', 'field_chs_tst_testimonial_image', 'field_chs_tst_subtitle', 'field_chs_tst_testimonial_link')|render %}
+        <div {{ content_attributes.addClass('node__content') }}>
+          {{ content|without('field_chs_tst_body', 'field_chs_tst_testimonial_image', 'field_chs_tst_subtitle', 'field_chs_tst_testimonial_link') }}
+        </div>
+      {% endif %}
+
+      <div class="featured-teaser-footer">
+        {{ title_prefix }}
+        {% if not page %}
+          <h2{{ title_attributes.addClass("mt-0 node__title") }}>
+            <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+          </h2>
+        {% endif %}
+        {{ title_suffix }}
+        {{ featured_teaser_footer }}
+      </div>
+
+      {% if display_submitted %}
+        {{ metadata }}
+      {% endif %}
+    </div>
+
+  </div>
+</article>

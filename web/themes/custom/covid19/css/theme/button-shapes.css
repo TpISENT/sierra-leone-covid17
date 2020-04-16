@@ -1,0 +1,137 @@
+/**
+ * @file
+ * Styles for COVID-19's buttons.
+ */
+/*global styles*/
+.chs-style-sharp a.chs-button,
+.chs-style-sharp .chs-button > a,
+.chs-style-sharp button.chs-button,
+.chs-style-sharp input[type="submit"],
+.chs-style-sharp input[type="reset"],
+.chs-style-sharp input[type="button"],
+.chs-style-sharp .chs-count-down__button,
+.chs-style-sharp .col-12 .view > .more-link a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-oval a.chs-button,
+.chs-style-oval .chs-button > a,
+.chs-style-oval button.chs-button,
+.chs-style-oval input[type="submit"],
+.chs-style-oval input[type="reset"],
+.chs-style-oval input[type="button"],
+.chs-style-oval .chs-count-down__button,
+.chs-style-oval .col-12 .view > .more-link a {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.chs-style-rounded a.chs-button,
+.chs-style-rounded .chs-button > a,
+.chs-style-rounded button.chs-button,
+.chs-style-rounded input[type="submit"],
+.chs-style-rounded input[type="reset"],
+.chs-style-rounded input[type="button"],
+.chs-style-rounded .chs-count-down__button,
+.chs-style-rounded .col-12 .view > .more-link a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*global styles for buttons that oval shape is not supported*/
+.chs-style-sharp .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-sharp .collapsible-block__trigger a,
+.chs-style-sharp .overlay-icon,
+.chs-style-sharp ul.icons-list.icons-list--bordered li a,
+.chs-style-sharp .to-top {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-rounded .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-oval .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-rounded .collapsible-block__trigger a,
+.chs-style-oval .collapsible-block__trigger a {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.chs-style-rounded .overlay-icon,
+.chs-style-oval .overlay-icon,
+.chs-style-rounded ul.icons-list.icons-list--bordered li a,
+.chs-style-oval ul.icons-list.icons-list--bordered li a,
+.chs-style-rounded .to-top,
+.chs-style-oval .to-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*button specific styles*/
+.chs-style-button-sharp a.chs-button,
+.chs-style-button-sharp .chs-button > a,
+.chs-style-button-sharp button.chs-button,
+.chs-style-button-sharp input[type="submit"],
+.chs-style-button-sharp input[type="reset"],
+.chs-style-button-sharp input[type="button"],
+.chs-style-button-sharp .chs-count-down__button,
+.chs-style-button-sharp .col-12 .view > .more-link a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-button-oval a.chs-button,
+.chs-style-button-oval .chs-button > a,
+.chs-style-button-oval button.chs-button,
+.chs-style-button-oval input[type="submit"],
+.chs-style-button-oval input[type="reset"],
+.chs-style-button-oval input[type="button"],
+.chs-style-button-oval .chs-count-down__button,
+.chs-style-button-oval .col-12 .view > .more-link a {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.chs-style-button-rounded a.chs-button,
+.chs-style-button-rounded .chs-button > a,
+.chs-style-button-rounded button.chs-button,
+.chs-style-button-rounded input[type="submit"],
+.chs-style-button-rounded input[type="reset"],
+.chs-style-button-rounded input[type="button"],
+.chs-style-button-rounded .chs-count-down__button,
+.chs-style-button-rounded .col-12 .view > .more-link a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*button specific styles for buttons that oval shape is not supported*/
+.chs-style-button-sharp .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-button-sharp .collapsible-block__trigger a,
+.chs-style-button-sharp .overlay-icon,
+.chs-style-button-sharp ul.icons-list.icons-list--bordered li a,
+.chs-style-button-sharp .to-top {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-button-rounded .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-button-oval .collapsible-sticky-footer-trigger .chs-button,
+.chs-style-button-rounded .collapsible-block__trigger a,
+.chs-style-button-oval .collapsible-block__trigger a {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.chs-style-button-rounded .overlay-icon,
+.chs-style-button-oval .overlay-icon,
+.chs-style-button-rounded ul.icons-list.icons-list--bordered li a,
+.chs-style-button-oval ul.icons-list.icons-list--bordered li a,
+.chs-style-button-rounded .to-top,
+.chs-style-button-oval .to-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

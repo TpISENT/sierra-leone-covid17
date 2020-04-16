@@ -1,0 +1,88 @@
+/**
+ * @file
+ * Visual styles for COVID-19's service content type.
+ */
+.node--type-chs-service .node__header {
+  padding: 0;
+}
+
+/*page title*/
+.page-node-type-chs-service .page-title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+@media (min-width: 992px) {
+  .page-node-type-chs-service .page-title {
+    max-width: 50%;
+  }
+}
+
+/*body*/
+.node--type-chs-service .field.field--name-field-chs-srv-body {
+  margin-bottom: 50px;
+}
+.field--name-field-chs-srv-body p:last-child {
+  padding-bottom: 0px;
+}
+
+/*subheader field*/
+.field--name-field-chs-srv-subheader-body {
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.field--name-field-chs-srv-subheader-body p:last-child {
+  padding-bottom: 0;
+}
+
+.node--type-chs-service .field.field--name-field-chs-srv-image {
+  margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .node--type-chs-service .field.field--name-field-chs-srv-image {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .chs-style-sharp.chs-style-image-global .node--type-chs-service .field.field--name-field-chs-srv-image,
+  .chs-style-image-sharp .node--type-chs-service .field.field--name-field-chs-srv-image {
+    margin: 0 -15px 30px;
+  }
+}
+.node--type-chs-service.node--view-mode-teaser .images-container {
+  margin-bottom: 15px;
+}
+
+/* highlight field */
+.field--name-field-chs-srv-highlight > .field__item:first-child > .paragraph--type--chs-highlight {
+  padding-top: 15px;
+}
+
+/* video field */
+.node--type-chs-service .field.field--name-field-chs-srv-video {
+  margin-bottom: 50px;
+}
+
+/* tags */
+.node--type-chs-service .field.field--name-field-chs-srv-tags {
+  margin-bottom: 50px;
+}
+
+/*buy link field*/
+.node--type-chs-service .field.field--name-field-chs-srv-link {
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 992px) {
+  .layout-no-sidebars .service-content-first + .service-content-second .field--name-field-chs-srv-link a {
+    display: block;
+  }
+}
+.node--type-chs-service .field--name-field-chs-srv-link a {
+  min-width: 190px;
+  display: block;
+}

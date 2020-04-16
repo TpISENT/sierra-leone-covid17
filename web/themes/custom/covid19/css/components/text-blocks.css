@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Visual styles for COVID-19's text blocks.
+ */
+.chs-text-block {
+  border-color: #ebebeb;
+  border-width: 3px;
+  border-style: solid;
+  padding: 60px 45px 55px;
+  min-height: 255px;
+}
+.chs-text-block h4 {
+  font-size: 24px;
+  margin-top: 0;
+}

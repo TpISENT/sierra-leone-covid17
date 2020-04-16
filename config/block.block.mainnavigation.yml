@@ -1,17 +1,17 @@
-uuid: 694a58b2-9512-4789-b192-d3c1077e9bab
+uuid: 252535e9-c551-4ba0-b7c1-259e2ca3b235
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
   module:
     - superfish
   theme:
-    - covid19demo
+    - covid19
 id: mainnavigation
-theme: covid19demo
-region: header
-weight: -9
+theme: covid19
+region: slideout
+weight: -5
 provider: null
 plugin: 'superfish:main'
 settings:
@@ -22,9 +22,9 @@ settings:
   level: '1'
   depth: '0'
   expand_all_items: false
-  menu_type: horizontal
+  menu_type: vertical
   style: none
-  arrow: 1
+  arrow: 0
   shadow: 0
   speed: fast
   delay: '800'

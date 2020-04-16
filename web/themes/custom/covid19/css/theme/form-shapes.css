@@ -1,0 +1,114 @@
+/**
+ * @file
+ * Styles for COVID-19's buttons.
+ */
+.chs-style-sharp input.form-text,
+.chs-style-sharp input.form-tel,
+.chs-style-sharp input.form-email,
+.chs-style-sharp input.form-url,
+.chs-style-sharp input.form-search,
+.chs-style-sharp input.form-file,
+.chs-style-sharp input.form-number,
+.chs-style-sharp input.form-color,
+.chs-style-sharp input.form-date,
+.chs-style-sharp input.form-time,
+.chs-style-sharp textarea,
+.chs-style-sharp select,
+.chs-style-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-oval input.form-text,
+.chs-style-oval input.form-tel,
+.chs-style-oval input.form-email,
+.chs-style-oval input.form-url,
+.chs-style-oval input.form-search,
+.chs-style-oval input.form-file,
+.chs-style-oval input.form-number,
+.chs-style-oval input.form-color,
+.chs-style-oval input.form-date,
+.chs-style-oval input.form-time,
+.chs-style-oval select,
+.chs-style-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.chs-style-oval textarea {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.chs-style-rounded input.form-text,
+.chs-style-rounded input.form-tel,
+.chs-style-rounded input.form-email,
+.chs-style-rounded input.form-url,
+.chs-style-rounded input.form-search,
+.chs-style-rounded input.form-file,
+.chs-style-rounded input.form-number,
+.chs-style-rounded input.form-color,
+.chs-style-rounded input.form-date,
+.chs-style-rounded input.form-time,
+.chs-style-rounded textarea,
+.chs-style-rounded select,
+.chs-style-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.chs-style-form-sharp input.form-text,
+.chs-style-form-sharp input.form-tel,
+.chs-style-form-sharp input.form-email,
+.chs-style-form-sharp input.form-url,
+.chs-style-form-sharp input.form-search,
+.chs-style-form-sharp input.form-file,
+.chs-style-form-sharp input.form-number,
+.chs-style-form-sharp input.form-color,
+.chs-style-form-sharp input.form-date,
+.chs-style-form-sharp input.form-time,
+.chs-style-form-sharp textarea,
+.chs-style-form-sharp select,
+.chs-style-form-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.chs-style-form-oval input.form-text,
+.chs-style-form-oval input.form-tel,
+.chs-style-form-oval input.form-email,
+.chs-style-form-oval input.form-url,
+.chs-style-form-oval input.form-search,
+.chs-style-form-oval input.form-file,
+.chs-style-form-oval input.form-number,
+.chs-style-form-oval input.form-color,
+.chs-style-form-oval input.form-date,
+.chs-style-form-oval input.form-time,
+.chs-style-form-oval select,
+.chs-style-form-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.chs-style-form-oval textarea {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.chs-style-form-rounded input.form-text,
+.chs-style-form-rounded input.form-tel,
+.chs-style-form-rounded input.form-email,
+.chs-style-form-rounded input.form-url,
+.chs-style-form-rounded input.form-search,
+.chs-style-form-rounded input.form-file,
+.chs-style-form-rounded input.form-number,
+.chs-style-form-rounded input.form-color,
+.chs-style-form-rounded input.form-date,
+.chs-style-form-rounded input.form-time,
+.chs-style-form-rounded textarea,
+.chs-style-form-rounded select,
+.chs-style-form-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

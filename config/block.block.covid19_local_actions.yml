@@ -1,0 +1,20 @@
+uuid: 8472c8f5-fd4f-4d51-aeb4-8015e1cdf1f9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - covid19
+_core:
+  default_config_hash: H9jG95FoAXO0KLzVFI3SaG6lu9O5_d_CsDyt2UqjG-k
+id: covid19_local_actions
+theme: covid19
+region: content
+weight: -12
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

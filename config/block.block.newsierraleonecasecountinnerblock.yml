@@ -1,0 +1,25 @@
+uuid: c1e51d51-3a74-4765-88f5-f83035a896c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5b954e5f-583c-4e4d-9467-bf2a04774218'
+  module:
+    - block_content
+  theme:
+    - covid19
+id: newsierraleonecasecountinnerblock
+theme: covid19
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:5b954e5f-583c-4e4d-9467-bf2a04774218'
+settings:
+  id: 'block_content:5b954e5f-583c-4e4d-9467-bf2a04774218'
+  label: 'New Sierra Leone Case Count - Inner Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

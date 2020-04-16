@@ -1,0 +1,31 @@
+uuid: 8b00daec-e0bd-4919-b88b-93f26a306744
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:5769462c-a42c-4cb5-be1b-2521cbbc0e84'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: newhomeprotectyourselfandothersfromgettingsick
+theme: covid19
+region: featured_top
+weight: -13
+provider: null
+plugin: 'block_content:5769462c-a42c-4cb5-be1b-2521cbbc0e84'
+settings:
+  id: 'block_content:5769462c-a42c-4cb5-be1b-2521cbbc0e84'
+  label: 'FAQs Page: Protect yourself and others from getting sick'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /faqs
+    negate: false
+    context_mapping: {  }

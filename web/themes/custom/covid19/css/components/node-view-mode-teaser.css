@@ -1,0 +1,111 @@
+/**
+ * @file
+ * Visual styles for COVID-19's node in teaser tile view.
+ */
+.node--view-mode-teaser {
+  margin-bottom: 60px;
+}
+.node--view-mode-teaser .promoted-label {
+  background-color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  color: #ffffff;
+  padding: 8px 22px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.node--view-mode-teaser .node__title {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.node--view-mode-teaser .node__header {
+  padding-bottom: 0;
+}
+.node--view-mode-teaser .field--name-field-chs-srv-teaser-image,
+.node--view-mode-teaser .field--name-field-chs-prd-teaser-image,
+.node--view-mode-teaser .field--name-field-chs-alb-image,
+.node--view-mode-teaser .field--name-field-chs-shw-image,
+.node--view-mode-teaser .field--name-field-chs-pst-image,
+.node--view-mode-teaser .field--name-field-image {
+  margin-bottom: 20px;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin-bottom: 0;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0;
+}
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
+  vertical-align: baseline;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+  padding: 8px 22px;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:after,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:after {
+  content: "";
+}
+
+.node--view-mode-teaser .field--name-field-chs-prd-body,
+.node--view-mode-teaser .field--name-field-chs-srv-body,
+.node--view-mode-teaser .field--name-field-chs-shw-body,
+.node--view-mode-teaser .field--name-field-chs-alb-body {
+  margin-bottom: 18px;
+}
+.node--view-mode-teaser .field--name-field-chs-prd-body p:last-child,
+.node--view-mode-teaser .field--name-field-chs-srv-body p:last-child,
+.node--view-mode-teaser .field--name-field-chs-shw-body p:last-child,
+.node--view-mode-teaser .field--name-field-chs-alb-body p:last-child {
+  padding-bottom: 0px;
+}
+.node--type-chs-showcase.node--view-mode-teaser .image-and-date-container {
+  position: relative;
+}
+.node--type-chs-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+  color: #333333;
+  text-align: center;
+}
+.node--type-chs-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--type-chs-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}

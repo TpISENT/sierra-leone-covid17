@@ -1,15 +1,15 @@
-uuid: 650e20ca-1bd5-4b03-91b4-db8f78479901
+uuid: 447c5fe7-3fa3-41bc-b475-2e922219fead
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - covid19demo
+    - covid19
 id: sitebranding
-theme: covid19demo
-region: footer_first
-weight: -26
+theme: covid19
+region: slideout
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
@@ -17,12 +17,7 @@ settings:
   label: 'Site branding'
   provider: system
   label_display: '0'
-  use_site_logo: false
+  use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility:
-  request_path:
-    id: request_path
-    pages: /blocks
-    negate: false
-    context_mapping: {  }
+visibility: {  }

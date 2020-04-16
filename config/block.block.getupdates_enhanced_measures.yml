@@ -1,0 +1,31 @@
+uuid: aa2deb50-479d-4dcf-8e78-925acee55262
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: getupdates_enhanced_measures
+theme: covid19
+region: content_bottom_highlighted
+weight: -13
+provider: null
+plugin: 'block_content:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+settings:
+  id: 'block_content:ecc000a0-efc0-4498-99ac-20ea52e47e44'
+  label: 'Home: Enhanced measures that are intended to prevent the spread of Coronavirus disease in Sierra Leone'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

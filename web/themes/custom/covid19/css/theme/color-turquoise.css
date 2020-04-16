@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Purple turquoise color styling for COVID-19 for Drupal 8.
+ *
+ * Base color: #007989
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 27%;
+  --chs-dark-color-lightness: calc(var(--chs-base-color-lightness) * 0.96);
+  --chs-base-color: 187, 100%, var(--chs-base-color-lightness);
+  --chs-dark-color: 187, 100%, var(--chs-dark-color-lightness);
+  --chs-link-color: 195, 89%, 28%;
+  --chs-link-color-hover: 205, 74%, 27%;
+}

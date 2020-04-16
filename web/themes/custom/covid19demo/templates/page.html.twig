@@ -110,7 +110,7 @@
         <div class="clearfix header-top-highlighted {{ header_top_highlighted_background_color }}{{ (header_top_highlighted_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (header_top_highlighted_region_paddings) ? ' region--no-paddings' : '' }}">
           <div class="{{ header_top_highlighted_layout_container }}">
             {# header_top_highlighted__container #}
-            <div class="clearfix header-top-highlighted__container{{ (header_top_highlighted_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+            <div class="clearfix header-top-highlighted__container{{ (header_top_highlighted_animations == "enabled") ? ' mt-no-opacity' : '' }}"
               {% if header_top_highlighted_animations == "enabled" %}
                 data-animate-effect="{{ header_top_highlighted_animation_effect }}"
               {% endif %}>
@@ -146,7 +146,7 @@
         <div class="clearfix header-top {{ header_top_background_color }}{{ (header_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (header_top_region_paddings) ? ' region--no-paddings' : '' }}">
           <div class="{{ header_top_layout_container }}">
             {# header-top__container #}
-            <div class="clearfix header-top__container{{ (header_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+            <div class="clearfix header-top__container{{ (header_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
               {% if header_top_animations == "enabled" %}
                 data-animate-effect="{{ header_top_animation_effect }}"
               {% endif %}>
@@ -248,12 +248,12 @@
   {% block internal_banner %}
     {% if page.hero_top %}
       <div class="internal-banner-container">
-        {{ attach_library('covid19demo/banner-area') }}
+        {{ attach_library('flashyplus/banner-area') }}
         {# hero-top #}
         <div {% if hero_top_id %}id="{{ hero_top_id }}"{% endif %} class="clearfix hero-top d-flex align-items-end {{ hero_top_background_color }} {{ (hero_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (hero_top_region_paddings) ? ' region--no-paddings' : '' }}">
           <div class="{{ hero_top_layout_container }}">
             {# hero-top__container #}
-            <div class="clearfix hero-top__container{{ (hero_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+            <div class="clearfix hero-top__container{{ (hero_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
               {% if hero_top_animations == "enabled" %}
                 data-animate-effect="{{ hero_top_animation_effect }}"
               {% endif %}>
@@ -278,7 +278,7 @@
     <div {% if hero_id %}id="{{ hero_id }}"{% endif %} class="clearfix hero {{ hero_background_color }} {{ (hero_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (hero_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ hero_layout_container }}">
         {# hero__container #}
-        <div class="clearfix hero__container{{ (hero_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix hero__container{{ (hero_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if hero_animations == "enabled" %}
             data-animate-effect="{{ hero_animation_effect }}"
           {% endif %}>
@@ -335,7 +335,7 @@
     <div {% if content_top_id %}id="{{ content_top_id }}"{% endif %} class="clearfix content-top {{ content_top_background_color }}{{ (content_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_top_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ content_top_layout_container }}">
         {# content-top__container #}
-        <div class="clearfix content-top__container{{ (content_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix content-top__container{{ (content_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if content_top_animations == "enabled" %}
             data-animate-effect="{{ content_top_animation_effect }}"
           {% endif %}>
@@ -358,7 +358,7 @@
     <div {% if content_top_highlighted_id %}id="{{ content_top_highlighted_id }}"{% endif %} class="clearfix content-top-highlighted {{ content_top_highlighted_background_color }} {{ content_top_highlighted_separator }}{{ (content_top_highlighted_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_top_highlighted_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ content_top_highlighted_layout_container }}">
         {# content-top-highlighted__container #}
-        <div class="clearfix content-top-highlighted__container{{ (content_top_highlighted_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix content-top-highlighted__container{{ (content_top_highlighted_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if content_top_highlighted_animations == "enabled" %}
             data-animate-effect="{{ content_top_highlighted_animation_effect }}"
           {% endif %}>
@@ -384,7 +384,7 @@
           <div class="row">
             <section class="{{ main_grid_class }} {{ main_content_paddings }}">
               {# main #}
-              <div class="clearfix main-content__section{{ (main_content_animations == "enabled") ? ' chs-no-opacity' : '' }}{{ (main_content_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (main_content_region_paddings) ? ' region--no-paddings' : '' }}"
+              <div class="clearfix main-content__section{{ (main_content_animations == "enabled") ? ' mt-no-opacity' : '' }}{{ (main_content_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (main_content_region_paddings) ? ' region--no-paddings' : '' }}"
                 {% if main_content_animations == "enabled" %}
                   data-animate-effect="{{ main_content_animation_effect }}"
                 {% endif %}>
@@ -397,7 +397,7 @@
             {% if page.sidebar_first %}
               <aside class="{{ sidebar_first_grid_class }} {{ sidebar_paddings }}">
                 {# sidebar-first #}
-                <section class="sidebar__section sidebar-first clearfix{{ (sidebar_first_animations == "enabled") ? ' chs-no-opacity' : '' }}{{ (sidebar_first_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (sidebar_first_region_paddings) ? ' region--no-paddings' : '' }}"
+                <section class="sidebar__section sidebar-first clearfix{{ (sidebar_first_animations == "enabled") ? ' mt-no-opacity' : '' }}{{ (sidebar_first_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (sidebar_first_region_paddings) ? ' region--no-paddings' : '' }}"
                   {% if sidebar_first_animations == "enabled" %}
                     data-animate-effect="{{ sidebar_first_animation_effect }}"
                   {% endif %}>
@@ -409,7 +409,7 @@
             {% if page.sidebar_second %}
               <aside class="{{ sidebar_second_grid_class }} {{ sidebar_paddings }}">
                 {# sidebar-second #}
-                <section class="sidebar__section sidebar-second clearfix{{ (sidebar_second_animations == "enabled") ? ' chs-no-opacity' : '' }}{{ (sidebar_second_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (sidebar_second_region_paddings) ? ' region--no-paddings' : '' }}"
+                <section class="sidebar__section sidebar-second clearfix{{ (sidebar_second_animations == "enabled") ? ' mt-no-opacity' : '' }}{{ (sidebar_second_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (sidebar_second_region_paddings) ? ' region--no-paddings' : '' }}"
                   {% if sidebar_second_animations == "enabled" %}
                     data-animate-effect="{{ sidebar_second_animation_effect }}"
                   {% endif %}>
@@ -430,7 +430,7 @@
     <div {% if content_bottom_id %}id="{{ content_bottom_id }}"{% endif %} class="clearfix content-bottom {{ content_bottom_background_color }} {{ content_bottom_separator }}{{ (content_bottom_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_bottom_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ content_bottom_layout_container }}">
         {# content-bottom__container #}
-        <div class="clearfix content-bottom__container{{ (content_bottom_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix content-bottom__container{{ (content_bottom_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if content_bottom_animations == "enabled" %}
             data-animate-effect="{{ content_bottom_animation_effect }}"
           {% endif %}>
@@ -466,7 +466,7 @@
     <div {% if content_bottom_highlighted_id %}id="{{ content_bottom_highlighted_id }}"{% endif %} class="clearfix content-bottom-highlighted {{ content_bottom_highlighted_background_color }} {{ content_bottom_highlighted_separator }}{{ (content_bottom_highlighted_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_bottom_highlighted_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ content_bottom_highlighted_layout_container }}">
         {# content-bottom-highlighted__container #}
-        <div class="clearfix content-bottom-highlighted__container{{ (content_bottom_highlighted_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix content-bottom-highlighted__container{{ (content_bottom_highlighted_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if content_bottom_highlighted_animations == "enabled" %}
             data-animate-effect="{{ content_bottom_highlighted_animation_effect }}"
           {% endif %}>
@@ -489,7 +489,7 @@
     <div {% if featured_top_id %}id="{{ featured_top_id }}"{% endif %} class="clearfix featured-top {{ featured_top_background_color }} {{ featured_top_separator }}{{ (featured_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (featured_top_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ featured_top_layout_container }}">
         {# featured-top__container #}
-        <div class="clearfix featured-top__container{{ (featured_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix featured-top__container{{ (featured_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if featured_top_animations == "enabled" %}
             data-animate-effect="{{ featured_top_animation_effect }}"
           {% endif %}>
@@ -512,7 +512,7 @@
     <div {% if featured_id %}id="{{ featured_id }}"{% endif %} class="clearfix featured {{ featured_background_color }} {{ featured_separator }}{{ (featured_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (featured_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ featured_layout_container }}">
         {# featured__container #}
-        <div class="clearfix featured__container{{ (featured_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix featured__container{{ (featured_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if featured_animations == "enabled" %}
             data-animate-effect="{{ featured_animation_effect }}"
           {% endif %}>
@@ -535,7 +535,7 @@
     <div {% if featured_bottom_id %}id="{{ featured_bottom_id }}"{% endif %} class="clearfix featured-bottom {{ featured_bottom_background_color }} {{ featured_bottom_separator }}{{ (featured_bottom_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (featured_bottom_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ featured_bottom_layout_container }}">
         {# featured-bottom__container #}
-        <div class="clearfix featured-bottom__container{{ (featured_bottom_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix featured-bottom__container{{ (featured_bottom_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if featured_bottom_animations == "enabled" %}
             data-animate-effect="{{ featured_bottom_animation_effect }}"
           {% endif %}>
@@ -558,7 +558,7 @@
     <div {% if sub_featured_id %}id="{{ sub_featured_id }}"{% endif %} class="clearfix sub-featured {{ sub_featured_background_color }} {{ sub_featured_separator }}{{ (sub_featured_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (sub_featured_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ sub_featured_layout_container }}">
         {# sub_featured__container #}
-        <div class="clearfix sub-featured__container{{ (sub_featured_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix sub-featured__container{{ (sub_featured_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if sub_featured_animations == "enabled" %}
             data-animate-effect="{{ sub_featured_animation_effect }}"
           {% endif %}>
@@ -581,7 +581,7 @@
     <div {% if highlighted_top_id %}id="{{ highlighted_top_id }}"{% endif %} class="clearfix highlighted-top {{ highlighted_top_background_color }} {{ highlighted_top_separator }}{{ (highlighted_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (highlighted_top_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ highlighted_top_layout_container }}">
         {# highlighted-top__container #}
-        <div class="clearfix highlighted-top__container{{ (highlighted_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix highlighted-top__container{{ (highlighted_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if highlighted_top_animations == "enabled" %}
             data-animate-effect="{{ highlighted_top_animation_effect }}"
           {% endif %}>
@@ -604,7 +604,7 @@
     <div {% if highlighted_id %}id="{{ highlighted_id }}"{% endif %} class="clearfix highlighted {{ highlighted_background_color }} {{ highlighted_separator }}{{ (highlighted_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (highlighted_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ highlighted_layout_container }}">
         {# highlighted__container #}
-        <div class="clearfix highlighted__container{{ (highlighted_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix highlighted__container{{ (highlighted_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if highlighted_animations == "enabled" %}
             data-animate-effect="{{ highlighted_animation_effect }}"
           {% endif %}>
@@ -623,14 +623,14 @@
   {% endif %}
 
   {% if page.sticky_footer %}
-    {{ attach_library('covid19demo/sticky-footer-init') }}
+    {{ attach_library('flashyplus/sticky-footer-init') }}
     {# sticky-footer #}
     <div class="sticky-footer-container">
       <div class="{{ sticky_footer_layout_container }}">
         <div class="row">
           <div class="col-12">
             <div class="collapsible-sticky-footer-trigger text-right">
-              <a class="{{ sticky_footer_background_color }} chs-button m-0" data-toggle="collapse" href="#collapsible-sticky-footer" role="button" aria-expanded="false" aria-controls="collapsible-sticky-footer">
+              <a class="{{ sticky_footer_background_color }} mt-button m-0" data-toggle="collapse" href="#collapsible-sticky-footer" role="button" aria-expanded="false" aria-controls="collapsible-sticky-footer">
                 {{ sticky_footer_trigger_text }}
                 <span class="ml-2 text-center collapsible-sticky-footer-icon collapsible-sticky-footer__expand-icon"><i class="fas fa-angle-down m-0"></i></span>
                 <span class="ml-2 text-center collapsible-sticky-footer-icon collapsible-sticky-footer__collapse-icon"><i class="fas fa-angle-up m-0"></i></span>
@@ -668,7 +668,7 @@
     <div {% if footer_top_id %}id="{{ footer_top_id }}"{% endif %} class="clearfix footer-top {{ footer_top_regions }} {{ footer_top_background_color }} {{ footer_top_separator }}{{ (footer_top_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (footer_top_region_paddings) ? ' region--no-paddings' : '' }}">
       <div class="{{ footer_top_layout_container }}">
         {# footer-top__container #}
-        <div class="clearfix footer-top__container chs-style-custom-all{{ (footer_top_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+        <div class="clearfix footer-top__container mt-style-custom-all{{ (footer_top_animations == "enabled") ? ' mt-no-opacity' : '' }}"
           {% if footer_top_animations == "enabled" %}
             data-animate-effect="{{ footer_top_animation_effect }}"
           {% endif %}>
@@ -708,7 +708,7 @@
             {% if page.footer_first %}
               <div class="{{ footer_first_grid_class }}">
                 {# footer-first #}
-                <div class="clearfix footer__section footer-first{{ (footer_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+                <div class="clearfix footer__section footer-first{{ (footer_animations == "enabled") ? ' mt-no-opacity' : '' }}"
                   {% if footer_animations == "enabled" %}
                     data-animate-effect="{{ footer_animation_effect }}"
                   {% endif %}>
@@ -720,7 +720,7 @@
             {% if page.footer_second %}
               <div class="{{ footer_second_grid_class }}">
                 {# footer-second #}
-                <div class="clearfix footer__section footer-second{{ (footer_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+                <div class="clearfix footer__section footer-second{{ (footer_animations == "enabled") ? ' mt-no-opacity' : '' }}"
                   {% if footer_animations == "enabled" %}
                     data-animate-effect="{{ footer_animation_effect }}"
                   {% endif %}>
@@ -733,7 +733,7 @@
             {% if page.footer_third %}
               <div class="{{ footer_third_grid_class }}">
                 {# footer-third #}
-                <div class="clearfix footer__section footer-third{{ (footer_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+                <div class="clearfix footer__section footer-third{{ (footer_animations == "enabled") ? ' mt-no-opacity' : '' }}"
                   {% if footer_animations == "enabled" %}
                     data-animate-effect="{{ footer_animation_effect }}"
                   {% endif %}>
@@ -746,7 +746,7 @@
             {% if page.footer_fourth %}
               <div class="{{ footer_fourth_grid_class }}">
                 {# footer-fourth #}
-                <div class="clearfix footer__section footer-fourth{{ (footer_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+                <div class="clearfix footer__section footer-fourth{{ (footer_animations == "enabled") ? ' mt-no-opacity' : '' }}"
                   {% if footer_animations == "enabled" %}
                     data-animate-effect="{{ footer_animation_effect }}"
                   {% endif %}>
@@ -758,7 +758,7 @@
             {% if page.footer_fifth %}
               <div class="{{ footer_fifth_grid_class }}">
                 {# footer-fifth #}
-                <div class="clearfix footer__section footer-fifth{{ (footer_animations == "enabled") ? ' chs-no-opacity' : '' }}"
+                <div class="clearfix footer__section footer-fifth{{ (footer_animations == "enabled") ? ' mt-no-opacity' : '' }}"
                   {% if footer_animations == "enabled" %}
                     data-animate-effect="{{ footer_animation_effect }}"
                   {% endif %}>
@@ -888,10 +888,10 @@
 
   {% if mobile_menu_widget_display and mobile_search_enabled %}
     {# mobile-menu-widget #}
-    <div class="clearfix chs-mobile-menu-widget-wrapper">
-      <div class="chs-mobile-menu-overlay" style="display:none">
+    <div class="clearfix mt-mobile-menu-widget-wrapper">
+      <div class="mt-mobile-menu-overlay" style="display:none">
         {% if page.mobile_menu_widget %}
-          <div class="chs-mobile-menu-overlay-content region--light-typography container-fluid">
+          <div class="mt-mobile-menu-overlay-content region--light-typography container-fluid">
             <div class="row">
               <div class="col-12">
                 {{ page.mobile_menu_widget }}
@@ -899,24 +899,24 @@
             </div>
           </div>
         {% endif %}
-        <button type="button" class="chs-dismiss-button chs-button region--light-typography {{ (mobile_menu_widget_sticky) ? 'chs-dismiss-button--sticky' }}">
+        <button type="button" class="mt-dismiss-button mt-button region--light-typography {{ (mobile_menu_widget_sticky) ? 'mt-dismiss-button--sticky' }}">
           <span class="sr-only">{% trans %}Dismiss mobile overlay area{% endtrans %}</span><i class="fas fa-times"></i>
         </button>
       </div>
 
       <form method="get" action="{{ url('search.view_node_search') }}">
-        <div class="clearfix chs-mobile-menu-widget chs-container {{ (mobile_menu_widget_sticky) ? 'chs-sticky' }}">
-          <div class="chs-search-icon">
+        <div class="clearfix mt-mobile-menu-widget mt-container {{ (mobile_menu_widget_sticky) ? 'mt-sticky' }}">
+          <div class="mt-search-icon">
             <i class="fas fa-search"></i>
           </div>
-          <input type="text" name="keys" class="chs-input" placeholder="Search...">
-          <div class="chs-clear-icon">
+          <input type="text" name="keys" class="mt-input" placeholder="Search...">
+          <div class="mt-clear-icon">
             <span class="sr-only">{% trans %}Clear keys input element{% endtrans %}</span><i class="fas fa-times-circle"></i>
           </div>
-          <button type="submit" class="chs-submit-button chs-button">
+          <button type="submit" class="mt-submit-button mt-button">
             <span class="sr-only">{% trans %}Submit search{% endtrans %}</span><i class="fas fa-arrow-right"></i>
           </button>
-          <button type="button" class="chs-menu-button chs-button">
+          <button type="button" class="mt-menu-button mt-button">
             <span class="sr-only">{% trans %}Open mobile overlay area{% endtrans %}</span><i class="fas fa-bars"></i>
           </button>
         </div>

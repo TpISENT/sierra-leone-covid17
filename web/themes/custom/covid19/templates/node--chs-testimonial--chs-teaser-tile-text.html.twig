@@ -1,0 +1,66 @@
+{#
+/**
+ * @file
+ * COVID-19's theme implementation to display a Post node in teaser tile text view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    display_submitted ? 'node--display-submitted',
+    'clearfix',
+  ]
+%}
+
+{% set text_tile_content = content.field_chs_tst_body %}
+{% set text_tile_footer = content.field_chs_tst_subtitle %}
+{% set quote_icon = true %}
+{% if content.field_chs_tst_testimonial_link|render %}
+  {% set url = node.field_chs_tst_testimonial_link.0.url %}
+{% endif %}
+{% set border = false %}
+{% if not border %}
+  {% set add_classes = ['text-tile-no-border'] %}
+{% else %}
+  {% set add_classes = [] %}
+{% endif %}
+
+{{ attach_library('covid19/node-view-mode-teaser-tile-text') }}
+
+<article{{ attributes.addClass(classes).addClass(add_classes) }}>
+  <div class="node__container">
+    <div{{ content_attributes.addClass('node__main-content', 'clearfix') }}>
+      {% block meta_area %}
+        {% if display_submitted %}
+          {{ metadata }}
+        {% endif %}
+      {% endblock %}
+      {% block content %}
+        <div class="chs-style-custom-all region--default-background p-4">
+          {% if text_tile_content|render %}
+            <div class="text-tile-content">
+              {{ text_tile_content }}
+            </div>
+            {{ content|without('field_chs_tst_body', 'field_chs_tst_subtitle', 'field_chs_tst_testimonial_link') }}
+          {% endif %}
+
+          <div class="text-tile-footer">
+            {{ title_prefix }}
+            <h4{{ title_attributes.addClass('node__title mt-0') }}>
+              <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+            </h4>
+            {{ title_suffix }}
+            {{ text_tile_footer }}
+          </div>
+        </div>
+      {% endblock %}
+    </div>
+    {% block node_side %}
+    {% endblock %}
+  </div>
+</article>

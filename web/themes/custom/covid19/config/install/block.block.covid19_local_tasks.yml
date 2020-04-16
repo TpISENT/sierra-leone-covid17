@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - covid19
+_core:
+  default_config_hash: C8ihynxoSkN_gIe3UJprU1H0XkHIhrIh_ec-UYlg_ys
+id: covid19_local_tasks
+theme: covid19
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,306 @@
+/**
+ * @file
+ * Styles for COVID-19's buttons.
+ */
+a.chs-button,
+.chs-button > a,
+button.chs-button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 33px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.125;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+a.chs-button:hover,
+.chs-button > a:hover,
+button.chs-button:hover {
+  position: relative;
+  padding-right: 43px;
+  padding-left: 23px;
+}
+a.chs-button:after,
+.chs-button > a:after,
+button.chs-button:after,
+input[type="submit"]:after,
+input[type="reset"]:after,
+input[type="button"]:after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -9px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: transparent;
+}
+a.chs-button:hover:after,
+.chs-button > a:hover:after,
+button.chs-button:hover:after,
+input[type="submit"]:hover:after,
+input[type="reset"]:hover:after,
+input[type="button"]:hover:after {
+  color: inherit;
+}
+a.chs-button:focus,
+.chs-button > a:focus,
+button.chs-button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  border: 2px solid #FFFFFF;
+  outline: 2px solid #202124;
+}
+button.chs-button {
+  -webkit-appearance: none;
+}
+a.chs-button.chs-button--outline,
+.chs-button.chs-button--outline > a,
+input[type="submit"][value="Reset"],
+input[type="submit"].chs-button--outline,
+input[type="reset"].chs-button--outline,
+input[type="button"].chs-button--outline {
+  background-color: transparent;
+  border-color: #202124;
+  border-width: 1px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+a.chs-button.chs-button--outline:hover,
+.chs-button.chs-button--outline > a:hover,
+input[type="submit"][value="Reset"]:hover,
+input[type="submit"].chs-button--outline:hover,
+input[type="reset"].chs-button--outline:hover,
+input[type="button"].chs-button--outline:hover {
+  background-color: #202124;
+  color: #FFFFFF;
+}
+a.chs-button.chs-button--outline:focus,
+.chs-button.chs-button--outline > a:focus,
+input[type="submit"][value="Reset"]:focus,
+input[type="submit"].chs-button--outline:focus,
+input[type="reset"].chs-button--outline:focus,
+input[type="button"].chs-button--outline:focus {
+  border: 1px solid #FFFFFF;
+  outline: 2px solid #202124;
+  background-color: #202124;
+  color: #FFFFFF;
+}
+a.chs-button.chs-button--small,
+.chs-button.chs-button--small > a,
+button.chs-button.chs-button--small {
+  font-size: 14px;
+  padding: 6px 20px;
+  border-width: 2px;
+  text-transform: none;
+}
+a.chs-button.chs-button--small:hover,
+.chs-button.chs-button--small > a:hover,
+button.chs-button.chs-button--small:hover {
+  padding-right: 30px;
+  padding-left: 10px;
+}
+a.chs-button.chs-button--small:hover:after,
+.chs-button.chs-button--small > a:hover:after,
+button.chs-button.chs-button--small:hover:after {
+  font-size: 12px;
+  right: 13px;
+  margin-top: -6px;
+}
+.headings-wide-spacing-enabled a.chs-button,
+.headings-wide-spacing-enabled .chs-button > a,
+.headings-wide-spacing-enabled button.chs-button,
+.headings-wide-spacing-enabled input[type="submit"],
+.headings-wide-spacing-enabled input[type="reset"],
+.headings-wide-spacing-enabled input[type="button"] {
+  letter-spacing: 0.25em;
+}
+input[type="submit"] + input[type="submit"],
+.chs-button + .chs-button {
+  margin-left: 20px;
+}
+.region--light-typography a.chs-button:focus,
+.region--light-typography .chs-button > a:focus,
+.region--light-typography button.chs-button:focus,
+.region--light-typography input[type="submit"]:focus,
+.region--light-typography input[type="reset"]:focus,
+.region--light-typography input[type="button"]:focus {
+  outline-color: #FFFFFF;
+}
+.region--light-typography a.chs-button.chs-button--outline,
+.region--light-typography .chs-button.chs-button--outline > a,
+.region--light-typography input[type="submit"][value="Reset"],
+.region--light-typography input[type="submit"].chs-button--outline,
+.region--light-typography input[type="reset"].chs-button--outline,
+.region--light-typography input[type="button"].chs-button--outline {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+.region--light-typography a.chs-button.chs-button--outline:hover,
+.region--light-typography .chs-button.chs-button--outline > a:hover,
+.region--light-typography input[type="submit"][value="Reset"]:hover,
+.region--light-typography input[type="submit"].chs-button--outline:hover,
+.region--light-typography input[type="reset"].chs-button--outline:hover,
+.region--light-typography input[type="button"].chs-button--outline:hover {
+  background-color: #FFFFFF;
+  color: #202124;
+}
+.region--light-typography a.chs-button.chs-button--outline:focus,
+.region--light-typography .chs-button.chs-button--outline > a:focus,
+.region--light-typography input[type="submit"][value="Reset"]:focus,
+.region--light-typography input[type="submit"].chs-button--outline:focus,
+.region--light-typography input[type="reset"].chs-button--outline:focus,
+.region--light-typography input[type="button"].chs-button--outline:focus {
+  border-color: #FFFFFF;
+}
+.region--dark-typography.region--colored-background a.chs-button,
+.region--dark-typography.region--colored-background .chs-button > a,
+.region--dark-typography.region--colored-background button.chs-button,
+.region--dark-typography.region--colored-background input[type="submit"],
+.region--dark-typography.region--colored-background input[type="reset"],
+.region--dark-typography.region--colored-background input[type="button"],
+.region--dark-typography.region--dark-background a.chs-button,
+.region--dark-typography.region--dark-background .chs-button > a,
+.region--dark-typography.region--dark-background button.chs-button,
+.region--dark-typography.region--dark-background input[type="submit"],
+.region--dark-typography.region--dark-background input[type="reset"],
+.region--dark-typography.region--dark-background input[type="button"] {
+  background-color: #202124;
+  border-color: #202124;
+  color: #FFFFFF;
+}
+.region--dark-typography.region--colored-background a.chs-button:focus,
+.region--dark-typography.region--colored-background .chs-button > a:focus,
+.region--dark-typography.region--colored-background button.chs-button:focus,
+.region--dark-typography.region--colored-background input[type="submit"]:focus,
+.region--dark-typography.region--colored-background input[type="reset"]:focus,
+.region--dark-typography.region--colored-background input[type="button"]:focus,
+.region--dark-typography.region--dark-background a.chs-button:focus,
+.region--dark-typography.region--dark-background .chs-button > a:focus,
+.region--dark-typography.region--dark-background button.chs-button:focus,
+.region--dark-typography.region--dark-background input[type="submit"]:focus,
+.region--dark-typography.region--dark-background input[type="reset"]:focus,
+.region--dark-typography.region--dark-background input[type="button"]:focus {
+  border-color: #FFFFFF;
+  outline-color: #202124;
+}
+.region--dark-typography.region--colored-background a.chs-button.chs-button--outline,
+.region--dark-typography.region--colored-background .chs-button.chs-button--outline > a,
+.region--dark-typography.region--colored-background button.chs-button.chs-button--outline,
+.region--dark-typography.region--colored-background input[type="submit"][value="Reset"],
+.region--dark-typography.region--colored-background input[type="submit"].chs-button--outline,
+.region--dark-typography.region--colored-background input[type="reset"].chs-button--outline,
+.region--dark-typography.region--colored-background input[type="button"].chs-button--outline,
+.region--dark-typography.region--dark-background a.chs-button.chs-button--outline,
+.region--dark-typography.region--dark-background .chs-button.chs-button--outline > a,
+.region--dark-typography.region--dark-background button.chs-button.chs-button--outline,
+.region--dark-typography.region--dark-background input[type="submit"][value="Reset"],
+.region--dark-typography.region--dark-background input[type="submit"].chs-button--outline,
+.region--dark-typography.region--dark-background input[type="reset"].chs-button--outline,
+.region--dark-typography.region--dark-background input[type="button"] .chs-button--outline {
+  background-color: transparent;
+  border-color: #202124;
+  color: #202124;
+}
+.region--dark-typography.region--colored-background a.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--colored-background .chs-button.chs-button--outline > a:hover,
+.region--dark-typography.region--colored-background button.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="submit"][value="Reset"]:hover,
+.region--dark-typography.region--colored-background input[type="submit"].chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="reset"].chs-button--outline:hover,
+.region--dark-typography.region--colored-background input[type="button"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background a.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--dark-background .chs-button.chs-button--outline > a:hover,
+.region--dark-typography.region--dark-background button.chs-button.chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="submit"][value="Reset"]:hover,
+.region--dark-typography.region--dark-background input[type="submit"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="reset"].chs-button--outline:hover,
+.region--dark-typography.region--dark-background input[type="button"] .chs-button--outline:hover {
+  background-color: #FFFFFF;
+}
+.region--dark-typography.region--colored-background a.chs-button.chs-button--outline:focus,
+.region--dark-typography.region--colored-background .chs-button.chs-button--outline > a:focus,
+.region--dark-typography.region--colored-background button.chs-button.chs-button--outline:focus,
+.region--dark-typography.region--colored-background input[type="submit"][value="Reset"]:focus,
+.region--dark-typography.region--colored-background input[type="submit"].chs-button--outline:focus,
+.region--dark-typography.region--colored-background input[type="reset"].chs-button--outline:focus,
+.region--dark-typography.region--colored-background input[type="button"].chs-button--outline:focus,
+.region--dark-typography.region--dark-background a.chs-button.chs-button--outline:focus,
+.region--dark-typography.region--dark-background .chs-button.chs-button--outline > a:focus,
+.region--dark-typography.region--dark-background button.chs-button.chs-button--outline:focus,
+.region--dark-typography.region--dark-background input[type="submit"][value="Reset"]:focus,
+.region--dark-typography.region--dark-background input[type="submit"].chs-button--outline:focus,
+.region--dark-typography.region--dark-background input[type="reset"].chs-button--outline:focus,
+.region--dark-typography.region--dark-background input[type="button"] .chs-button--outline:focus {
+  border-color: #FFFFFF;
+}
+span.chs-button-operator {
+  margin: 0 10px 0 5px;
+}
+a.chs-button .svg-inline--fa {
+  margin-right: 10px;
+}
+a.chs-button--no-margins {
+  margin: 0;
+}
+
+/*Buttons hover style 2*/
+a.chs-button.chs-button--hover-style-2,
+.chs-button.chs-button--hover-style-2 > a {
+  position: relative;
+  z-index: 1;
+  border-width: 2px;
+}
+a.chs-button.chs-button--hover-style-2:hover,
+.chs-button.chs-button--hover-style-2 > a:hover {
+  background: transparent;
+}
+a.chs-button.chs-button--hover-style-2:before,
+.chs-button.chs-button--hover-style-2 > a:before {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  border-radius: inherit;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+a.chs-button.chs-button--hover-style-2:hover:before,
+a.chs-button.chs-button--hover-style-2:focus:before,
+.chs-button.chs-button--hover-style-2 > a:hover:before,
+.chs-button.chs-button--hover-style-2 > a:focus:before {
+  transform: scaleX(1);
+}
+.region--light-typography a.chs-button.chs-button--hover-style-2:before,
+.region--light-typography .chs-button.chs-button--hover-style-2 > a:before {
+  background-color: #ffffff;
+}

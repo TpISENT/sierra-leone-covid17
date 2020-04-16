@@ -1,0 +1,70 @@
+{#
+/**
+ * @file
+ * COVID-19's theme implementation to display a Product node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block content %}
+  {{ attach_library('covid19/node-product') }}
+  <div class="product-content two-columns">
+    <div class="row">
+      <div class="col-lg-4 order-lg-2 mb-3 mb-lg-0">
+        {% if content.field_chs_prd_subtitle|render or content.field_chs_prd_subheader_body|render or content.field_chs_prd_buy_link|render or content.field_chs_prd_price|render or content.field_chs_prd_product_code|render or content.field_chs_prd_availability|render %}
+          {{ attach_library('covid19/chs-sticky-element') }}
+
+            <div class="chs-sticky-element product-content-second">
+              {% if content.field_chs_prd_image|render and (content.field_chs_prd_subheader_body|render or content.field_chs_prd_subtitle|render) %}
+                {{ content.field_chs_prd_subtitle }}
+                {{ content.field_chs_prd_subheader_body }}
+              {% endif %}
+              {% if content.field_chs_prd_product_code|render or content.field_chs_prd_availability|render or content.field_chs_prd_price|render %}
+                <div class="row justify-content-start align-items-center">
+                  {% if content.field_chs_prd_price|render %}
+                    <div class="col-auto mr-auto">
+                      {{ content.field_chs_prd_price }}
+                    </div>
+                  {% endif %}
+                  {% if content.field_chs_prd_product_code|render %}
+                    <div class="col-auto text-muted">
+                      {{ content.field_chs_prd_product_code }}
+                    </div>
+                  {% endif %}
+                  {% if content.field_chs_prd_availability|render %}
+                    <div class="col-auto {{ node.field_chs_prd_availability.value }}">
+                      {{ content.field_chs_prd_availability }}
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+              {{ content.field_chs_prd_buy_link }}
+            </div>
+
+        {% endif %}
+      </div>
+      <div class="col-lg-8  order-lg-1">
+        <div class="product-content-first">
+          {% if content.field_chs_prd_image|render %}
+            {{ content.field_chs_prd_image }}
+          {% elseif content.field_chs_prd_subheader_body|render or content.field_chs_prd_subtitle|render %}
+            {{ content.field_chs_prd_subtitle }}
+            {{ content.field_chs_prd_subheader_body }}
+          {% endif %}
+            {{ content|without('field_chs_prd_banner_carousel', 'field_chs_prd_image', 'field_chs_prd_buy_link', 'field_chs_prd_price', 'field_chs_prd_product_code', 'field_chs_prd_availability', 'field_chs_prd_categories', 'field_chs_prd_subheader_body', 'field_chs_prd_subtitle', 'field_chs_prd_highlight', 'field_chs_prd_additional_features', 'field_chs_prd_comments', 'field_chs_prd_tags') }}
+            {% if not content.field_chs_prd_highlight|render and not content.field_chs_prd_additional_features|render %}
+              {{ content.field_chs_prd_tags }}
+              {{ content.field_chs_prd_comments }}
+            {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ content.field_chs_prd_highlight }}
+  {{ content.field_chs_prd_additional_features }}
+  {% if content.field_chs_prd_highlight|render or content.field_chs_prd_additional_features|render %}
+    {{ content.field_chs_prd_tags }}
+    {{ content.field_chs_prd_comments }}
+  {% endif %}
+
+{% endblock %}

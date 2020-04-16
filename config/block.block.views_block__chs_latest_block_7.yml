@@ -1,0 +1,30 @@
+uuid: 44086e98-2ee3-4574-851a-988e4df40ee0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chs_latest
+  module:
+    - system
+    - views
+  theme:
+    - covid19
+id: views_block__chs_latest_block_7
+theme: covid19
+region: content_bottom_highlighted
+weight: 0
+provider: null
+plugin: 'views_block:chs_latest-block_7'
+settings:
+  id: 'views_block:chs_latest-block_7'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /office-president-statehouse-press-releases
+    negate: false
+    context_mapping: {  }

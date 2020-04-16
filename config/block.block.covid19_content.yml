@@ -1,0 +1,22 @@
+uuid: 93f883e6-2544-4fc2-91ee-84273524f07d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - covid19
+_core:
+  default_config_hash: QKOvqSlzrx2se5aXZeZWyAKVdlVX0X3FvQtPk-7xteQ
+id: covid19_content
+theme: covid19
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

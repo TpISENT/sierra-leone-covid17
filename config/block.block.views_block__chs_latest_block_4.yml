@@ -1,0 +1,30 @@
+uuid: dcd9b564-d55e-4b9a-ad91-e4ac89076daa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chs_latest
+  module:
+    - system
+    - views
+  theme:
+    - covid19
+id: views_block__chs_latest_block_4
+theme: covid19
+region: content_bottom_highlighted
+weight: 0
+provider: null
+plugin: 'views_block:chs_latest-block_4'
+settings:
+  id: 'views_block:chs_latest-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /enhanced-measures-and-advisories
+    negate: false
+    context_mapping: {  }

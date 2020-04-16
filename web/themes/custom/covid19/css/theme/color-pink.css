@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Pink color styling for COVID-19 for Drupal 8.
+ *
+ * $base: #ff3175;
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 60%;
+  --chs-dark-color-lightness: calc(var(--chs-base-color-lightness) * 0.96);
+  --chs-base-color: 340, 100%, var(--chs-base-color-lightness);
+  --chs-dark-color: 340, 100%, var(--chs-dark-color-lightness);
+  --chs-link-color: 195, 89%, 28%;
+  --chs-link-color-hover: 205, 74%, 27%;
+}

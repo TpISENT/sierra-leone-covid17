@@ -1,0 +1,31 @@
+uuid: 593bf952-ba84-49ed-87d8-b31d295f4beb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:chs_background_image:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: newhomewelcomebackgroundimage
+theme: covid19
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+settings:
+  id: 'block_content:a9a6bba9-d23c-4722-ac94-9620b026eaf1'
+  label: 'New Home Welcome - background Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

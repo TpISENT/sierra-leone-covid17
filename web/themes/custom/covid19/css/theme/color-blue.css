@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Blue color styling for COVID-19 for Drupal 8.
+ *
+ * $base: #3f8edb;
+ */
+:root {
+  --chs-foreground-color: 225, 6%, 13%;
+  --chs-foreground-color-contrast: 0, 0%, 100%;
+  --chs-base-color-lightness: 85%;
+  --chs-dark-color-lightness: 70%;
+  --chs-base-color: 210, 55%, var(--chs-base-color-lightness);
+  --chs-dark-color: 210, 55%, var(--chs-dark-color-lightness);
+  --chs-link-color: 330, 80%, 50%;
+  --chs-link-color-hover: 330, 80%, 40%;
+}

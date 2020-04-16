@@ -1,0 +1,31 @@
+uuid: 9fd46f12-39b6-4b4b-a868-ea39df3b7fdc
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+  module:
+    - block_content
+    - system
+  theme:
+    - covid19
+id: newhomecoronavirusdiseasecovid19adviceforthepublic_2
+theme: covid19
+region: featured
+weight: -12
+provider: null
+plugin: 'block_content:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+settings:
+  id: 'block_content:ed5b82c1-f2cf-4606-8c34-9a2d26139f71'
+  label: 'Find Help Page: Coronavirus Disease (COVID-19) Advice for the Public'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /find-help
+    negate: false
+    context_mapping: {  }

@@ -1,4 +1,4 @@
-uuid: fa570341-f91d-478a-87a9-15d079516d55
+uuid: 38ff66f0-1da0-4fa6-a80a-230741163bbf
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - superfish
   theme:
-    - covid19demo
+    - covid19
 id: mainnavigation_2
-theme: covid19demo
+theme: covid19
 region: mobile_menu_widget
-weight: -27
+weight: -7
 provider: null
 plugin: 'superfish:main'
 settings:
@@ -22,7 +22,7 @@ settings:
   level: '1'
   depth: '0'
   expand_all_items: false
-  menu_type: horizontal
+  menu_type: vertical
   style: none
   arrow: 0
   shadow: 0
@@ -54,7 +54,7 @@ settings:
   smallamt: ''
   smallabt: '1'
   supersubs: 1
-  minwidth: '12'
+  minwidth: '17'
   maxwidth: '27'
   multicolumn: 0
   multicolumn_depth: '1'
